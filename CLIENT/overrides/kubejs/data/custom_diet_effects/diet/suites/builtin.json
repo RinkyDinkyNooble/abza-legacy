@@ -1,0 +1,153 @@
+{
+    "replace": true,
+    "groups": [
+        "fruits",
+        "grains",
+        "proteins",
+        "sugars",
+        "vegetables"
+    ],
+    "effects": [
+        {
+            "attributes": [
+                {
+                    "name": "minecraft:generic.max_health",
+                    "operation": "add",
+                    "amount": 10.0
+                }
+            ],
+            "status_effects": [
+                {
+                    "name": "minecraft:regeneration",
+                    "power": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "proteins",
+                        "fruits",
+                        "vegetables",
+                        "grains",
+                        "sugars"
+                    ],
+                    "match": "all",
+                    "above": 0.5,
+                    "below": 1.0
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:hunger",
+                    "power": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "proteins",
+                        "fruits",
+                        "vegetables",
+                        "grains",
+                        "sugars"
+                    ],
+                    "match": "any",
+                    "above": 0.0,
+                    "below": 0.05
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:strength",
+                    "power": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "proteins"
+                    ],
+                    "match": "all",
+                    "above": 0.5,
+                    "below": 1.0
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:haste",
+                    "power": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "vegetables"
+                    ],
+                    "match": "all",
+                    "above": 0.5,
+                    "below": 1.0
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:resistance",
+                    "power": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "grains"
+                    ],
+                    "match": "all",
+                    "above": 0.5,
+                    "below": 1.0
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:jump_boost",
+                    "power": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "sugars"
+                    ],
+                    "match": "all",
+                    "above": 0.5,
+                    "below": 1.0
+                }
+            ]
+        },
+        {
+            "status_effects": [
+                {
+                    "name": "minecraft:speed",
+                    "power": 0
+                }
+            ],
+            "conditions": [
+                {
+                    "groups": [
+                        "fruits"
+                    ],
+                    "match": "all",
+                    "above": 0.5,
+                    "below": 1.0
+                }
+            ]
+        }
+    ]
+}

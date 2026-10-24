@@ -1,0 +1,369 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:smooth_stone"
+            },
+            {
+                "char": "β",
+                "block": "minecraft:gray_concrete"
+            },
+            {
+                "char": "γ",
+                "block": "minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]"
+            },
+            {
+                "char": "δ",
+                "block": "minecraft:quartz_block"
+            },
+            {
+                "char": "ε",
+                "block": "minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ζ",
+                "block": "minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "η",
+                "block": "minecraft:quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "θ",
+                "block": "minecraft:black_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]"
+            },
+            {
+                "char": "ι",
+                "block": "minecraft:black_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+            },
+            {
+                "char": "κ",
+                "block": "minecraft:black_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]"
+            },
+            {
+                "char": "λ",
+                "block": "refurbished_furniture:white_stool"
+            },
+            {
+                "char": "μ",
+                "block": "refurbished_furniture:white_sofa[facing=north,shape=default]"
+            },
+            {
+                "char": "ν",
+                "block": "refurbished_furniture:dark_oak_desk[facing=north,left=true,right=false]"
+            },
+            {
+                "char": "ξ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=north,left=true,right=true]"
+            },
+            {
+                "char": "ο",
+                "block": "refurbished_furniture:dark_oak_drawer[facing=north,left=false,open=false,right=true]",
+                "loot": "office"
+            },
+            {
+                "char": "π",
+                "block": "refurbished_furniture:white_sofa[facing=west,shape=right]"
+            },
+            {
+                "char": "ρ",
+                "block": "refurbished_furniture:dark_oak_table[east=false,north=false,south=true,west=false]"
+            },
+            {
+                "char": "σ",
+                "block": "refurbished_furniture:light_freezer[facing=east,open=false]"
+            },
+            {
+                "char": "τ",
+                "block": "refurbished_furniture:white_sofa[facing=west,shape=middle]"
+            },
+            {
+                "char": "υ",
+                "block": "refurbished_furniture:dark_oak_table[east=false,north=true,south=true,west=false]"
+            },
+            {
+                "char": "φ",
+                "block": "minecraft:dark_oak_door[facing=west,half=lower,hinge=right,open=false,powered=false]"
+            },
+            {
+                "char": "χ",
+                "block": "refurbished_furniture:white_kitchen_drawer[facing=east,open=false]",
+                "loot": "office"
+            },
+            {
+                "char": "ψ",
+                "block": "refurbished_furniture:dark_oak_chair[facing=north,tucked=false]"
+            },
+            {
+                "char": "ω",
+                "block": "refurbished_furniture:white_sofa[facing=west,shape=left]"
+            },
+            {
+                "char": "Α",
+                "block": "refurbished_furniture:dark_oak_table[east=false,north=true,south=false,west=false]"
+            },
+            {
+                "char": "Β",
+                "block": "minecraft:dark_oak_door[facing=west,half=lower,hinge=left,open=false,powered=false]"
+            },
+            {
+                "char": "Γ",
+                "block": "refurbished_furniture:dark_oak_drawer[facing=east,left=false,open=false,right=false]",
+                "loot": "office"
+            },
+            {
+                "char": "Δ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=west,left=false,right=false]"
+            },
+            {
+                "char": "Ε",
+                "block": "refurbished_furniture:dark_oak_drawer[facing=west,left=false,open=false,right=true]",
+                "loot": "office"
+            },
+            {
+                "char": "Ζ",
+                "block": "refurbished_furniture:dark_oak_drawer[facing=north,left=false,open=false,right=false]",
+                "loot": "office"
+            },
+            {
+                "char": "Η",
+                "block": "refurbished_furniture:dark_oak_desk[facing=west,left=true,right=false]"
+            },
+            {
+                "char": "Θ",
+                "block": "refurbished_furniture:dark_oak_chair[facing=south,tucked=false]"
+            },
+            {
+                "char": "Ι",
+                "block": "refurbished_furniture:white_basin[facing=south]"
+            },
+            {
+                "char": "Κ",
+                "block": "refurbished_furniture:white_toilet[facing=south]"
+            },
+            {
+                "char": "Λ",
+                "block": "minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Μ",
+                "block": "create:redstone_contact[facing=west,powered=false]"
+            },
+            {
+                "char": "Ν",
+                "block": "refurbished_furniture:dark_oak_desk[facing=south,left=false,right=false]"
+            },
+            {
+                "char": "Ξ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=west,left=false,right=true]"
+            },
+            {
+                "char": "Ο",
+                "block": "minecraft:birch_button[face=wall,facing=south,powered=false]"
+            },
+            {
+                "char": "Π",
+                "block": "refurbished_furniture:dark_oak_desk[facing=south,left=false,right=true]"
+            },
+            {
+                "char": "Ρ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=south,left=true,right=false]"
+            },
+            {
+                "char": "Σ",
+                "block": "refurbished_furniture:dark_oak_drawer[facing=west,left=true,open=false,right=false]"
+            },
+            {
+                "char": "Τ",
+                "block": "minecraft:dark_oak_door[facing=south,half=lower,hinge=left,open=false,powered=false]"
+            },
+            {
+                "char": "Υ",
+                "block": "minecraft:black_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]"
+            },
+            {
+                "char": "Φ",
+                "block": "refurbished_furniture:computer[facing=south,powered=false]"
+            },
+            {
+                "char": "Χ",
+                "block": "refurbished_furniture:light_fridge[facing=east,open=false]"
+            },
+            {
+                "char": "Ψ",
+                "block": "minecraft:dark_oak_door[facing=west,half=upper,hinge=right,open=false,powered=false]"
+            },
+            {
+                "char": "Ω",
+                "block": "minecraft:dark_oak_door[facing=west,half=upper,hinge=left,open=false,powered=false]"
+            },
+            {
+                "char": "∑",
+                "block": "refurbished_furniture:computer[facing=north,powered=false]"
+            },
+            {
+                "char": "∆",
+                "block": "refurbished_furniture:light_lightswitch[enabled=false,face=wall,facing=west,powered=false]"
+            },
+            {
+                "char": "∏",
+                "block": "create:framed_glass_door[facing=west,half=lower,hinge=right,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "∫",
+                "block": "minecraft:dark_oak_door[facing=south,half=upper,hinge=left,open=false,powered=false]"
+            },
+            {
+                "char": "√",
+                "block": "refurbished_furniture:light_microwave[facing=east,open=false]"
+            },
+            {
+                "char": "∞",
+                "block": "refurbished_furniture:white_lamp[powered=false]"
+            },
+            {
+                "char": "≈",
+                "block": "create:framed_glass_door[facing=west,half=upper,hinge=right,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "≠",
+                "block": "refurbished_furniture:dark_oak_light_ceiling_fan[facing=up,lit=false,powered=false]"
+            },
+            {
+                "char": "≤",
+                "block": "refurbished_furniture:white_kitchen_storage_cabinet[facing=east,hinge=right,open=false]",
+                "loot": "office"
+            },
+            {
+                "char": "≥",
+                "block": "refurbished_furniture:white_kitchen_storage_cabinet[facing=east,hinge=left,open=false]",
+                "loot": "office"
+            },
+            {
+                "char": "∧",
+                "block": "refurbished_furniture:light_ceiling_light[face=ceiling,facing=east,powered=false]"
+            },
+            {
+                "char": "∨",
+                "block": "minecraft:black_stained_glass"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "                ",
+            " ββββββββββγ    ",
+            " ββββββββββδεδ  ",
+            " ββββββββββδδζ  ",
+            " ββββββββββδδζ  ",
+            " ββββββββββδδδγ ",
+            " ββββββββββββββ ",
+            " ββββββββββββββ ",
+            " ββββββββββββββδ",
+            " ββββββββ   βββη",
+            " ββββββββ    ββη",
+            " ββββββββ   βββδ",
+            " ββββββββββββββ ",
+            " ββββββββββββββ ",
+            " ββββββββββββββ ",
+            "                "
+        ],
+        [
+            "                ",
+            " θιιιιιιιιβγ    ",
+            " κ λλλ  μ βδδδ  ",
+            " κ νξο πρ σδδδ  ",
+            " κ     τυ φ χδ  ",
+            " κ ψψψ ωΑ Β χδγ ",
+            " κ ΓΔΕ    βββββ ",
+            " κ ΔΖΗ     φ  β ",
+            " κ ΘΘΘ   βββΙΚβδ",
+            " κ      β   βββη",
+            " κ ψψψ  Λ    Μβη",
+            " κ ΓΝΞ  β   βΟβδ",
+            " κ ΠΡΣ   ββββΤβ ",
+            " κ ΘΘΘ        β ",
+            " Υιιιιιιιιιιιιβ ",
+            "                "
+        ],
+        [
+            "                ",
+            " θιιιιιιιιβγ    ",
+            " κ        β     ",
+            " κ ΦΦΦ    Χδδ   ",
+            " κ        Ψ δ   ",
+            " κ        Ω δ γ ",
+            " κ ΦΦΦ    βββββ ",
+            " κ ∑∑∑     Ψ  κ ",
+            " κ      ∆βββ  βδ",
+            " κ      β   βββη",
+            " κ      ∏    ββη",
+            " κ ΦΦΦ  β   β βδ",
+            " κ ∑∑∑   ββββ∫β ",
+            " κ            κ ",
+            " Υιιιιιιιιιιιιβ ",
+            "                "
+        ],
+        [
+            "                ",
+            " θιιιιιιιιβγ    ",
+            " κ        βδδδ  ",
+            " κ        βδδδ  ",
+            " κ        β √δ  ",
+            " κ        β ∞δγ ",
+            " κ        βββββ ",
+            " κ         β  κ ",
+            " κ       βββ  βδ",
+            " κ      β   βββη",
+            " κ      ≈    ββη",
+            " κ      β   βββδ",
+            " κ       ββββββ ",
+            " κ            κ ",
+            " Υιιιιιιιιιιιιβ ",
+            "                "
+        ],
+        [
+            "                ",
+            " θιιιιιιιιβγ    ",
+            " κ        βδεδ  ",
+            " κ        βδδζ  ",
+            " κ   ≠    β ≤ζ  ",
+            " κ        β ≥δγ ",
+            " κ        βββββ ",
+            " κ   ∧    ββ  β ",
+            " κ       βββ  βδ",
+            " κ      β   βββη",
+            " κ      β    ββη",
+            " κ   ≠  β   βββδ",
+            " κ       ββββββ ",
+            " κ            β ",
+            " Υιιιιιιιιιιιιβ ",
+            "                "
+        ],
+        [
+            "                ",
+            " ∨∨∨∨∨∨∨∨∨βγ    ",
+            " ∨βββββββββδδδ  ",
+            " ∨βββββββββδδδ  ",
+            " ∨βββββββββδδδ  ",
+            " ∨βββββββββδδδγ ",
+            " ∨βββββββββββββ ",
+            " ∨βββββββββββββ ",
+            " ∨βββββββββββββδ",
+            " ∨βββββββ   βββη",
+            " ∨βββββββ    ββη",
+            " ∨βββββββ   βββδ",
+            " ∨βββββββββββββ ",
+            " ∨βββββββββββββ ",
+            " ∨∨∨∨∨∨∨∨∨∨∨∨∨β ",
+            "                "
+        ]
+    ]
+}

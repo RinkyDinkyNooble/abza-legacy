@@ -1,0 +1,1152 @@
+{
+    "TransformHasDisplay": 0b,
+    "AttackInvisible": 0b,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "AbsorptionAmount": 0.0f,
+    "IsStatue": 0b,
+    "SpawnCycle": 0,
+    "Accuracy": 99,
+    "MovingPatern": 0,
+    "HideBodyWhenKilled": 0b,
+    "pRender3D": 1b,
+    "ReturnToStart": 1b,
+    "CloakTexture": "",
+    "ActiveRange": 32,
+    "TransformHasAdvanced": 0b,
+    "Resistances": {
+        "Knockback": 1.0f,
+        "Explosion": 1.0f,
+        "Melee": 1.0f,
+        "Arrow": 1.0f
+    },
+    "FactionPoints": {
+        "DecreaseFaction2Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "OptionFactions1": -1,
+        "DecreaseFaction1Points": 0b
+    },
+    "ForgeCaps": {
+        "curios:inventory": {
+            "Curios": [
+            ]
+        },
+        "hordes:hordespawn": ""
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "OverlayGlowing": 1b,
+    "Weapons": [
+        {
+            "RCount": 1L,
+            "Slot": 0b,
+            "id": "superbwarfare:trachelium",
+            "Count": 1b,
+            "tag": {
+                "Perks": {
+                    "Ammo": {
+                    },
+                    "Functional": {
+                    },
+                    "Damage": {
+                    }
+                },
+                "GeckoLibID": 3L,
+                "GunData": {
+                    "HoldOpen": 1b,
+                    "HideBulletChain": 1b,
+                    "UUID": [I;344812909,-1078181612,-1184236678,273462011],
+                    "IsEmpty": 1b,
+                    "CloseStrike": 1b
+                },
+                "Attachments": {
+                }
+            }
+        },
+        {
+            "RCount": 1L,
+            "Slot": 1b,
+            "id": "minecraft:polished_blackstone_button",
+            "Count": 1b
+        }
+    ],
+    "pSize": 5,
+    "BossColor": 0,
+    "BossBar": 0b,
+    "MovingState": 1,
+    "pArea": 0,
+    "FireRate": 7,
+    "BalmData": {
+    },
+    "NPCDialogOptions": [
+    ],
+    "GroundSound": "superbwarfare:hit",
+    "OnAttack": 0,
+    "MovingPause": 1b,
+    "FiringSound": "superbwarfare:trachelium_fire_1p",
+    "Scripts": [
+    ],
+    "ShowName": 0,
+    "MercenaryRefuseSoulstone": 1b,
+    "LinkedNpcName": "",
+    "ReactsToFire": 0b,
+    "Armor": [
+        {
+            "RCount": 1L,
+            "Slot": 0b,
+            "id": "mcsp:opscore_helmet",
+            "Count": 1b,
+            "tag": {
+                "Damage": 0
+            }
+        },
+        {
+            "RCount": 1L,
+            "Slot": 1b,
+            "id": "mcsp:vest_cpc2",
+            "Count": 1b,
+            "tag": {
+                "Damage": 0
+            }
+        }
+    ],
+    "CanSprint": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        }
+    },
+    "LootMode": 0,
+    "PotionEffect": 2,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "SkinUrl": "https://www.minecraftskins.com/uploads/skins/2026/02/19/army-soldier-in-ucp-camouflage--fixed--23874492.png?v940",
+    "MercenaryDialogFarewell": "My days with you are over, {player}. You may hire me again.",
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "Orientation": 0,
+    "StandingState": 0,
+    "MercenaryDaysHired": 0,
+    "MoveSpeed": 5,
+    "ModRev": 18,
+    "Fire": -1s,
+    "CombatRegen": 0,
+    "KilledTime": 0L,
+    "WalkingRange": 10,
+    "DeathTime": 0s,
+    "CanDrown": 1b,
+    "pStick": 0b,
+    "pDamage": 21,
+    "DropChance": [
+        {
+            "Slot": 0,
+            "Integer": 100.0f
+        },
+        {
+            "Slot": 1,
+            "Integer": 100.0f
+        },
+        {
+            "Slot": 2,
+            "Integer": 100.0f
+        },
+        {
+            "Slot": 3,
+            "Integer": 100.0f
+        },
+        {
+            "Slot": 4,
+            "Integer": 100.0f
+        },
+        {
+            "Slot": 5,
+            "Integer": 100.0f
+        },
+        {
+            "Slot": 6,
+            "Integer": 100.0f
+        },
+        {
+            "Slot": 7,
+            "Integer": 100.0f
+        },
+        {
+            "Slot": 8,
+            "Integer": 100.0f
+        }
+    ],
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "TransformHasRole": 0b,
+    "HitSound": "superbwarfare:melee_hit",
+    "AggroRange": 64,
+    "OnGround": 1b,
+    "MaxFiringRange": 64,
+    "pEffect": 0,
+    "pPhysics": 0b,
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "CanLeap": 0b,
+    "Attributes": [
+        {
+            "Name": "puffish_attributes:healing",
+            "Base": 0.0d
+        },
+        {
+            "Name": "minecraft:generic.max_health",
+            "Base": 50.0d
+        },
+        {
+            "Name": "puffish_attributes:life_steal",
+            "Base": 0.0d
+        },
+        {
+            "Name": "minecraft:generic.movement_speed",
+            "Base": 0.25d
+        },
+        {
+            "Name": "forge:entity_gravity",
+            "Base": 0.08d
+        },
+        {
+            "Name": "puffish_attributes:ranged_resistance_shred",
+            "Base": 0.0d
+        },
+        {
+            "Name": "puffish_attributes:protection_shred",
+            "Base": 0.0d
+        },
+        {
+            "Name": "puffish_attributes:toughness_shred",
+            "Base": 0.0d
+        },
+        {
+            "Name": "minecraft:generic.attack_damage",
+            "Base": 10.0d
+        },
+        {
+            "Name": "minecraft:generic.armor",
+            "Base": 0.0d
+        },
+        {
+            "Name": "puffish_attributes:damage_reflection",
+            "Base": 0.0d
+        },
+        {
+            "Name": "forge:step_height_addition",
+            "Base": 0.0d
+        },
+        {
+            "Name": "puffish_attributes:armor_shred",
+            "Base": 0.0d
+        },
+        {
+            "Name": "minecraft:generic.knockback_resistance",
+            "Base": 0.0d
+        },
+        {
+            "Name": "puffish_attributes:resistance_shred",
+            "Base": 0.0d
+        },
+        {
+            "Name": "puffish_attributes:jump",
+            "Base": 0.0d
+        },
+        {
+            "Name": "puffish_attributes:fall_reduction",
+            "Base": 0.0d
+        },
+        {
+            "Name": "minecraft:generic.follow_range",
+            "Base": 32.0d
+        },
+        {
+            "Name": "forge:swim_speed",
+            "Base": 8.0d
+        },
+        {
+            "Name": "minecraft:generic.armor_toughness",
+            "Base": 0.0d
+        },
+        {
+            "Name": "minecraft:generic.flying_speed",
+            "Base": 0.5d
+        },
+        {
+            "Name": "minecraft:generic.attack_knockback",
+            "Base": 0.0d
+        },
+        {
+            "Name": "puffish_attributes:stealth",
+            "Base": 0.0d
+        },
+        {
+            "Name": "puffish_attributes:ranged_damage",
+            "Base": 0.0d
+        }
+    ],
+    "FactionID": 0,
+    "TransformHasJob": 0b,
+    "Name": "Soldier",
+    "NpcAngrySound": "",
+    "VisibleAvailability": {
+        "AvailabilityScoreboardObjective": "",
+        "AvailabilityDialog3Id": -1,
+        "AvailabilityFaction2Stance": 0,
+        "AvailabilityDialog4": 0,
+        "AvailabilityQuest2": 0,
+        "AvailabilityFaction": 0,
+        "AvailabilityDialog2Id": -1,
+        "AvailabilityQuest3Id": -1,
+        "AvailabilityQuest": 0,
+        "AvailabilityMinPlayerLevel": 0,
+        "AvailabilityQuest4Id": -1,
+        "AvailabilityQuest2Id": -1,
+        "AvailabilityDialog3": 0,
+        "AvailabilityDayTime": 0,
+        "AvailabilityScoreboard2Type": 1,
+        "AvailabilityScoreboard2Objective": "",
+        "AvailabilityDialog": 0,
+        "AvailabilityDialog4Id": -1,
+        "AvailabilityQuestId": -1,
+        "AvailabilityDialogId": -1,
+        "AvailabilityScoreboardType": 1,
+        "AvailabilityDialog2": 0,
+        "AvailabilityQuest3": 0,
+        "AvailabilityQuest4": 0,
+        "AvailabilityFactionId": -1,
+        "AvailabilityFactionStance": 0,
+        "AvailabilityFaction2": 0,
+        "AvailabilityFaction2Id": -1,
+        "AvailabilityScoreboardValue": 1,
+        "AvailabilityScoreboard2Value": 1,
+        "ModRev": 18
+    },
+    "npcInteracting": 0b,
+    "FindShelter": 2,
+    "MercenaryIsFollowing": 1b,
+    "HurtByTimestamp": 939,
+    "AttackStrenght": 10,
+    "ScriptEnabled": 0b,
+    "HealthRegen": 2,
+    "pXlr8": 0b,
+    "NpcStepSound": "",
+    "FireIndirect": 0,
+    "MovementType": 0,
+    "Size": 5,
+    "Role": 2,
+    "DoorInteract": 1,
+    "DirectLOS": 1b,
+    "TransformIsActive": 0b,
+    "SkinColor": 16777215,
+    "PositionOffsetX": 5.0f,
+    "MercenaryInv": {
+        "NpcMiscInv": [
+            {
+                "RCount": 64L,
+                "Slot": 0b,
+                "id": "minecraft:emerald",
+                "Count": 64b
+            }
+        ]
+    },
+    "BurstCount": 6,
+    "NoFallDamage": 1b,
+    "AttackSpeed": 20,
+    "pTrail": 0,
+    "TransformHasAI": 0b,
+    "AttackRange": 2,
+    "pSpeed": 50,
+    "ASLoaded": 1b,
+    "id": "customnpcs:customnpc",
+    "MercenaryDayRates": [
+        {
+            "Slot": 0,
+            "Integer": 5
+        }
+    ],
+    "Title": "",
+    "pGlows": 0b,
+    "GuardTargets": [
+        {
+            "Line": "entity.artifacts.mimic"
+        },
+        {
+            "Line": "entity.hordes.drowned_player"
+        },
+        {
+            "Line": "entity.hordes.husk_player"
+        },
+        {
+            "Line": "entity.hordes.zombie_player"
+        },
+        {
+            "Line": "entity.infectious.acid_zombie"
+        },
+        {
+            "Line": "entity.infectious.ancient_zombie_boss"
+        },
+        {
+            "Line": "entity.infectious.angry_zombie"
+        },
+        {
+            "Line": "entity.infectious.armless_zombie"
+        },
+        {
+            "Line": "entity.infectious.balloon_zombie"
+        },
+        {
+            "Line": "entity.infectious.balloon_zombie_no_balloon"
+        },
+        {
+            "Line": "entity.infectious.barrel_zombie"
+        },
+        {
+            "Line": "entity.infectious.baseball_bat_zombie"
+        },
+        {
+            "Line": "entity.infectious.beehive_zombie"
+        },
+        {
+            "Line": "entity.infectious.beekeeper_zombie"
+        },
+        {
+            "Line": "entity.infectious.bees"
+        },
+        {
+            "Line": "entity.infectious.big_zombie"
+        },
+        {
+            "Line": "entity.infectious.blind_zombie"
+        },
+        {
+            "Line": "entity.infectious.bodyless_zombie"
+        },
+        {
+            "Line": "entity.infectious.bouncer_zombie"
+        },
+        {
+            "Line": "entity.infectious.brain_zombie"
+        },
+        {
+            "Line": "entity.infectious.bucket_zombie"
+        },
+        {
+            "Line": "entity.infectious.burned_zombie"
+        },
+        {
+            "Line": "entity.infectious.burning_zombie"
+        },
+        {
+            "Line": "entity.infectious.chained_zombie"
+        },
+        {
+            "Line": "entity.infectious.claw_zombie"
+        },
+        {
+            "Line": "entity.infectious.construction_worker_zombie"
+        },
+        {
+            "Line": "entity.infectious.crawling_zombie"
+        },
+        {
+            "Line": "entity.infectious.deep_sea_diver_zombie"
+        },
+        {
+            "Line": "entity.infectious.disco_zombie"
+        },
+        {
+            "Line": "entity.infectious.doom_zombie"
+        },
+        {
+            "Line": "entity.infectious.door_zombie"
+        },
+        {
+            "Line": "entity.infectious.enchanted_zombie"
+        },
+        {
+            "Line": "entity.infectious.fat_zombie"
+        },
+        {
+            "Line": "entity.infectious.fire_fighter_zombie"
+        },
+        {
+            "Line": "entity.infectious.firework_zombie"
+        },
+        {
+            "Line": "entity.infectious.football_player_zombie"
+        },
+        {
+            "Line": "entity.infectious.franklin_zombie"
+        },
+        {
+            "Line": "entity.infectious.frozen_zombie"
+        },
+        {
+            "Line": "entity.infectious.fungal_zombie"
+        },
+        {
+            "Line": "entity.infectious.giant_zombie"
+        },
+        {
+            "Line": "entity.infectious.glitched_zombie"
+        },
+        {
+            "Line": "entity.infectious.golden_zombie"
+        },
+        {
+            "Line": "entity.infectious.hazmat_zombie"
+        },
+        {
+            "Line": "entity.infectious.headless_zombie"
+        },
+        {
+            "Line": "entity.infectious.infectious_zombie"
+        },
+        {
+            "Line": "entity.infectious.iron_door_zombie"
+        },
+        {
+            "Line": "entity.infectious.maggot_zombie"
+        },
+        {
+            "Line": "entity.infectious.mc_donalds_worker_zombie"
+        },
+        {
+            "Line": "entity.infectious.mecha_zombie"
+        },
+        {
+            "Line": "entity.infectious.muddy_zombie"
+        },
+        {
+            "Line": "entity.infectious.mummy"
+        },
+        {
+            "Line": "entity.infectious.muscular_zombie"
+        },
+        {
+            "Line": "entity.infectious.mutant_zombie"
+        },
+        {
+            "Line": "entity.infectious.old_zombie"
+        },
+        {
+            "Line": "entity.infectious.pool_tube_zombie"
+        },
+        {
+            "Line": "entity.infectious.psycho_zombie"
+        },
+        {
+            "Line": "entity.infectious.pumpkin_zombie"
+        },
+        {
+            "Line": "entity.infectious.pylon_zombie"
+        },
+        {
+            "Line": "entity.infectious.radioactive_zombie"
+        },
+        {
+            "Line": "entity.infectious.robotic_zombie"
+        },
+        {
+            "Line": "entity.infectious.screamer"
+        },
+        {
+            "Line": "entity.infectious.security_zombie"
+        },
+        {
+            "Line": "entity.infectious.sleepy_zombie"
+        },
+        {
+            "Line": "entity.infectious.spore_zombie"
+        },
+        {
+            "Line": "entity.infectious.swat_zombie"
+        },
+        {
+            "Line": "entity.infectious.tower_zombie"
+        },
+        {
+            "Line": "entity.infectious.tower_zombie_1"
+        },
+        {
+            "Line": "entity.infectious.tower_zombie_2"
+        },
+        {
+            "Line": "entity.infectious.tower_zombie_3"
+        },
+        {
+            "Line": "entity.infectious.tower_zombie_4"
+        },
+        {
+            "Line": "entity.infectious.withered_zombie"
+        },
+        {
+            "Line": "entity.infectious.zombie"
+        },
+        {
+            "Line": "entity.infectious.zombie_agent"
+        },
+        {
+            "Line": "entity.infectious.zombie_archer"
+        },
+        {
+            "Line": "entity.infectious.zombie_astronaut"
+        },
+        {
+            "Line": "entity.infectious.zombie_batman"
+        },
+        {
+            "Line": "entity.infectious.zombie_bomber"
+        },
+        {
+            "Line": "entity.infectious.zombie_boxer"
+        },
+        {
+            "Line": "entity.infectious.zombie_breeder"
+        },
+        {
+            "Line": "entity.infectious.zombie_climber"
+        },
+        {
+            "Line": "entity.infectious.zombie_clown"
+        },
+        {
+            "Line": "entity.infectious.zombie_cook"
+        },
+        {
+            "Line": "entity.infectious.zombie_dancer"
+        },
+        {
+            "Line": "entity.infectious.zombie_diver"
+        },
+        {
+            "Line": "entity.infectious.zombie_doctor"
+        },
+        {
+            "Line": "entity.infectious.zombie_farmer"
+        },
+        {
+            "Line": "entity.infectious.zombie_fisherman"
+        },
+        {
+            "Line": "entity.infectious.zombie_girl"
+        },
+        {
+            "Line": "entity.infectious.zombie_head"
+        },
+        {
+            "Line": "entity.infectious.zombie_hitler"
+        },
+        {
+            "Line": "entity.infectious.zombie_horseman"
+        },
+        {
+            "Line": "entity.infectious.zombie_horseman_no_horse"
+        },
+        {
+            "Line": "entity.infectious.zombie_lumberjack"
+        },
+        {
+            "Line": "entity.infectious.zombie_miner"
+        },
+        {
+            "Line": "entity.infectious.zombie_on_stelts"
+        },
+        {
+            "Line": "entity.infectious.zombie_painter"
+        },
+        {
+            "Line": "entity.infectious.zombie_police"
+        },
+        {
+            "Line": "entity.infectious.zombie_prisoner"
+        },
+        {
+            "Line": "entity.infectious.zombie_runner"
+        },
+        {
+            "Line": "entity.infectious.zombie_scientist"
+        },
+        {
+            "Line": "entity.infectious.zombie_screamer"
+        },
+        {
+            "Line": "entity.infectious.zombie_soldier"
+        },
+        {
+            "Line": "entity.infectious.zombie_spiter"
+        },
+        {
+            "Line": "entity.infectious.zombie_warrior"
+        },
+        {
+            "Line": "entity.infectious.zombified_bear"
+        },
+        {
+            "Line": "entity.infectious.zombified_bird"
+        },
+        {
+            "Line": "entity.infectious.zombified_bird_flying"
+        },
+        {
+            "Line": "entity.infectious.zombified_boar"
+        },
+        {
+            "Line": "entity.infectious.zombified_chicken"
+        },
+        {
+            "Line": "entity.infectious.zombified_spider"
+        },
+        {
+            "Line": "entity.infectious.zombified_wolf"
+        },
+        {
+            "Line": "entity.minecraft.blaze"
+        },
+        {
+            "Line": "entity.minecraft.cave_spider"
+        },
+        {
+            "Line": "entity.minecraft.drowned"
+        },
+        {
+            "Line": "entity.minecraft.elder_guardian"
+        },
+        {
+            "Line": "entity.minecraft.ender_dragon"
+        },
+        {
+            "Line": "entity.minecraft.enderman"
+        },
+        {
+            "Line": "entity.minecraft.endermite"
+        },
+        {
+            "Line": "entity.minecraft.evoker"
+        },
+        {
+            "Line": "entity.minecraft.ghast"
+        },
+        {
+            "Line": "entity.minecraft.giant"
+        },
+        {
+            "Line": "entity.minecraft.guardian"
+        },
+        {
+            "Line": "entity.minecraft.hoglin"
+        },
+        {
+            "Line": "entity.minecraft.husk"
+        },
+        {
+            "Line": "entity.minecraft.illusioner"
+        },
+        {
+            "Line": "entity.minecraft.magma_cube"
+        },
+        {
+            "Line": "entity.minecraft.phantom"
+        },
+        {
+            "Line": "entity.minecraft.piglin"
+        },
+        {
+            "Line": "entity.minecraft.piglin_brute"
+        },
+        {
+            "Line": "entity.minecraft.pillager"
+        },
+        {
+            "Line": "entity.minecraft.ravager"
+        },
+        {
+            "Line": "entity.minecraft.shulker"
+        },
+        {
+            "Line": "entity.minecraft.silverfish"
+        },
+        {
+            "Line": "entity.minecraft.skeleton"
+        },
+        {
+            "Line": "entity.minecraft.slime"
+        },
+        {
+            "Line": "entity.minecraft.spider"
+        },
+        {
+            "Line": "entity.minecraft.stray"
+        },
+        {
+            "Line": "entity.minecraft.vex"
+        },
+        {
+            "Line": "entity.minecraft.vindicator"
+        },
+        {
+            "Line": "entity.minecraft.warden"
+        },
+        {
+            "Line": "entity.minecraft.witch"
+        },
+        {
+            "Line": "entity.minecraft.wither"
+        },
+        {
+            "Line": "entity.minecraft.wither_skeleton"
+        },
+        {
+            "Line": "entity.minecraft.zoglin"
+        },
+        {
+            "Line": "entity.minecraft.zombie"
+        },
+        {
+            "Line": "entity.minecraft.zombie_villager"
+        },
+        {
+            "Line": "entity.minecraft.zombified_piglin"
+        },
+        {
+            "Line": "entity.superbwarfare.senpai"
+        },
+        {
+            "Line": "entity.undead_revamp2.axestrom"
+        },
+        {
+            "Line": "entity.undead_revamp2.bigsucker"
+        },
+        {
+            "Line": "entity.undead_revamp2.bomber"
+        },
+        {
+            "Line": "entity.undead_revamp2.clogger"
+        },
+        {
+            "Line": "entity.undead_revamp2.crackleball"
+        },
+        {
+            "Line": "entity.undead_revamp2.deadclogger"
+        },
+        {
+            "Line": "entity.undead_revamp2.invisiblebidy"
+        },
+        {
+            "Line": "entity.undead_revamp2.invisiclogger"
+        },
+        {
+            "Line": "entity.undead_revamp2.invisiimmortal"
+        },
+        {
+            "Line": "entity.undead_revamp2.invisilehcery"
+        },
+        {
+            "Line": "entity.undead_revamp2.lechery"
+        },
+        {
+            "Line": "entity.undead_revamp2.neocrorines"
+        },
+        {
+            "Line": "entity.undead_revamp2.propball_1"
+        },
+        {
+            "Line": "entity.undead_revamp2.slaveman"
+        },
+        {
+            "Line": "entity.undead_revamp2.sucker"
+        },
+        {
+            "Line": "entity.undead_revamp2.the_moonflower"
+        },
+        {
+            "Line": "entity.undead_revamp2.thebeartamer"
+        },
+        {
+            "Line": "entity.undead_revamp2.thebidy"
+        },
+        {
+            "Line": "entity.undead_revamp2.thebidyupside"
+        },
+        {
+            "Line": "entity.undead_revamp2.thedungeon"
+        },
+        {
+            "Line": "entity.undead_revamp2.thegliter"
+        },
+        {
+            "Line": "entity.undead_revamp2.theheavy"
+        },
+        {
+            "Line": "entity.undead_revamp2.thehorrors"
+        },
+        {
+            "Line": "entity.undead_revamp2.thehorrorsdecoys"
+        },
+        {
+            "Line": "entity.undead_revamp2.thehunter"
+        },
+        {
+            "Line": "entity.undead_revamp2.theimmortal"
+        },
+        {
+            "Line": "entity.undead_revamp2.thelurker"
+        },
+        {
+            "Line": "entity.undead_revamp2.theordure"
+        },
+        {
+            "Line": "entity.undead_revamp2.theposessive"
+        },
+        {
+            "Line": "entity.undead_revamp2.thepregnant"
+        },
+        {
+            "Line": "entity.undead_revamp2.therabidus"
+        },
+        {
+            "Line": "entity.undead_revamp2.therod"
+        },
+        {
+            "Line": "entity.undead_revamp2.theskeeper"
+        },
+        {
+            "Line": "entity.undead_revamp2.thesmoker"
+        },
+        {
+            "Line": "entity.undead_revamp2.thesomnolence"
+        },
+        {
+            "Line": "entity.undead_revamp2.thespectre"
+        },
+        {
+            "Line": "entity.undead_revamp2.thespitter"
+        },
+        {
+            "Line": "entity.undead_revamp2.theswarmer"
+        },
+        {
+            "Line": "entity.undead_revamp2.thewolf"
+        },
+        {
+            "Line": "entity.undead_revamp2.weakspot"
+        }
+    ],
+    "HurtTime": 0s,
+    "FallFlying": 0b,
+    "GlowTexture": "",
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "MountControl": 0b,
+    "MaxExp": 0,
+    "CanUpdate": 1b,
+    "AimWhileShooting": 1b,
+    "pImpact": 1,
+    "ShowLayers": 1b,
+    "ImmuneToFire": 0b,
+    "DisablePitch": 0b,
+    "LeftHanded": 0b,
+    "minDelay": 60,
+    "MoveState": 0,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Song": "",
+                "Slot": 0,
+                "Line": "@p, you can hire me for 64 Emeralds."
+            }
+        ]
+    },
+    "Invulnerable": 0b,
+    "DefendFaction": 1b,
+    "NpcJob": 3,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "PotionAmp": 0,
+    "IMFlags": {
+        "ModifiedArmor": 1b,
+        "ModifiedAttributes": 1b,
+        "CanFly": 2,
+        "MagicRes": 0.0f,
+        "CanBreakBlocks": 2,
+        "explosionMult": 1.0f,
+        "GearEnchanted": 1b,
+        "IsThrown": 0b,
+        "ProjBoost": 1.0f,
+        "IsVariedSize": 0b,
+        "ModifiedHeld": 1b
+    },
+    "NpcIdleSound": "",
+    "NpcInv": [
+    ],
+    "pSpin": 0b,
+    "AttackOtherFactions": 1b,
+    "MovingPos": 0,
+    "pDur": 5,
+    "NpcVisible": 0,
+    "stopAndInteract": 1b,
+    "TransformEditingModus": 0b,
+    "NpcsTimers": [
+    ],
+    "KnockBack": 2,
+    "RespawnTime": 20,
+    "OrderedLines": 0b,
+    "ShotCount": 1,
+    "MercenaryInfiniteDays": 0b,
+    "maxDelay": 60,
+    "ScriptLanguage": "ECMAScript",
+    "MarkovGeneratorId": 0,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CanPickUpLoot": 0b,
+    "MercenaryHiredTime": 0L,
+    "PotionImmune": 0b,
+    "PersistenceRequired": 0b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "NpcModelData": {
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "ScaleY": 1.0f,
+            "TransY": 0.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "LastEdited": 1771617142983L,
+        "ArmsConfig": {
+            "ScaleY": 1.0f,
+            "TransY": 0.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "Legs2Config": {
+            "ScaleY": 1.0f,
+            "TransY": 0.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "MoveAnimation": 16,
+        "ModelType": 0,
+        "BodyConfig": {
+            "ScaleY": 1.0f,
+            "TransY": 0.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "NewParts": [
+        ],
+        "Animation": 0,
+        "LegsConfig": {
+            "ScaleY": 1.0f,
+            "TransY": 0.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "WingMode": 0,
+        "SimpleRender": 0b,
+        "Arms2Config": {
+            "ScaleY": 1.0f,
+            "TransY": 0.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "CustomSkinUrl": "",
+        "DisplayName": "",
+        "Parts": [
+        ]
+    },
+    "BurnInSun": 0b,
+    "NoLivingAnimation": 0b,
+    "TransformHasStats": 0b,
+    "MercenaryDialogHired": "I'll stay with you for {days} Days",
+    "CreatureType": 0,
+    "PotionDuration": 5,
+    "pEffAmp": 0,
+    "TotalTicksAlive": 36456L,
+    "Brain": {
+        "memories": {
+        }
+    },
+    "TransformHasInv": 0b,
+    "Texture": "https://www.minecraftskins.com/uploads/skins/2026/02/19/army-soldier-in-ucp-camouflage--fixed--23874492.pngv940",
+    "Rotation": [
+        315.45148f,
+        0.0f
+    ],
+    "MinExp": 0,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "DistanceToMelee": 0,
+    "AvoidsSun": 0b,
+    "Air": 300s,
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "MercenaryDisableGui": 0b,
+    "PositionOffsetY": 5.0f,
+    "AvoidsWater": 0b,
+    "MarkovGender": 0,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "FallDistance": 0.0f,
+    "CanSwim": 1b,
+    "MaxHealth": 50,
+    "Health": 50.0f,
+    "UsingSkinUrl": 2b,
+    "PortalCooldown": 0
+}

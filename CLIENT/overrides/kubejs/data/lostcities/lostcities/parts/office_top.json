@@ -1,0 +1,250 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
+            },
+            {
+                "char": "β",
+                "block": "minecraft:smooth_stone"
+            },
+            {
+                "char": "γ",
+                "block": "minecraft:quartz_block"
+            },
+            {
+                "char": "δ",
+                "block": "minecraft:dark_oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]"
+            },
+            {
+                "char": "ε",
+                "block": "minecraft:gray_concrete"
+            },
+            {
+                "char": "ζ",
+                "block": "create:water_wheel_structure[facing=south]"
+            },
+            {
+                "char": "η",
+                "block": "create:water_wheel_structure[facing=west]"
+            },
+            {
+                "char": "θ",
+                "block": "create:water_wheel_structure[facing=east]"
+            },
+            {
+                "char": "ι",
+                "block": "create:large_water_wheel[axis=y,extension=false]"
+            },
+            {
+                "char": "κ",
+                "block": "create:water_wheel_structure[facing=north]"
+            },
+            {
+                "char": "λ",
+                "block": "create:framed_glass_door[facing=west,half=lower,hinge=left,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "μ",
+                "block": "minecraft:birch_button[face=wall,facing=north,powered=false]"
+            },
+            {
+                "char": "ν",
+                "block": "minecraft:quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ξ",
+                "block": "minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ο",
+                "block": "create:redstone_contact[facing=west,powered=false]"
+            },
+            {
+                "char": "π",
+                "block": "minecraft:black_stained_glass_pane[east=true,north=false,south=true,waterlogged=false,west=false]"
+            },
+            {
+                "char": "ρ",
+                "block": "minecraft:black_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+            },
+            {
+                "char": "σ",
+                "block": "minecraft:black_stained_glass_pane[east=false,north=false,south=true,waterlogged=false,west=true]"
+            },
+            {
+                "char": "τ",
+                "block": "minecraft:black_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]"
+            },
+            {
+                "char": "υ",
+                "block": "minecraft:quartz_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "φ",
+                "block": "create:large_cogwheel[axis=y,waterlogged=false]"
+            },
+            {
+                "char": "χ",
+                "block": "create:cogwheel[axis=y,waterlogged=false]"
+            },
+            {
+                "char": "ψ",
+                "block": "create:framed_glass_door[facing=west,half=upper,hinge=left,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "ω",
+                "block": "create:framed_glass_door[facing=west,half=lower,hinge=right,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "Α",
+                "block": "minecraft:quartz_stairs[facing=north,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Β",
+                "block": "minecraft:black_stained_glass_pane[east=true,north=true,south=false,waterlogged=false,west=false]"
+            },
+            {
+                "char": "Γ",
+                "block": "minecraft:black_stained_glass_pane[east=false,north=true,south=false,waterlogged=false,west=true]"
+            },
+            {
+                "char": "Δ",
+                "block": "minecraft:quartz_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Ε",
+                "block": "create:shaft[axis=y,waterlogged=false]"
+            },
+            {
+                "char": "Ζ",
+                "block": "create:framed_glass_door[facing=west,half=upper,hinge=right,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "Η",
+                "block": "create:shaft[axis=z,waterlogged=false]"
+            },
+            {
+                "char": "Θ",
+                "block": "create:elevator_pulley[facing=west]"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "αααααααααααα    ",
+            "αγγγγγγγγγγαααα ",
+            "αγ       δ γγγα ",
+            "αγ      γγ   γα ",
+            "αγ      εζζη γα ",
+            "αγ      εθιη γαα",
+            "αγ      γθκκ γγα",
+            "αγ      λ     γα",
+            "αγ      γεεεεεεγ",
+            "αγ      ε   εμεν",
+            "αγ      ξ    οεν",
+            "αγ      ε   γεεγ",
+            "αγ      γεεγ  γα",
+            "αγ            γα",
+            "αγγγγγγγγγγγγγγα",
+            "αααααααααααααααα"
+        ],
+        [
+            "                ",
+            " πρρρρρρρσ      ",
+            " τ       γγγυγ  ",
+            " τ      γγγγγν  ",
+            " τ      ε   γν  ",
+            " τ      ε φ γγ  ",
+            " τ      γ  χχγγ ",
+            " τ      ψ   χ ε ",
+            " τ      γεεεεεεγ",
+            " τ      ε   ε εν",
+            " τ      ω    εεν",
+            " τ      ε   γΑΑγ",
+            " τ      γΑΑγ   τ",
+            " τ             τ",
+            " ΒρρρρρρρρρρρρρΓ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            "         γγ     ",
+            "        γγγγγ   ",
+            "        Δ   γ   ",
+            "        Δ   γ   ",
+            "        γ    γγ ",
+            "        γ   Ε ε ",
+            "        γεεεεεεγ",
+            "        ε   εεεν",
+            "        Ζ    εεν",
+            "        ε   γεεγ",
+            "        γεεγ    ",
+            "                ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            "         γγγγγ  ",
+            "        γγγγγγ  ",
+            "        ε   γγ  ",
+            "        ε   γγ  ",
+            "        γ    γγ ",
+            "        ε   Ε ε ",
+            "        γεεεεεεγ",
+            "        Δ     εν",
+            "        Δ     εν",
+            "        Δ   γΑΑγ",
+            "        γΑΑγ    ",
+            "                ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            "         γγγγγ  ",
+            "        γγγγγγ  ",
+            "        ε   γγ  ",
+            "        ε   γγ  ",
+            "        γ    γγ ",
+            "        ε     ε ",
+            "        γεεεΗεεγ",
+            "        ε   Η εν",
+            "        ε   Θ εν",
+            "        ε   γεεγ",
+            "        γεεγ    ",
+            "                ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            "         γγγγγ  ",
+            "        γγγγγγ  ",
+            "        γγγγγγ  ",
+            "        γγγγγγ  ",
+            "        γγγγγγγ ",
+            "        γγγγγγγ ",
+            "        γγγγγγγγ",
+            "        γγγγγγγν",
+            "        γγγγγγγν",
+            "        γγγγγγγγ",
+            "        γγγγ    ",
+            "                ",
+            "                ",
+            "                "
+        ]
+    ]
+}

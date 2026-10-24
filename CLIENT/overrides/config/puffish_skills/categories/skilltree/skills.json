@@ -1,0 +1,506 @@
+{
+	"h1wbn94l1p7soe65": {
+		"definition": "maxhealth1",
+		"x": 0,
+		"y": -73.9008344562721,
+		"root": true
+	},
+	"6lmajhq4m6z4qff6": {
+		"definition": "natregen1",
+		"x": 32,
+		"y": -55.42562584220407,
+		"root": true
+	},
+	"zied3tsy8kl56y7e": {
+		"definition": "lifesteal1",
+		"x": 64,
+		"y": -36.95041722813605,
+		"root": true
+	},
+	"n9olfjr5y1o2gkex": {
+		"definition": "sprintspeed1",
+		"x": 64,
+		"y": 0,
+		"root": true
+	},
+	"thbi001443ayzzyz": {
+		"definition": "maxstamina1",
+		"x": 64,
+		"y": 36.95041722813605,
+		"root": true
+	},
+	"9oss4ief5f1cwbpy": {
+		"definition": "fallreduc1",
+		"x": 32,
+		"y": 55.42562584220407,
+		"root": true
+	},
+	"dqu9is97tjc9th41": {
+		"definition": "attackspeed1",
+		"x": 0,
+		"y": 73.9008344562721,
+		"root": true
+	},
+	"udigen0qmk1h83h4": {
+		"definition": "rangeddmg+1",
+		"x": -32,
+		"y": 55.42562584220407,
+		"root": true
+	},
+	"etrrt9jklnrpkdt2": {
+		"definition": "meleedmg1",
+		"x": -64,
+		"y": 36.95041722813605,
+		"root": true
+	},
+	"152e0p1rsngi4g35": {
+		"definition": "pickaxespeed1",
+		"x": -64,
+		"y": 0,
+		"root": true
+	},
+	"icqht9pgyzzn53qt": {
+		"definition": "axespeed1",
+		"x": -64,
+		"y": -36.95041722813605,
+		"root": true
+	},
+	"exhnz686n7uhpur0": {
+		"definition": "shovelspeed1",
+		"x": -32,
+		"y": -55.42562584220407,
+		"root": true
+	},
+	"cj0bytizqm9zpbwh": {
+		"definition": "maxhealth1",
+		"x": 0,
+		"y": -110.85125168440814,
+		"root": false
+	},
+	"u82tggrez1mfq2uu": {
+		"definition": "maxhealth1",
+		"x": 0,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"kcw6k22juho2v493": {
+		"definition": "maxhealth1",
+		"x": 0,
+		"y": -184.75208614068023,
+		"root": false
+	},
+	"5przjma65vqszfya": {
+		"definition": "maxhealth1",
+		"x": 0,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"h0ok82yaylak7bl5": {
+		"definition": "maxhealth2",
+		"x": 0,
+		"y": -295.6033378250884,
+		"root": false
+	},
+	"1e3ssmmubzzkmme2": {
+		"definition": "natregen1",
+		"x": 64,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"ph37ryi3wmsz9u64": {
+		"definition": "natregen1",
+		"x": 64,
+		"y": -110.85125168440814,
+		"root": false
+	},
+	"0rf990irhxknk2e9": {
+		"definition": "natregen1",
+		"x": 64,
+		"y": -184.75208614068023,
+		"root": false
+	},
+	"69j5ugmhof3aqwvo": {
+		"definition": "natregen1",
+		"x": 64,
+		"y": -221.70250336881625,
+		"root": false
+	},
+	"tbmd38g6ooymq3f8": {
+		"definition": "natregen2",
+		"x": 64,
+		"y": -295.6033378250884,
+		"root": false
+	},
+	"xr6uqg4ivj54y27h": {
+		"definition": "lifesteal1",
+		"x": 128,
+		"y": -110.85125168440814,
+		"root": false
+	},
+	"nwps7r4tcqunqotd": {
+		"definition": "lifesteal1",
+		"x": 128,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"qv0vhbvwqgliazjh": {
+		"definition": "lifesteal1",
+		"x": 128,
+		"y": -184.7520861406802,
+		"root": false
+	},
+	"kc2hnawv0beowbj2": {
+		"definition": "lifesteal1",
+		"x": 128,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"dl7a3a10c2d3w2nw": {
+		"definition": "lifesteal2",
+		"x": 128,
+		"y": -295.6033378250884,
+		"root": false
+	},
+	"l7wimzqjqayhudic": {
+		"definition": "sprintspeed1",
+		"x": 128,
+		"y": -36.95041722813605,
+		"root": false
+	},
+	"a4kik4hju8ojwwzm": {
+		"definition": "sprintspeed1",
+		"x": 128,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"wk8pdxtl8n3hhhp2": {
+		"definition": "sprintspeed1",
+		"x": 192,
+		"y": -36.95041722813605,
+		"root": false
+	},
+	"zzmd6hkwec8xmdcr": {
+		"definition": "sprintspeed1",
+		"x": 192,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"43gzu3nsj4ptl8qq": {
+		"definition": "sprintspeed2",
+		"x": 256,
+		"y": 0,
+		"root": false
+	},
+	"le5v2tt516qzy0dz": {
+		"definition": "maxstamina1",
+		"x": 128,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"9x3jp58ymb2ivob1": {
+		"definition": "maxstamina1",
+		"x": 128,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"2qt9cbmtbk2qnca3": {
+		"definition": "maxstamina1",
+		"x": 128,
+		"y": 184.75208614068023,
+		"root": false
+	},
+	"45iu56mg3b0ey94j": {
+		"definition": "maxstamina1",
+		"x": 128,
+		"y": 221.70250336881628,
+		"root": false
+	},
+	"mb4bh2k320fhbqnb": {
+		"definition": "maxstamina2",
+		"x": 128,
+		"y": 295.6033378250884,
+		"root": false
+	},
+	"4og58zmkhgybmju7": {
+		"definition": "fallreduc1",
+		"x": 64,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"gfuehsrx25t9iqfp": {
+		"definition": "fallreduc1",
+		"x": 64,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"f6cxj79uns6qajb3": {
+		"definition": "fallreduc1",
+		"x": 64,
+		"y": 184.75208614068023,
+		"root": false
+	},
+	"y4oygrtehhr5j7zm": {
+		"definition": "fallreduc1",
+		"x": 64,
+		"y": 221.70250336881628,
+		"root": false
+	},
+	"auto8qrg4fmss50h": {
+		"definition": "fallreduc2",
+		"x": 64,
+		"y": 295.6033378250884,
+		"root": false
+	},
+	"ix2j4d9k1qso2rr4": {
+		"definition": "attackspeed1",
+		"x": 0,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"tfsj5qiby67ig16e": {
+		"definition": "attackspeed1",
+		"x": 0,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"c1uml4hzcb80gt2i": {
+		"definition": "attackspeed1",
+		"x": 0,
+		"y": 184.75208614068023,
+		"root": false
+	},
+	"x51nlrhqrxayir01": {
+		"definition": "attackspeed1",
+		"x": 0,
+		"y": 221.70250336881628,
+		"root": false
+	},
+	"taodfyvr84i4m6xv": {
+		"definition": "attackspeed2",
+		"x": 0,
+		"y": 295.6033378250884,
+		"root": false
+	},
+	"s26jvbrqfr3h84rn": {
+		"definition": "rangeddmg+1",
+		"x": -64,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"lrm5i5wpzwy6z6ki": {
+		"definition": "rangeddmg+1",
+		"x": -64,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"edehpsy1e09w1umt": {
+		"definition": "rangeddmg+1",
+		"x": -64,
+		"y": 184.75208614068023,
+		"root": false
+	},
+	"6fhon9oio0pgx8fx": {
+		"definition": "rangeddmg+1",
+		"x": -64,
+		"y": 221.70250336881625,
+		"root": false
+	},
+	"1rea0kgciw73lmdh": {
+		"definition": "rangeddmg2",
+		"x": -64,
+		"y": 295.6033378250884,
+		"root": false
+	},
+	"fqcgj5c0f2n3y2ys": {
+		"definition": "meleedmg1",
+		"x": -128,
+		"y": 110.85125168440814,
+		"root": false
+	},
+	"2zryt4v87rftequ3": {
+		"definition": "meleedmg1",
+		"x": -128,
+		"y": 147.8016689125442,
+		"root": false
+	},
+	"fjgaa6u8fiw582ii": {
+		"definition": "meleedmg1",
+		"x": -128,
+		"y": 184.7520861406802,
+		"root": false
+	},
+	"tf2xqzsbhh5wp3xy": {
+		"definition": "meleedmg1",
+		"x": -128,
+		"y": 221.70250336881628,
+		"root": false
+	},
+	"caclons5fizjdek2": {
+		"definition": "meleedmg2",
+		"x": -128,
+		"y": 295.6033378250884,
+		"root": false
+	},
+	"vakqo1z2x3f6p31k": {
+		"definition": "pickaxespeed1",
+		"x": -128,
+		"y": -36.95041722813605,
+		"root": false
+	},
+	"5l23mlurzfvjdp7k": {
+		"definition": "pickaxespeed1",
+		"x": -128,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"07uvtvvjj6r6724f": {
+		"definition": "pickaxespeed1",
+		"x": -192,
+		"y": -36.95041722813605,
+		"root": false
+	},
+	"3adzeimq4v8uchn7": {
+		"definition": "pickaxespeed1",
+		"x": -192,
+		"y": 36.95041722813605,
+		"root": false
+	},
+	"r8xid6s9xnxov2kr": {
+		"definition": "pickaxespeed2",
+		"x": -256,
+		"y": 0,
+		"root": false
+	},
+	"7az4r24ip6q8rxny": {
+		"definition": "axespeed1",
+		"x": -128,
+		"y": -110.85125168440814,
+		"root": false
+	},
+	"oqx7e8nulyjq9g1u": {
+		"definition": "axespeed1",
+		"x": -128,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"59co2cgswz5gi69l": {
+		"definition": "axespeed1",
+		"x": -128,
+		"y": -184.75208614068023,
+		"root": false
+	},
+	"zjqfqu08ihrvqpwi": {
+		"definition": "axespeed1",
+		"x": -128,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"gyh8x2juyvlwtc1n": {
+		"definition": "axespeed2",
+		"x": -128,
+		"y": -295.6033378250884,
+		"root": false
+	},
+	"cx30s6iq6w9ztayz": {
+		"definition": "shovelspeed1",
+		"x": -64,
+		"y": -110.85125168440814,
+		"root": false
+	},
+	"doty22nr65m0ryri": {
+		"definition": "shovelspeed1",
+		"x": -64,
+		"y": -147.8016689125442,
+		"root": false
+	},
+	"8pmb0jbl0zwjg81l": {
+		"definition": "shovelspeed1",
+		"x": -64,
+		"y": -184.75208614068023,
+		"root": false
+	},
+	"l2i64qkcafhetdnr": {
+		"definition": "shovelspeed1",
+		"x": -64,
+		"y": -221.70250336881628,
+		"root": false
+	},
+	"hwbovc5mr9bt2cej": {
+		"definition": "shovelspeed2",
+		"x": -64,
+		"y": -295.6033378250884,
+		"root": false
+	},
+	"8udcbrnpjkwsjz0q": {
+		"definition": "maxhealth2",
+		"x": 0,
+		"y": -369.50417228136047,
+		"root": false
+	},
+	"hx6v5hi69sct4nt6": {
+		"definition": "natregen2",
+		"x": 64,
+		"y": -369.5041722813604,
+		"root": false
+	},
+	"f957df1et19feklx": {
+		"definition": "lifesteal2",
+		"x": 128,
+		"y": -369.50417228136047,
+		"root": false
+	},
+	"4gjtdcmafle15tis": {
+		"definition": "sprintspeed2",
+		"x": 320,
+		"y": 0,
+		"root": false
+	},
+	"jqsnd6vkznwn6gvi": {
+		"definition": "maxstamina2",
+		"x": 128,
+		"y": 369.50417228136047,
+		"root": false
+	},
+	"xhf79dwlp1gj0lol": {
+		"definition": "fallreduc2",
+		"x": 64,
+		"y": 369.5041722813605,
+		"root": false
+	},
+	"e95098vdt8b0ka9z": {
+		"definition": "attackspeed2",
+		"x": 0,
+		"y": 369.50417228136047,
+		"root": false
+	},
+	"obvfln7gjaktrk7g": {
+		"definition": "rangeddmg2",
+		"x": -64,
+		"y": 369.5041722813604,
+		"root": false
+	},
+	"e49o6z2wkbmg3oiz": {
+		"definition": "meleedmg2",
+		"x": -128,
+		"y": 369.50417228136047,
+		"root": false
+	},
+	"q943yf0nhcj9ls05": {
+		"definition": "pickaxespeed2",
+		"x": -320,
+		"y": 0,
+		"root": false
+	},
+	"91jir1213j15kvxq": {
+		"definition": "axespeed2",
+		"x": -128,
+		"y": -369.50417228136047,
+		"root": false
+	},
+	"7v127fanznzfn115": {
+		"definition": "shovelspeed2",
+		"x": -64,
+		"y": -369.5041722813605,
+		"root": false
+	}
+}

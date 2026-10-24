@@ -1,0 +1,351 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:smooth_stone"
+            },
+            {
+                "char": "β",
+                "block": "minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]"
+            },
+            {
+                "char": "γ",
+                "block": "minecraft:mangrove_planks"
+            },
+            {
+                "char": "δ",
+                "block": "minecraft:bricks"
+            },
+            {
+                "char": "ε",
+                "block": "minecraft:deepslate_tiles"
+            },
+            {
+                "char": "ζ",
+                "block": "farmersdelight:stove[facing=south,lit=true]"
+            },
+            {
+                "char": "η",
+                "block": "refurbished_furniture:mangrove_kitchen_drawer[facing=north,open=false]",
+                "loot": "restaurant"
+            },
+            {
+                "char": "θ",
+                "block": "refurbished_furniture:mangrove_kitchen_sink[facing=north]"
+            },
+            {
+                "char": "ι",
+                "block": "refurbished_furniture:mangrove_kitchen_cabinetry[facing=north,shape=default]"
+            },
+            {
+                "char": "κ",
+                "block": "refurbished_furniture:dark_freezer[facing=north,open=false]"
+            },
+            {
+                "char": "λ",
+                "block": "refurbished_furniture:mangrove_storage_cabinet[facing=north,hinge=left,open=false]",
+                "loot": "restaurant"
+            },
+            {
+                "char": "μ",
+                "block": "farmersdelight:basket[enabled=true,facing=up,waterlogged=false]"
+            },
+            {
+                "char": "ν",
+                "block": "minecraft:brick_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ξ",
+                "block": "minecraft:smooth_quartz_stairs[facing=north,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ο",
+                "block": "refurbished_furniture:mangrove_storage_cabinet[facing=east,hinge=right,open=false]",
+                "loot": "restaurant"
+            },
+            {
+                "char": "π",
+                "block": "farmersdelight:canvas_rug"
+            },
+            {
+                "char": "ρ",
+                "block": "minecraft:black_stained_glass"
+            },
+            {
+                "char": "σ",
+                "block": "refurbished_furniture:mangrove_chair[facing=west,tucked=false]"
+            },
+            {
+                "char": "τ",
+                "block": "refurbished_furniture:mangrove_table[east=false,north=false,south=false,west=false]"
+            },
+            {
+                "char": "υ",
+                "block": "refurbished_furniture:mangrove_chair[facing=east,tucked=false]"
+            },
+            {
+                "char": "φ",
+                "block": "refurbished_furniture:mangrove_table[east=false,north=false,south=true,west=false]"
+            },
+            {
+                "char": "χ",
+                "block": "refurbished_furniture:mangrove_table[east=false,north=true,south=false,west=false]"
+            },
+            {
+                "char": "ψ",
+                "block": "refurbished_furniture:mangrove_table[east=true,north=false,south=true,west=false]"
+            },
+            {
+                "char": "ω",
+                "block": "refurbished_furniture:mangrove_table[east=false,north=false,south=true,west=true]"
+            },
+            {
+                "char": "Α",
+                "block": "refurbished_furniture:mangrove_chair[facing=south,tucked=false]"
+            },
+            {
+                "char": "Β",
+                "block": "refurbished_furniture:mangrove_table[east=true,north=true,south=true,west=false]"
+            },
+            {
+                "char": "Γ",
+                "block": "refurbished_furniture:mangrove_table[east=false,north=true,south=true,west=true]"
+            },
+            {
+                "char": "Δ",
+                "block": "minecraft:brick_stairs[facing=north,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Ε",
+                "block": "minecraft:mangrove_door[facing=south,half=lower,hinge=right,open=false,powered=false]"
+            },
+            {
+                "char": "Ζ",
+                "block": "minecraft:mangrove_door[facing=south,half=lower,hinge=left,open=false,powered=false]"
+            },
+            {
+                "char": "Η",
+                "block": "refurbished_furniture:mangrove_table[east=true,north=true,south=false,west=false]"
+            },
+            {
+                "char": "Θ",
+                "block": "refurbished_furniture:mangrove_table[east=false,north=true,south=false,west=true]"
+            },
+            {
+                "char": "Ι",
+                "block": "minecraft:brick_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Κ",
+                "block": "minecraft:brick_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Λ",
+                "block": "farmersdelight:cooking_pot[facing=south,support=none,waterlogged=false]"
+            },
+            {
+                "char": "Μ",
+                "block": "farmersdelight:skillet[facing=west,support=false,waterlogged=false]"
+            },
+            {
+                "char": "Ν",
+                "block": "farmersdelight:cutting_board[facing=south,waterlogged=false]"
+            },
+            {
+                "char": "Ξ",
+                "block": "refurbished_furniture:dark_fridge[facing=north,open=false]",
+                "loot": "restaurant"
+            },
+            {
+                "char": "Ο",
+                "block": "refurbished_furniture:mangrove_storage_cabinet[facing=north,hinge=right,open=false]",
+                "loot": "restaurant"
+            },
+            {
+                "char": "Π",
+                "block": "create:framed_glass"
+            },
+            {
+                "char": "Ρ",
+                "block": "refurbished_furniture:mangrove_storage_cabinet[facing=east,hinge=left,open=false]",
+                "loot": "restaurant"
+            },
+            {
+                "char": "Σ",
+                "block": "farmersdelight:roast_chicken_block[facing=north,servings=4]"
+            },
+            {
+                "char": "Τ",
+                "block": "farmersdelight:shepherds_pie_block[facing=north,servings=4]"
+            },
+            {
+                "char": "Υ",
+                "block": "farmersdelight:honey_glazed_ham_block[facing=north,servings=4]"
+            },
+            {
+                "char": "Φ",
+                "block": "minecraft:mangrove_door[facing=south,half=upper,hinge=right,open=false,powered=false]"
+            },
+            {
+                "char": "Χ",
+                "block": "minecraft:mangrove_door[facing=south,half=upper,hinge=left,open=false,powered=false]"
+            },
+            {
+                "char": "Ψ",
+                "block": "refurbished_furniture:mangrove_kitchen_storage_cabinet[facing=east,hinge=right,open=false]",
+                "loot": "restaurant"
+            },
+            {
+                "char": "Ω",
+                "block": "refurbished_furniture:mangrove_kitchen_storage_cabinet[facing=east,hinge=left,open=false]",
+                "loot": "restaurant"
+            },
+            {
+                "char": "∑",
+                "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
+            },
+            {
+                "char": "∆",
+                "block": "minecraft:mangrove_slab[type=top,waterlogged=false]"
+            },
+            {
+                "char": "∏",
+                "block": "minecraft:black_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+            },
+            {
+                "char": "∫",
+                "block": "farmersdelight:mangrove_cabinet[facing=east,open=false]",
+                "loot": "restaurant"
+            },
+            {
+                "char": "√",
+                "block": "minecraft:mangrove_slab[type=bottom,waterlogged=false]"
+            },
+            {
+                "char": "∞",
+                "block": "minecraft:gray_concrete"
+            },
+            {
+                "char": "≈",
+                "block": "minecraft:mangrove_slab[type=double,waterlogged=false]"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "αααααααααααααααα",
+            "αααααααααααααααα",
+            "αααααααααααααααα",
+            "αααααααααααααααα",
+            "αααααααααααααααα",
+            "αααααααααααααααα",
+            "αααααααααααααααα",
+            "αααααααααααααααα",
+            "αααααααααααααααα",
+            "αααααααααααααααα",
+            "αααααααααααααααα",
+            "αααααααααααααααα",
+            "αααααααααααααααα",
+            "αααααααααααααααα",
+            "αααααααααααααααα",
+            "αααααααααααααααα"
+        ],
+        [
+            "                ",
+            " ββββββββββββγ  ",
+            " βδδδδδδδδδδδδε ",
+            " βδζζηηθικλ μν  ",
+            " βδ         μν  ",
+            " βδξξξξξξξξ ον  ",
+            " βδππππππππ  δε ",
+            " βδππππππππ ρ   ",
+            " βδππ     στρ   ",
+            " βδππ τυ σφρ    ",
+            " βδππ    σχρ    ",
+            " βδππ τ σφρσψωυ ",
+            " βδππ Α σχρσΒΓυ ",
+            " βΔΕΖΔδρρρ σΗΘυ ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            "            βγ  ",
+            "  δΙΙΙδΙδΙΙΙδδε ",
+            "  ΚΛΜ Ν  ΞΟ  ν  ",
+            "  Κ          ν  ",
+            "  ΚΠΠΠ  ΠΠΠ Ρν  ",
+            "  δ          δε ",
+            "  Κ         ρ   ",
+            "  δ        Σρ   ",
+            "  Κ   Τ    ρ    ",
+            "  Κ        ρ    ",
+            "  Κ      Υρ     ",
+            "  δ       ρ     ",
+            " βΔΦΧΔδρρρ      ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            "            βγ  ",
+            "  δεεεεεεεεεδδε ",
+            "  Κ         Ψν  ",
+            "  Κ         Ων  ",
+            "  Κ∑∑∑  ∑∑∑ Ρν  ",
+            "  δ          δε ",
+            "  Κ         ρ   ",
+            "  δ         ρ   ",
+            "  Κ        ρ    ",
+            "  Κ        ρ    ",
+            "  Κ       ρ     ",
+            "  δ       ρ     ",
+            " βΔΔΔΔδρρρ      ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            " ∆           γ  ",
+            " ∆δε∏∏∏∏∏∏∏εεδε ",
+            " ∆δ∫         ν  ",
+            " ∆δ∫         ρ  ",
+            " ∆δ∫         ν  ",
+            " ∆δ∫         δε ",
+            " ∆δ∫        ρ   ",
+            " ∆δ∫        ρ   ",
+            " ∆δ∫       ρ    ",
+            " ∆δ∫       ρ    ",
+            " ∆δ∫      ρ     ",
+            " ∆δ∫      ρ     ",
+            " ∆ΔΔΔΔδρρρ      ",
+            " ∆∆             ",
+            "                "
+        ],
+        [
+            "                ",
+            "  √γ         γ  ",
+            "  √γ∏∏∏∏∏∏∏∏εεε ",
+            "  √γ         ν  ",
+            "  √γ         ρ  ",
+            "  √γ         ν  ",
+            "  √γ         δε ",
+            "  √γ        ∞   ",
+            "  √γ        ∞   ",
+            "  √γ       ∞    ",
+            "  √γ       ∞    ",
+            "  √γ      ∞     ",
+            "  √γ      ∞     ",
+            "  √γ∞∞∞∞∞∞      ",
+            "  √≈∆           ",
+            "                "
+        ]
+    ]
+}

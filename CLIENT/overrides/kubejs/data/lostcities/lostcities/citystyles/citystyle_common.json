@@ -1,0 +1,189 @@
+{
+  "inherit": "citystyle_config",
+  "stuff_tags": [],
+  "streetblocks": {
+    "border": "y",
+    "wall": "w",
+    "street": "S",
+    "streetbase": "b",
+    "streetvariant": "B",
+    "parts": {
+      "straight": [
+          "street_straight_0",
+          "street_straight_1"
+        ],
+        "bend": [
+          "street_bend_0",
+          "street_bend_1"
+        ],
+        "end": [
+          "street_end_0",
+          "street_end_1"
+        ],
+        "none": [
+          "street_none_0"
+        ],
+        "t": [
+          "street_t_0",
+          "street_t_1"
+        ],
+        "all": [
+          "street_all_0",
+          "street_all_1"
+        ]
+     }
+  },
+  "parkblocks": {
+    "elevation": "x"
+  },
+  "corridorblocks": {
+    "roof": "x",
+    "glass": "+"
+  },
+  "railblocks": {
+    "railmain": "y"
+  },
+  "sphereblocks": {
+    "glass": "Z",
+    "border": "9",
+    "inner": "b"
+  },
+  "selectors": {
+    "buildings": [
+      {
+        "factor": 0.3,
+        "value": "apartment"
+      },
+      {
+        "factor": 0.3,
+        "value": "library"
+      },
+      {
+        "factor": 0.3,
+        "value": "office"
+      },
+      {
+        "factor": 0.1,
+        "value": "bank"
+      },
+      {
+        "factor": 0.2,
+        "value": "police_station"
+      },
+      {
+        "factor": 0.3,
+        "value": "data_center"
+      },
+      {
+        "factor": 0.3,
+        "value": "restaurant"
+      },
+      {
+        "factor": 0.1,
+        "value": "mine"
+      }
+    ],
+    "multibuildings": [
+      {
+        "factor": 0.1,
+        "value": "lab"
+      },
+      {
+        "factor": 0.2,
+        "value": "hospital"
+      },
+      {
+        "factor": 0.1,
+        "value": "base"
+      }
+    ],
+    "bridges": [
+      {
+        "factor": 1.0,
+        "value": "bridge_open"
+      },
+      {
+        "factor": 1.0,
+        "value": "bridge_covered"
+      }
+    ],
+    "fronts": [
+      {
+        "factor": 1.0,
+        "value": "building_front1"
+      },
+      {
+        "factor": 1.0,
+        "value": "building_front2"
+      },
+      {
+        "factor": 1.0,
+        "value": "building_front3"
+      }
+    ],
+    "stairs": [
+      {
+        "factor": 1.0,
+        "value": "stairs1"
+      },
+      {
+        "factor": 1.0,
+        "value": "stairs2"
+      },
+      {
+        "factor": 1.0,
+        "value": "stairsnormal"
+      },
+      {
+        "factor": 1.0,
+        "value": "stairsbig"
+      }
+    ],
+    "fountains": [
+      {
+        "factor": 1.0,
+        "value": "humvee_spawn"
+      },
+      {
+        "factor": 0.5,
+        "value": "vdv_spawn"
+      },
+      {
+        "factor": 0.25,
+        "value": "vdv_30mm_spawn"
+      },
+      {
+        "factor": 2.0,
+        "value": "soldier_spawn"
+      }
+    ],
+    "parks": [
+      {
+        "factor": 0.5,
+        "value": "park_fountain"
+      },
+      {
+        "factor": 0.75,
+        "value": "park_flower"
+      },
+      {
+        "factor": 0.25,
+        "value": "park_statue"
+      },
+      {
+        "factor": 1.0,
+        "value": "park_empty"
+      }
+    ],
+    "raildungeons": [
+      {
+        "factor": 1.0,
+        "value": "rail_dungeon1"
+      },
+      {
+        "factor": 1.0,
+        "value": "rail_dungeon2"
+      }
+    ]
+  }
+}

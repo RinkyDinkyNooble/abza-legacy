@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Zombies",
+    "color": "red",
+    "bold": true
+  },
+  "tip": {
+    "text": "A horde will occur every 5 days per player."
+  }
+}

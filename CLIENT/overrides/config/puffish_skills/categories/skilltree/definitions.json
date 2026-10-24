@@ -1,0 +1,470 @@
+{
+	"maxhealth1": {
+		"title": "+2 Hearts",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"maxhealth2": {
+		"title": "+6 Hearts",
+		"size": 2,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.max_health",
+					"value": 6,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"natregen1": {
+		"title": "+ Natural Regeneration",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:natural_regeneration",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"natregen2": {
+		"title": "++ Natural Regeneration",
+		"size": 2,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "regeneration"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:natural_regeneration",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lifesteal1": {
+		"title": "+ Lifesteal",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:life_steal",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"lifesteal2": {
+		"title": "++ Lifesteal",
+		"size": 2,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "instant_health"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:life_steal",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"sprintspeed1": {
+		"title": "+ Sprint Speed",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:sprinting_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"sprintspeed2": {
+		"title": "++ Sprint Speed",
+		"size": 2,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "speed"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:sprinting_speed",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"maxstamina1": {
+		"title": "+ Max Stamina",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "parcool:inexhaustible"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "parcool:max_stamina",
+					"value": 1000,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"maxstamina2": {
+		"title": "++ Max Stamina",
+		"size": 2,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "parcool:inexhaustible"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "parcool:max_stamina",
+					"value": 3000,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"fallreduc1": {
+		"title": "- Fall Damage",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "slow_falling"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fall_reduction",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"fallreduc2": {
+		"title": "-- Fall Damage",
+		"size": 2,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "slow_falling"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:fall_reduction",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"attackspeed1": {
+		"title": "+ Attack Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.05,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"attackspeed2": {
+		"title": "++ Attack Speed",
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "generic.attack_speed",
+					"value": 0.15,
+					"operation": "multiply_total"
+				}
+			}
+		]
+	},
+	"rangeddmg+1": {
+		"title": "+ Ranged Damage",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"rangeddmg2": {
+		"title": "++ Ranged Damage",
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:ranged_damage",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"meleedmg1": {
+		"title": "+ Melee Damage",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"meleedmg2": {
+		"title": "++ Melee Damage",
+		"size": 2,
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "strength"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:melee_damage",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pickaxespeed1": {
+		"title": "+ Pickaxe Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:pickaxe_speed",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"pickaxespeed2": {
+		"title": "++ Pickaxe Speed",
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_pickaxe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:pickaxe_speed",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"axespeed1": {
+		"title": "+ Axe Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_axe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"axespeed2": {
+		"title": "++ Axe Speed",
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_axe"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:axe_speed",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"shovelspeed1": {
+		"title": "+ Shovel Speed",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_shovel"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"shovelspeed2": {
+		"title": "++ Shovel Speed",
+		"size": 2,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "golden_shovel"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "puffish_attributes:shovel_speed",
+					"value": 3,
+					"operation": "addition"
+				}
+			}
+		]
+	}
+}

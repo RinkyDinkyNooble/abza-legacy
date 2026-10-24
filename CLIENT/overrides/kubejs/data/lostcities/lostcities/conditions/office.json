@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "factor": 3,
+      "value": "minecraft:chests/buried_treasure"
+    },
+    {
+      "factor": 2,
+      "value": "minecraft:chests/village/village_plains_house"
+    },
+    {
+      "factor": 1,
+      "value": "minecraft:chests/village/village_butcher"
+    }
+  ]
+}

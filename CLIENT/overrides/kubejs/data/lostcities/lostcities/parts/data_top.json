@@ -1,0 +1,146 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:gray_concrete"
+            },
+            {
+                "char": "β",
+                "block": "create:andesite_ladder[facing=north,waterlogged=false]"
+            },
+            {
+                "char": "γ",
+                "block": "create_new_age:basic_solar_heating_plate"
+            },
+            {
+                "char": "δ",
+                "block": "minecraft:quartz_block"
+            },
+            {
+                "char": "ε",
+                "block": "minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]"
+            },
+            {
+                "char": "ζ",
+                "block": "create:framed_glass_door[facing=south,half=lower,hinge=right,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "η",
+                "block": "minecraft:rail[shape=south_east,waterlogged=false]"
+            },
+            {
+                "char": "θ",
+                "block": "minecraft:rail[shape=south_west,waterlogged=false]"
+            },
+            {
+                "char": "ι",
+                "block": "minecraft:rail[shape=north_east,waterlogged=false]"
+            },
+            {
+                "char": "κ",
+                "block": "minecraft:rail[shape=north_west,waterlogged=false]"
+            },
+            {
+                "char": "λ",
+                "block": "create:framed_glass_door[facing=south,half=upper,hinge=right,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "μ",
+                "block": "create_new_age:electrical_connector[facing=north,mode=inert]"
+            },
+            {
+                "char": "ν",
+                "block": "create_new_age:electrical_connector[facing=west,mode=inert]"
+            },
+            {
+                "char": "ξ",
+                "block": "create_new_age:electrical_connector[facing=east,mode=inert]"
+            },
+            {
+                "char": "ο",
+                "block": "create_new_age:electrical_connector[facing=south,mode=inert]"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "                ",
+            "    αααααααα    ",
+            "   αααααααααα   ",
+            "  αααααααααααα  ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααβαααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            "  αααααααααααα  ",
+            "   αααααααααα   ",
+            "    αααααααα    ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            "       γγγ      ",
+            "    δδ γγγ α    ",
+            "    δδ      α   ",
+            "       ε ε      ",
+            "   γγ εαζαε γγ  ",
+            "   γγ εαβαε γγ  ",
+            "   γγ εαααε γγ  ",
+            "       εεε      ",
+            "           δδ   ",
+            "   α   γγγ δδ   ",
+            "    α  γγγ      ",
+            "                ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            "                ",
+            "    ηθ     α    ",
+            "    ικ      α   ",
+            "                ",
+            "       αλα      ",
+            "       αβα      ",
+            "       ααα      ",
+            "                ",
+            "           ηθ   ",
+            "   α       ικ   ",
+            "    α           ",
+            "                ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            "                ",
+            "           α    ",
+            "          ααα   ",
+            "        μααα    ",
+            "       αααα     ",
+            "      ναααξ     ",
+            "      αααα      ",
+            "     αααο       ",
+            "    ααα         ",
+            "   ααα          ",
+            "    α           ",
+            "                ",
+            "                ",
+            "                "
+        ]
+    ]
+}

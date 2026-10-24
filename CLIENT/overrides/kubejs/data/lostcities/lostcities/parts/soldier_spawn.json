@@ -1,0 +1,68 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:command_block[conditional=false,facing=up]",
+                "tag": {
+                    "Command": "/noppes clone spawn Soldier 1 ~-2 ~ ~-2",
+                    "auto": 1,
+                    "conditionMet": 1
+                }
+            },
+            {
+                "char": "β",
+                "block": "minecraft:chain_command_block[facing=up]",
+                "tag": {
+                    "Command": "fill ~ ~ ~ ~ ~-1 ~ minecraft:air replace",
+                    "auto": 1,
+                    "conditionMet": 1
+                }
+            }
+        ]
+    },
+    "slices": [
+        [
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "        α       ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "        β       ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                "
+        ]
+    ]
+}

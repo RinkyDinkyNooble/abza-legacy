@@ -1,0 +1,1549 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "progression"
+	group: ""
+	icon: {
+		Count: 1
+		RCount: 1L
+		id: "minecraft:totem_of_undying"
+	}
+	id: "2B8C5D737C23A122"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["These are the &lfirst things&r you should rush to obtain, as they will help navigate this world more easily."]
+			disable_toast: true
+			icon: {
+				Count: 1
+				RCount: 1L
+				id: "minecraft:wooden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7DED677CF08C6005"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "482B7BCD6E617F75"
+					table_id: 5552082320837219306L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FCBE9BE6173346F"
+					table_id: 5552082320837219306L
+					type: "loot"
+				}
+			]
+			subtitle: "Obtain Items"
+			tasks: [
+				{
+					disable_toast: true
+					id: "7DC52F9CFEC83B94"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(curios:back)mod(sophisticatedbackpacks)"
+						}
+					}
+					title: "Backpack"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "14FE281686B8798E"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(minecraft:shovels)"
+						}
+					}
+					title: "Shovel"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3835BF4FE5F59CEF"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(minecraft:axes)"
+						}
+					}
+					title: "Axe"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "63074CC4CC2C06E3"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(minecraft:pickaxes)"
+						}
+					}
+					title: "Pickaxe"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "09FE2A98130574FD"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(minecraft:hoes)"
+						}
+					}
+					title: "Hoe"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6988E5AC8285AE14"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(minecraft:swords)"
+						}
+					}
+					title: "Sword"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "40127B917926B681"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(artifacts:umbrella)item(infectious:swat_shield)item(minecraft:shield))"
+						}
+					}
+					title: "Shield"
+					type: "item"
+				}
+			]
+			title: "Basic Items"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DED677CF08C6005"]
+			description: [
+				"Craft or obtain wool. You need 4 string to craft wool."
+				"{image:minecraft:item/string width:20 height:20 align:center}"
+			]
+			disable_toast: true
+			id: "57B0BEAD0A9CDA42"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04B40C219DD81373"
+				table_id: 5552082320837219306L
+				type: "loot"
+			}]
+			subtitle: "Craft or Obtain"
+			tasks: [{
+				disable_toast: true
+				id: "39D325DF7DFBBE4D"
+				item: {
+					Count: 1
+					RCount: 1L
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(minecraft:wool)"
+					}
+				}
+				title: "Wool"
+				type: "item"
+			}]
+			title: "Wool"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57B0BEAD0A9CDA42"]
+			description: ["Craft or obtain basic medical items that will be used to heal you when you can't regenerate."]
+			disable_toast: true
+			id: "52AC1A7062F51FC0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C084182EBCA8ABC"
+					table_id: 5552082320837219306L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "596A1BA73DD92BA2"
+					table_id: 5552082320837219306L
+					type: "loot"
+				}
+			]
+			subtitle: "Craft or Obtain"
+			tasks: [{
+				disable_toast: true
+				id: "423FD6FE3DC36057"
+				item: {
+					Count: 1
+					RCount: 1L
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(firstaid:plaster)item(firstaid:bandage)item(firstaid:morphine)item(infectious:bandage))"
+					}
+				}
+				title: "First Aid Items"
+				type: "item"
+			}]
+			title: "Basic Medial Items"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52AC1A7062F51FC0"]
+			description: ["With these items, you heal more than bandages and many times faster. They will save you in a pinch."]
+			id: "76CA4422D1B58A59"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B9A440E5BE6233D"
+				table_id: 7298736158752308006L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 2.0d
+			subtitle: "Craft or Obtain"
+			tasks: [{
+				disable_toast: true
+				id: "60230A7C0A5E3108"
+				item: {
+					Count: 1
+					RCount: 1L
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(superbwarfare:medical_kit)item(infectious:medikit))"
+					}
+				}
+				title: "Medkits"
+				type: "item"
+			}]
+			title: "Advanced Medical Items"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DED677CF08C6005"]
+			description: ["Using these canteens will allow you to carry lots of water and batch purify which saves you charcoal."]
+			disable_toast: true
+			id: "11EF5757D6974EF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51DEE89BE8528308"
+				table_id: 5552082320837219306L
+				type: "loot"
+			}]
+			subtitle: "Craft"
+			tasks: [{
+				disable_toast: true
+				id: "7030C0C99E1E5854"
+				item: {
+					Count: 1
+					RCount: 1L
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(toughasnails:empty_leather_canteen)item(toughasnails:empty_copper_canteen)item(toughasnails:empty_iron_canteen)item(toughasnails:empty_gold_canteen)item(toughasnails:empty_diamond_canteen)item(toughasnails:empty_netherite_canteen))"
+					}
+				}
+				title: "Canteens"
+				type: "item"
+			}]
+			title: "Basic Hydration Items"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["11EF5757D6974EF2"]
+			description: ["Allows you to purify any water by smelting charcoal."]
+			disable_toast: true
+			id: "5F8FEF568472E9EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13B512822646F978"
+				table_id: 5552082320837219306L
+				type: "loot"
+			}]
+			subtitle: "Craft"
+			tasks: [
+				{
+					disable_toast: true
+					id: "6D48A2A8CD8B4FBE"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "toughasnails:water_purifier"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "613A77AFBAB32191"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "minecraft:charcoal"
+					}
+					type: "item"
+				}
+			]
+			title: "Advanced Hydration Items"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F8FEF568472E9EE"]
+			description: ["Using the water purifier and some charcoal, you can purify lots of water in a canteen."]
+			disable_toast: true
+			id: "69626EE3D326E5D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2385626D0476AEA6"
+				table_id: 7298736158752308006L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 2.0d
+			subtitle: "Purify Canteen Water"
+			tasks: [{
+				disable_toast: true
+				id: "02BEE1049732765A"
+				item: {
+					Count: 1
+					RCount: 1L
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(toughasnails:leather_purified_water_canteen)item(toughasnails:copper_purified_water_canteen)item(toughasnails:iron_purified_water_canteen)item(toughasnails:gold_purified_water_canteen)item(toughasnails:diamond_purified_water_canteen)item(toughasnails:netherite_purified_water_canteen))"
+					}
+				}
+				title: "Purified Water Canteen"
+				type: "item"
+			}]
+			title: "Purified Water"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7DED677CF08C6005"]
+			description: ["Eating these foods can help regulate body temperature."]
+			disable_toast: true
+			id: "3A2429EE6E174555"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "767DFF613C1F739F"
+				table_id: 5552082320837219306L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "Craft"
+			tasks: [{
+				disable_toast: true
+				id: "463B32D59358ED44"
+				item: {
+					Count: 1
+					RCount: 1L
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(toughasnails:ice_cream)item(toughasnails:charc_os))"
+					}
+				}
+				optional_task: true
+				title: "Food"
+				type: "item"
+			}]
+			title: "Temperature Foods"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7DED677CF08C6005"]
+			description: ["This armor will help you survive in hot climates and summers."]
+			disable_toast: true
+			id: "115652E4646C2046"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BB9A58570ABBF2C"
+				table_id: 5552082320837219306L
+				type: "loot"
+			}]
+			subtitle: "Craft and Obtain"
+			tasks: [{
+				disable_toast: true
+				id: "09C00121F81D713A"
+				item: {
+					Count: 1
+					RCount: 1L
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(toughasnails:leaf_helmet)item(toughasnails:leaf_chestplate)item(toughasnails:leaf_leggings)item(toughasnails:leaf_boots))"
+					}
+				}
+				title: "Leaf Armor"
+				type: "item"
+			}]
+			title: "Leaf Armor"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"115652E4646C2046"
+				"76658F164D51BE08"
+			]
+			description: ["To use the thermoregulator, you coal to power heating and ice to power cooling."]
+			id: "44F52D1E17BC062A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14F42960B7DBC6E2"
+					table_id: 5552082320837219306L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4150ECAEAA09B18C"
+					table_id: 5552082320837219306L
+					type: "loot"
+				}
+			]
+			shape: "circle"
+			size: 2.0d
+			subtitle: "Craft and Obtain"
+			tasks: [
+				{
+					disable_toast: true
+					id: "63177A64744B6359"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(minecraft:lava_bucket)item(minecraft:coal_block)item(minecraft:charcoal)item(minecraft:coal))"
+						}
+					}
+					title: "Heating Items"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "23D7159D728FB0D4"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(minecraft:ice)item(minecraft:packed_ice)item(minecraft:blue_ice))"
+						}
+					}
+					title: "Cooling Items"
+					type: "item"
+				}
+				{
+					id: "083DC293AE264154"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "toughasnails:thermoregulator"
+					}
+					type: "item"
+				}
+			]
+			title: "Temperature Regulation"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["57B0BEAD0A9CDA42"]
+			id: "76658F164D51BE08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B0AE10A51EB37C8"
+				table_id: 5552082320837219306L
+				type: "loot"
+			}]
+			subtitle: "Craft and Obtain"
+			tasks: [{
+				disable_toast: true
+				id: "373E4F5525806596"
+				item: {
+					Count: 1
+					RCount: 1L
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(toughasnails:wool_helmet)item(toughasnails:wool_chestplate)item(toughasnails:wool_leggings)item(toughasnails:wool_boots))"
+					}
+				}
+				title: "Wool Armor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"76CA4422D1B58A59"
+				"44F52D1E17BC062A"
+				"69626EE3D326E5D6"
+			]
+			description: ["Meet all basic survival needs. Make sure to upgrade any skills in your skills menu, if you haven't already."]
+			disable_toast: true
+			icon: {
+				Count: 1
+				RCount: 1L
+				id: "minecraft:campfire"
+			}
+			id: "473C80CA9A76E5F4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B39BEB857BA1DAA"
+					table_id: 7298736158752308006L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "171A4258E8717C2C"
+					table_id: 7298736158752308006L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Complete"
+			tasks: [{
+				disable_toast: true
+				id: "572E5BFBB28AB3E4"
+				title: "Basic Survival"
+				type: "checkmark"
+			}]
+			title: "Survival"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["473C80CA9A76E5F4"]
+			description: ["Use the wrench to connect the coal powered generator to the bin. Now you can destroy your trash for xp in return."]
+			disable_toast: true
+			id: "5B2F28245F04F5CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35E704DFF23E8ED1"
+				table_id: 5552082320837219306L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "Craft"
+			tasks: [
+				{
+					disable_toast: true
+					id: "352CCD7B3A278ED3"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "refurbished_furniture:wrench"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6834BBA1177B296C"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "refurbished_furniture:recycle_bin"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1F674AABDAC27D66"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(refurbished_furniture:dark_electricity_generator)item(refurbished_furniture:light_electricity_generator))"
+						}
+					}
+					title: "Generators"
+					type: "item"
+				}
+			]
+			title: "Trash to XP"
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D03F4AEE28BAE55"]
+			description: ["Basic tools and equipment to get started with the Create mod."]
+			disable_toast: true
+			id: "503C0F4A1F06AC81"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B5556C58B198641"
+				table_id: 5552082320837219306L
+				type: "loot"
+			}]
+			subtitle: "Craft or Obtain"
+			tasks: [
+				{
+					disable_toast: true
+					id: "69BC78D3C9CD538A"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "create:wrench"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "11C806CA7DA71FBA"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "create:goggles"
+					}
+					type: "item"
+				}
+			]
+			title: "Tools"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["473C80CA9A76E5F4"]
+			description: ["Mechanical press is used to press ingots into sheets for various use cases."]
+			disable_toast: true
+			id: "0D03F4AEE28BAE55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34DA8E24F934E76A"
+				table_id: 5552082320837219306L
+				type: "loot"
+			}]
+			subtitle: "Craft"
+			tasks: [
+				{
+					disable_toast: true
+					id: "36B2443888317E3E"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "create:mechanical_press"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "01D240D318C82FFF"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(create:water_wheel)item(create:large_water_wheel)item(create:windmill_bearing))"
+						}
+					}
+					title: "Stress Production"
+					type: "item"
+				}
+			]
+			title: "Stress Production"
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D03F4AEE28BAE55"]
+			description: ["These items are necessary for crafting Polished Rose Quartz."]
+			disable_toast: true
+			id: "26384C1286EAF9A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7316930C2DD3D9F2"
+				table_id: 5552082320837219306L
+				type: "loot"
+			}]
+			subtitle: "Craft and Obtain"
+			tasks: [
+				{
+					disable_toast: true
+					id: "20B6C95D3B2C12A3"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(create:sand_paper)item(create:red_sand_paper))"
+						}
+					}
+					title: "Sand Paper"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1447F9FD4A414485"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "create:rose_quartz"
+					}
+					type: "item"
+				}
+			]
+			title: "Sanding"
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["26384C1286EAF9A5"]
+			description: [""]
+			disable_toast: true
+			id: "4CFA4DF4D1CCEA77"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09CB43C72D70249A"
+				table_id: 5552082320837219306L
+				type: "loot"
+			}]
+			subtitle: "Craft"
+			tasks: [{
+				disable_toast: true
+				id: "72E8FE5A68EC382A"
+				item: {
+					Count: 1
+					RCount: 1L
+					id: "create:electron_tube"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4CFA4DF4D1CCEA77"
+				"503C0F4A1F06AC81"
+			]
+			description: ["Mechanical generator is a powerful, compact way to create lots of cobblestone."]
+			disable_toast: true
+			id: "0B500E666AC7BEEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "043DD22A7E73A4EF"
+				table_id: 7298736158752308006L
+				type: "loot"
+			}]
+			subtitle: "Craft"
+			tasks: [
+				{
+					disable_toast: true
+					id: "50115D0C98A7F458"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "createcobblestone:mechanical_generator"
+						tag: {
+							BlockEntityTag: {
+								type: "none"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39AFCAC848985112"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "create:deployer"
+					}
+					type: "item"
+				}
+				{
+					id: "73C9ADC63C7A9C94"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "create:mechanical_crafter"
+					}
+					type: "item"
+				}
+			]
+			title: "Advanced Create"
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["473C80CA9A76E5F4"]
+			description: ["Netherack can be crafted using create recipes. Overcharged Iron can be found in city loot (and crafted later on)."]
+			id: "300D044D4BFAA8A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "716C81A0B14B414D"
+				table_id: 2496970493152701802L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 2.0d
+			subtitle: "Craft or Obtain"
+			tasks: [
+				{
+					disable_toast: true
+					id: "0AE983E74B630B6C"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "minecraft:terracotta"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "73918E6D063AB7E8"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "create_new_age:overcharged_iron"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "392A59B0B1BC62D9"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "minecraft:netherrack"
+					}
+					type: "item"
+				}
+			]
+			title: "Path Of Electricity"
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"300D044D4BFAA8A3"
+				"503C0F4A1F06AC81"
+			]
+			description: ["Use solar heating plates to provide heat to the heater. Use the heater as a &e&lBlaze Burner&r&r alternative."]
+			disable_toast: true
+			id: "1D6516C18DDB504E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52BE870E97D5FC79"
+				table_id: 2496970493152701802L
+				type: "loot"
+			}]
+			subtitle: "Multiblock Structure"
+			tasks: [
+				{
+					disable_toast: true
+					id: "2396BA11908CBD1E"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "create_new_age:heater"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "73A17D237B8C94DC"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "create:fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "60FCA4265936A9DA"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "create_new_age:basic_solar_heating_plate"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "02900683305BB404"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "create:steam_engine"
+					}
+					type: "item"
+				}
+			]
+			title: "Steam Engine"
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["300D044D4BFAA8A3"]
+			disable_toast: true
+			id: "445E794C10B939BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7509BBCA63875771"
+				table_id: 7298736158752308006L
+				type: "loot"
+			}]
+			subtitle: "Craft"
+			tasks: [
+				{
+					disable_toast: true
+					id: "751A1075B48B3E30"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "create_new_age:carbon_brushes"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "06698874E212BF14"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "create_new_age:redstone_magnet"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4DA0F7D9579776CA"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "create_new_age:generator_coil"
+					}
+					type: "item"
+				}
+			]
+			title: "Generator Components"
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["300D044D4BFAA8A3"]
+			disable_toast: true
+			id: "0B14AEF913FCB065"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "780625EDE661A069"
+				table_id: 7298736158752308006L
+				type: "loot"
+			}]
+			subtitle: "Craft"
+			tasks: [
+				{
+					disable_toast: true
+					id: "54ADFB458C826E1B"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "create_new_age:overcharged_iron_wire"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3F5F28E097D7D069"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "create_new_age:electrical_connector"
+					}
+					type: "item"
+				}
+			]
+			title: "Electrical Components"
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0B500E666AC7BEEE"
+				"0B14AEF913FCB065"
+			]
+			disable_toast: true
+			id: "30D237377D05DC6D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77E8746F633A1303"
+				table_id: 2496970493152701802L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					disable_toast: true
+					id: "5C5344EF215BA805"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "create_new_age:reactor_heat_vent"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "41616323D9456EDE"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "create_new_age:reactor_fuel_acceptor"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "260FB55DA3C81E56"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(create_new_age:reactor_casing)item(create_new_age:reactor_glass))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Reactor Components"
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0B500E666AC7BEEE"
+				"46C395AF12CA8A6D"
+			]
+			disable_toast: true
+			id: "56EF0D9F307D542F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A2941121B64AC39"
+				table_id: 2496970493152701802L
+				type: "loot"
+			}]
+			subtitle: "Craft or Obtain"
+			tasks: [
+				{
+					disable_toast: true
+					id: "295176E6023093E2"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(createoreexcavation:drills)"
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4D57AA25677B398A"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "createoreexcavation:drilling_machine"
+					}
+					type: "item"
+				}
+			]
+			title: "Drilling"
+			x: -13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["56EF0D9F307D542F"]
+			disable_toast: true
+			id: "3F520D8FF974C171"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "005699ED516966D3"
+				table_id: 5552082320837219306L
+				type: "loot"
+			}]
+			subtitle: "Obtain"
+			tasks: [{
+				disable_toast: true
+				id: "62C8DA1AC1D14506"
+				item: {
+					Count: 1
+					RCount: 1L
+					id: "create_new_age:thorium"
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CFA4DF4D1CCEA77"]
+			disable_toast: true
+			id: "46C395AF12CA8A6D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "631E56DBB42386F9"
+				table_id: 5552082320837219306L
+				type: "loot"
+			}]
+			subtitle: "Craft"
+			tasks: [{
+				disable_toast: true
+				id: "4B5291AAA22C2619"
+				item: {
+					Count: 1
+					RCount: 1L
+					id: "createoreexcavation:vein_finder"
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F520D8FF974C171"]
+			disable_toast: true
+			id: "6D79C4A35A866C8B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EFFC6FDA3962085"
+				table_id: 7298736158752308006L
+				type: "loot"
+			}]
+			subtitle: "Craft"
+			tasks: [{
+				disable_toast: true
+				id: "0E8E322A79682A90"
+				item: {
+					Count: 1
+					RCount: 1L
+					id: "create_new_age:nuclear_fuel"
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D79C4A35A866C8B"]
+			disable_toast: true
+			id: "57FA50D5DFD78602"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "405EA5710044DED8"
+				table_id: 2496970493152701802L
+				type: "loot"
+			}]
+			subtitle: "Craft"
+			tasks: [{
+				disable_toast: true
+				id: "26BEAFBAED51B6F5"
+				item: {
+					Count: 1
+					RCount: 1L
+					id: "create_new_age:reactor_rod"
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"445E794C10B939BA"
+				"79A7538DD0D6C523"
+				"30D237377D05DC6D"
+				"57FA50D5DFD78602"
+				"1D6516C18DDB504E"
+			]
+			description: ["Using the nuclear reactor, steam engine, and genetor coil, combine all automations to posses electricity 24/7."]
+			disable_toast: true
+			icon: {
+				Count: 1
+				RCount: 1L
+				id: "create_new_age:overcharged_diamond_wire_block"
+			}
+			id: "57A2A876170CC196"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C836DB518A9D7F5"
+				table_id: 3614700050946835593L
+				type: "loot"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Multiblock Structure"
+			tasks: [{
+				disable_toast: true
+				id: "3B9E04179175709D"
+				title: "Permanent Electricity"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["503C0F4A1F06AC81"]
+			description: ["The hazmat suit prevents all forms of radiation when fully equipped."]
+			disable_toast: true
+			id: "79A7538DD0D6C523"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BD34777B66CF3B0"
+				table_id: 2496970493152701802L
+				type: "loot"
+			}]
+			subtitle: "Craft"
+			tasks: [
+				{
+					disable_toast: true
+					id: "68B69D22D5F32D7B"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "infectious:hazmat_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5E75695EA367C7DA"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "infectious:hazmat_suit_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "086B2236F226259F"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "infectious:hazmat_suit_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "0111FBB85E30C59C"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "infectious:hazmat_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Hazmat Suit"
+			x: -11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["57A2A876170CC196"]
+			disable_toast: true
+			id: "50347729EF73A198"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17AC9BB3D958175B"
+				table_id: 2496970493152701802L
+				type: "loot"
+			}]
+			subtitle: "Craft"
+			tasks: [{
+				disable_toast: true
+				id: "00A393B0534A87B1"
+				item: {
+					Count: 1
+					RCount: 1L
+					id: "superbwarfare:ancient_cpu"
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["50347729EF73A198"]
+			description: ["Used for applying perks to weapons"]
+			disable_toast: true
+			id: "317E35515B468D2B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01B8A84D25B91AC4"
+				table_id: 3614700050946835593L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 2.0d
+			subtitle: "Craft"
+			tasks: [{
+				disable_toast: true
+				id: "05AAC63682E76EB6"
+				item: {
+					Count: 1
+					RCount: 1L
+					id: "superbwarfare:reforging_table"
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["57A2A876170CC196"]
+			disable_toast: true
+			id: "7A0D3DA9A06FD585"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FBF40567CBBC0B5"
+				table_id: 2496970493152701802L
+				type: "loot"
+			}]
+			subtitle: "Craft"
+			tasks: [
+				{
+					disable_toast: true
+					id: "5041A4EC6BDB3505"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "superbwarfare:vehicle_assembling_table"
+					}
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5546632BEA98BE5A"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "superbwarfare:charging_station"
+					}
+					type: "item"
+				}
+			]
+			title: "Vehicle Stations"
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["57A2A876170CC196"]
+			disable_toast: true
+			id: "740421CC8336AA24"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C0DF212ACFB6A9C"
+				table_id: 3614700050946835593L
+				type: "loot"
+			}]
+			shape: "circle"
+			size: 2.0d
+			subtitle: "Craft or Obtain"
+			tasks: [
+				{
+					disable_toast: true
+					id: "426133EAC907F53F"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(refinedstorage:controller)"
+						}
+					}
+					title: "Controller"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4FFF06F2E7A9FF2F"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(refinedstorage:crafting_grid)"
+						}
+					}
+					title: "Crafting Grid"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "71F45AA845D3D27A"
+					item: {
+						Count: 1
+						RCount: 1L
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(refinedstorage:grid)"
+						}
+					}
+					title: "Grid"
+					type: "item"
+				}
+			]
+			title: "Mass Storage"
+			x: -11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["57A2A876170CC196"]
+			id: "31107C3D814A7981"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "561BA59C936B553D"
+					table_id: 3614700050946835593L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51DE537B93ACAE15"
+					table_id: 3614700050946835593L
+					type: "loot"
+				}
+			]
+			shape: "circle"
+			size: 2.0d
+			subtitle: "Craft"
+			tasks: [{
+				disable_toast: true
+				id: "5C031F8566086B63"
+				item: {
+					Count: 1
+					RCount: 1L
+					id: "cure:vaccine"
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"31107C3D814A7981"
+				"317E35515B468D2B"
+				"740421CC8336AA24"
+				"066A85F5AF55D117"
+			]
+			icon: {
+				Count: 1
+				RCount: 1L
+				id: "minecraft:totem_of_undying"
+			}
+			id: "42C6B1304D5D3F2B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A024FBC91C9A377"
+					table_id: 3614700050946835593L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7093B89583FE29D7"
+					table_id: 3614700050946835593L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F37D970EE8CAE06"
+					table_id: 3614700050946835593L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			subtitle: "Complete All Tasks and Survive 100 Days"
+			tasks: [{
+				disable_toast: true
+				id: "5F5C356CFB26A341"
+				title: "Complete The Game"
+				type: "checkmark"
+			}]
+			x: -13.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7DED677CF08C6005"]
+			description: ["If any of your diet categories fall below 5%, you will suffer hunger. If all of your diet categories go above 50%, you will gain regeneration."]
+			disable_toast: true
+			id: "1853CEAE866A4CD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DE3066887A1B64B"
+				table_id: 7298736158752308006L
+				type: "loot"
+			}]
+			shape: "diamond"
+			subtitle: "Craft or Obtain, and Eat"
+			tasks: [{
+				disable_toast: true
+				id: "2C92F41A2F5DD8CD"
+				item: {
+					Count: 1
+					RCount: 1L
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(farmersdelight:meals)"
+					}
+				}
+				title: "Meals"
+				type: "item"
+			}]
+			title: "Diet"
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "Progression Guide"
+}

@@ -1,0 +1,26 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.client.gui.screens.OptionsScreen {
+}
+
+net.minecraft.client.gui.screens.controls.ControlsScreen {
+}
+
+net.minecraft.client.gui.screens.SoundOptionsScreen {
+}
+
+com.blamejared.controlling.client.NewKeyBindsScreen {
+}
+
+loaderCommon.forge.com.seibel.distanthorizons.common.wrappers.gui.ClassicConfigGUI$ConfigScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+

@@ -1,0 +1,666 @@
+[
+    {
+        "entity": "minecraft:zombie",
+        "weight": 1,
+        "first_day": 0,
+        "last_day": 100,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_screamer",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombified_bird_flying",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "undead_revamp2:bomber",
+        "weight": 1,
+        "first_day": 24,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "undead_revamp2:thesmoker",
+        "weight": 10,
+        "first_day": 9,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "undead_revamp2:thebidy",
+        "weight": 1,
+        "first_day": 24,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "undead_revamp2:thebidyupside",
+        "weight": 1,
+        "first_day": 24,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "undead_revamp2:thepregnant",
+        "weight": 1,
+        "first_day": 24,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "undead_revamp2:theheavy",
+        "weight": 1,
+        "first_day": 29,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "undead_revamp2:clogger",
+        "weight": 1,
+        "first_day": 29,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:construction_worker_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_painter",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_clown",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:disco_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_dancer",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:mc_donalds_worker_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_cook",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_doctor",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_astronaut",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:robotic_zombie",
+        "weight": 5,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 1,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:mecha_zombie",
+        "weight": 10,
+        "first_day": 49,
+        "last_day": 0,
+        "min_spawns": 1,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_scientist",
+        "weight": 5,
+        "first_day": 9,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:fire_fighter_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_agent",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:security_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_police",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:swat_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_soldier",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_prisoner",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:psycho_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_bomber",
+        "weight": 5,
+        "first_day": 14,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:franklin_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:hazmat_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:acid_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:baseball_bat_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_archer",
+        "weight": 5,
+        "first_day": 14,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:firework_zombie",
+        "weight": 3,
+        "first_day": 9,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_warrior",
+        "weight": 5,
+        "first_day": 9,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_hitler",
+        "weight": 1,
+        "first_day": 49,
+        "last_day": 0,
+        "min_spawns": 1,
+        "max_spawns": 1
+    },
+    {
+        "entity": "infectious:sleepy_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_spiter",
+        "weight": 3,
+        "first_day": 9,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:tower_zombie",
+        "weight": 5,
+        "first_day": 19,
+        "last_day": 0,
+        "min_spawns": 1,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_on_stelts",
+        "weight": 5,
+        "first_day": 19,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:big_zombie",
+        "weight": 5,
+        "first_day": 24,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:giant_zombie",
+        "weight": 10,
+        "first_day": 49,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 10
+    },
+    {
+        "entity": "infectious:zombie_head",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:brain_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:blind_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:crawling_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:armless_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:bodyless_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:headless_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:maggot_zombie",
+        "weight": 3,
+        "first_day": 9,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:claw_zombie",
+        "weight": 4,
+        "first_day": 9,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:bucket_zombie",
+        "weight": 5,
+        "first_day": 14,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:pylon_zombie",
+        "weight": 5,
+        "first_day": 14,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:pumpkin_zombie",
+        "weight": 5,
+        "first_day": 14,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:beehive_zombie",
+        "weight": 5,
+        "first_day": 14,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:barrel_zombie",
+        "weight": 5,
+        "first_day": 14,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:door_zombie",
+        "weight": 5,
+        "first_day": 14,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:iron_door_zombie",
+        "weight": 5,
+        "first_day": 19,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:football_player_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:bouncer_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_climber",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_runner",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_boxer",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:muscular_zombie",
+        "weight": 5,
+        "first_day": 19,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:pool_tube_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_diver",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:deep_sea_diver_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_farmer",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_fisherman",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:beekeeper_zombie",
+        "weight": 5,
+        "first_day": 9,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_lumberjack",
+        "weight": 3,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_miner",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:angry_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:infectious_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:fat_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:old_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:zombie_girl",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:screamer",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:chained_zombie",
+        "weight": 2,
+        "first_day": 4,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    },
+    {
+        "entity": "infectious:balloon_zombie",
+        "weight": 5,
+        "first_day": 9,
+        "last_day": 0,
+        "min_spawns": 0,
+        "max_spawns": 0
+    }
+]

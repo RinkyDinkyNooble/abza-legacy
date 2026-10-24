@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "factor": 4,
+      "value": "minecraft:chests/stronghold_library"
+    },
+    {
+      "factor": 3,
+      "value": "minecraft:chests/underwater_ruin_big"
+    },
+    {
+      "factor": 2,
+      "value": "minecraft:chests/underwater_ruin_small"
+    }
+  ]
+}

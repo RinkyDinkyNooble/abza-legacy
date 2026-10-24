@@ -1,0 +1,14 @@
+{
+	"title": "Skill Tree",
+	"description": "Contains all the attributes you can upgrade.",
+	"unlocked_by_default": true,
+	"starting_points": 0,
+	"exclusive_root": false,
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "iron_sword"
+		}
+	},
+	"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+}

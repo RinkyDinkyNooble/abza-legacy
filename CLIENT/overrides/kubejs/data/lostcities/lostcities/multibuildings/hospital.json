@@ -1,0 +1,12 @@
+{
+  "dimx": 2,
+  "dimz": 1,
+  "buildings": [
+    [
+      "hospital_0_0"
+    ],
+    [
+      "hospital_0_1"
+    ]
+  ]
+}

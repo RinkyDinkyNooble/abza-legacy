@@ -1,0 +1,19 @@
+{
+	icon: {
+		Count: 1
+		RCount: 1L
+		id: "create:experience_block"
+	}
+	id: "3229FE8B7A45C489"
+	loot_size: 1
+	order_index: 3
+	rewards: [{
+		count: 1000
+		item: {
+			Count: 1
+			RCount: 1L
+			id: "create:experience_nugget"
+		}
+	}]
+	title: "Tier 4 Reward"
+}

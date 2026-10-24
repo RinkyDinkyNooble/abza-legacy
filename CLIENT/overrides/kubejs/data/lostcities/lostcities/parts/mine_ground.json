@@ -1,0 +1,306 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:smooth_stone"
+            },
+            {
+                "char": "β",
+                "block": "minecraft:stone"
+            },
+            {
+                "char": "γ",
+                "block": "minecraft:deepslate_bricks"
+            },
+            {
+                "char": "δ",
+                "block": "minecraft:deepslate_tiles"
+            },
+            {
+                "char": "ε",
+                "block": "create:cut_deepslate"
+            },
+            {
+                "char": "ζ",
+                "block": "minecraft:polished_deepslate_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "η",
+                "block": "minecraft:furnace[facing=south,lit=false]"
+            },
+            {
+                "char": "θ",
+                "block": "refurbished_furniture:andesite_stepping_stones[facing=north]"
+            },
+            {
+                "char": "ι",
+                "block": "minecraft:polished_deepslate_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "κ",
+                "block": "createoreexcavation:multiblock[facing=up]"
+            },
+            {
+                "char": "λ",
+                "block": "createoreexcavation:io_block[facing=up,type=fluid_in]"
+            },
+            {
+                "char": "μ",
+                "block": "minecraft:chiseled_deepslate"
+            },
+            {
+                "char": "ν",
+                "block": "create:cut_deepslate_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ξ",
+                "block": "createoreexcavation:kinetic_input[facing=up,shaft=south]"
+            },
+            {
+                "char": "ο",
+                "block": "create:cut_deepslate_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "π",
+                "block": "minecraft:blast_furnace[facing=east,lit=false]"
+            },
+            {
+                "char": "ρ",
+                "block": "create_new_age:basic_motor[facing=north]"
+            },
+            {
+                "char": "σ",
+                "block": "minecraft:furnace[facing=west,lit=false]"
+            },
+            {
+                "char": "τ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=west,left=false,right=true]"
+            },
+            {
+                "char": "υ",
+                "block": "create_new_age:electrical_connector[facing=south,mode=inert]"
+            },
+            {
+                "char": "φ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=east,left=true,right=false]"
+            },
+            {
+                "char": "χ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=west,left=true,right=false]"
+            },
+            {
+                "char": "ψ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=east,left=false,right=true]"
+            },
+            {
+                "char": "ω",
+                "block": "minecraft:crafting_table"
+            },
+            {
+                "char": "Α",
+                "block": "createoreexcavation:sample_drill"
+            },
+            {
+                "char": "Β",
+                "block": "minecraft:polished_deepslate_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Γ",
+                "block": "create:framed_glass_door[facing=south,half=lower,hinge=right,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "Δ",
+                "block": "create:framed_glass_door[facing=south,half=lower,hinge=left,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "Ε",
+                "block": "create:cut_deepslate_stairs[facing=north,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Ζ",
+                "block": "create:vertical_framed_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]"
+            },
+            {
+                "char": "Η",
+                "block": "createoreexcavation:multiblock[facing=east]"
+            },
+            {
+                "char": "Θ",
+                "block": "createoreexcavation:multiblock[facing=south]"
+            },
+            {
+                "char": "Ι",
+                "block": "createoreexcavation:multiblock[facing=west]"
+            },
+            {
+                "char": "Κ",
+                "block": "createoreexcavation:drilling_machine[facing=west]"
+            },
+            {
+                "char": "Λ",
+                "block": "createoreexcavation:io_block[facing=west,type=item_out]"
+            },
+            {
+                "char": "Μ",
+                "block": "create:andesite_funnel[extracting=true,facing=east,powered=false,waterlogged=false]"
+            },
+            {
+                "char": "Ν",
+                "block": "createoreexcavation:multiblock[facing=north]"
+            },
+            {
+                "char": "Ξ",
+                "block": "create:vertical_framed_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+            },
+            {
+                "char": "Ο",
+                "block": "create:framed_glass_door[facing=south,half=upper,hinge=right,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "Π",
+                "block": "create:framed_glass_door[facing=south,half=upper,hinge=left,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "Ρ",
+                "block": "create:cut_deepslate_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Σ",
+                "block": "create:cut_deepslate_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Τ",
+                "block": "minecraft:polished_deepslate_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Υ",
+                "block": "minecraft:polished_deepslate_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Φ",
+                "block": "minecraft:polished_deepslate_stairs[facing=north,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Χ",
+                "block": "minecraft:glowstone"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "αααααααααααααααα",
+            "αααααααααααααααα",
+            "ααββββββββββββαα",
+            "ααββββββββββββαα",
+            "ααββββββββββββαα",
+            "ααββββββββββββαα",
+            "ααββββββββββββαα",
+            "ααββββββββββββαα",
+            "ααββββββββββββαα",
+            "ααββββββββββββαα",
+            "ααββββββββββββαα",
+            "ααββββββββββββαα",
+            "ααββββββββββββαα",
+            "ααββββββββββββαα",
+            "αααααααααααααααα",
+            "αααααααααααααααα"
+        ],
+        [
+            "       γγ       ",
+            " δδ    γγ    δδ ",
+            " δ            δ ",
+            "   εεεεεεεεεε   ",
+            "   ζ     ηθηι   ",
+            "   ζ κκκ    ι   ",
+            "   ε λκκ θ θε   ",
+            "μμ ν κξκθ   ο μμ",
+            "μμ νπ ρ   θσο μμ",
+            "   ετ υ    φε   ",
+            "   ζχ      ψι   ",
+            "   ζω      Αι   ",
+            "   εΒΒεΓΔεΒΒε   ",
+            " δ            δ ",
+            " δδ          δδ ",
+            "                "
+        ],
+        [
+            "       γγ       ",
+            " δδ    γγ    δδ ",
+            " δ            δ ",
+            "   εεΕΕεεΕΕεε   ",
+            "   Ζ        Ζ   ",
+            "   Ζ ΗΘΙ    Ζ   ",
+            "   ε ΗΚΛΜ   ε   ",
+            "μμ ν ΗΝΙ    ο μμ",
+            "μμ ν        ο μμ",
+            "   ε        ε   ",
+            "   Ζ        Ζ   ",
+            "   Ζ        Ζ   ",
+            "   εΞΞεΟΠεΞΞε   ",
+            " δ            δ ",
+            " δδ          δδ ",
+            "                "
+        ],
+        [
+            "       γγ       ",
+            " δδ    γγ    δδ ",
+            " δ            δ ",
+            "   εεΕΕεεΕΕεε   ",
+            "   Ζ        Ζ   ",
+            "   Ζ        Ζ   ",
+            "   ε        ε   ",
+            "μμ Ρ        Σ μμ",
+            "μμ Ρ        Σ μμ",
+            "   ε        ε   ",
+            "   Ζ        Ζ   ",
+            "   Ζ        Ζ   ",
+            "   εΞΞεεεεΞΞε   ",
+            " δ            δ ",
+            " δδ          δδ ",
+            "                "
+        ],
+        [
+            "       γγ       ",
+            " δδ    γγ    δδ ",
+            " δ            δ ",
+            "   εεεεεεεεεε   ",
+            "   Τ        Υ   ",
+            "   Τ        Υ   ",
+            "   ε        ε   ",
+            "μμ Ρ        Σ μμ",
+            "μμ Ρ        Σ μμ",
+            "   ε        ε   ",
+            "   Τ        Υ   ",
+            "   Τ        Υ   ",
+            "   εΦΦεεεεΦΦε   ",
+            " δ            δ ",
+            " δδ          δδ ",
+            "                "
+        ],
+        [
+            "       γγ       ",
+            " δδ    γγ    δδ ",
+            " δδδδδδδδδδδδδδ ",
+            "  δδδδδδδδδδδδ  ",
+            "  δδδδδδδδδδδδ  ",
+            "  δδδδδδδδδδδδ  ",
+            "  δδδδδδδδδδδδ  ",
+            "μμδδδδδΧΧδδδδδμμ",
+            "μμδδδδδΧΧδδδδδμμ",
+            "  δδδδδδδδδδδδ  ",
+            "  δδδδδδδδδδδδ  ",
+            "  δδδδδδδδδδδδ  ",
+            "  δδδδδδδδδδδδ  ",
+            " δδδδδδδδδδδδδδ ",
+            " δδ    γγ    δδ ",
+            "       γγ       "
+        ]
+    ]
+}

@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "factor": 3,
+      "value": "minecraft:chests/shipwreck_supply"
+    },
+    {
+      "factor": 1,
+      "value": "minecraft:chests/spawn_bonus_chest"
+    },
+    {
+      "factor": 5,
+      "value": "minecraft:chests/village/village_armorer"
+    }
+  ]
+}

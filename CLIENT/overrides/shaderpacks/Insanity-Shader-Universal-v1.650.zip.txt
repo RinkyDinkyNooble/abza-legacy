@@ -1,0 +1,8 @@
+#Thu Feb 19 18:43:18 EST 2026
+shadowDistance=64.0
+SHADOW_FILTER=false
+REFLECTION=0
+shadowMapResolution=128
+SHADOW_COLOR=false
+ADVANCED_MATERIALS=false
+SELF_SHADOW=false

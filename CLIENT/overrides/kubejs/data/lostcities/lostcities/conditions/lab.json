@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "factor": 3,
+      "value": "minecraft:chests/village/village_savanna_house"
+    },
+    {
+      "factor": 2,
+      "value": "minecraft:chests/village/village_snowy_house"
+    },
+    {
+      "factor": 1,
+      "value": "minecraft:chests/village/village_shepherd"
+    }
+  ]
+}

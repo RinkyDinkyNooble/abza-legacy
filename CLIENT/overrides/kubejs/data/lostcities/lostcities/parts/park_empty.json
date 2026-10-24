@@ -1,0 +1,140 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]"
+            },
+            {
+                "char": "β",
+                "block": "minecraft:dark_oak_log[axis=y]"
+            },
+            {
+                "char": "γ",
+                "block": "minecraft:dark_oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "δ",
+                "block": "refurbished_furniture:deepslate_stepping_stones[facing=east]"
+            },
+            {
+                "char": "ε",
+                "block": "minecraft:chiseled_stone_bricks"
+            },
+            {
+                "char": "ζ",
+                "block": "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "η",
+                "block": "minecraft:dark_oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "θ",
+                "block": "minecraft:dark_oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ι",
+                "block": "refurbished_furniture:stone_stepping_stones[facing=west]"
+            },
+            {
+                "char": "κ",
+                "block": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "λ",
+                "block": "minecraft:water[level=0]"
+            },
+            {
+                "char": "μ",
+                "block": "minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ν",
+                "block": "minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ξ",
+                "block": "minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ο",
+                "block": "refurbished_furniture:stone_stepping_stones[facing=north]"
+            },
+            {
+                "char": "π",
+                "block": "refurbished_furniture:stone_stepping_stones[facing=east]"
+            },
+            {
+                "char": "ρ",
+                "block": "refurbished_furniture:deepslate_stepping_stones[facing=south]"
+            },
+            {
+                "char": "σ",
+                "block": "refurbished_furniture:andesite_stepping_stones[facing=east]"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "ααααααα  ααααααα",
+            "α              α",
+            "α βγγβ   δεζζε α",
+            "α ηααθ ι  κλλμ α",
+            "α ηααθ    κλλμ α",
+            "α βννβ    εξξε α",
+            "α            ι α",
+            "  ι    εε       ",
+            "       εε       ",
+            "α           ο  α",
+            "α εζζεπ   βγγβ α",
+            "α κλλμ    ηααθ α",
+            "α κλλμ  ρ ηααθ α",
+            "α εξξε    βννβ α",
+            "α    σ         α",
+            "ααααααα  ααααααα"
+        ],
+        [
+            "ααααααα  ααααααα",
+            "α              α",
+            "α              α",
+            "α  αα          α",
+            "α  αα          α",
+            "α              α",
+            "α              α",
+            "       αα       ",
+            "       αα       ",
+            "α              α",
+            "α              α",
+            "α          αα  α",
+            "α          αα  α",
+            "α              α",
+            "α              α",
+            "ααααααα  ααααααα"
+        ],
+        [
+            "                ",
+            "                ",
+            "                ",
+            "   α            ",
+            "    α           ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "           α    ",
+            "            α   ",
+            "                ",
+            "                ",
+            "                "
+        ]
+    ]
+}

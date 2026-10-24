@@ -1,0 +1,13 @@
+#Tue Mar 17 09:22:20 EDT 2026
+shadowDistance=128.0
+SHADOW_FILTER=false
+SHADOW_BLOCK_ENTITY=false
+SHADOW_ENTITY=false
+SHADOW_COLOR=false
+AO=false
+FOG_DENSITY=4.00
+shadowMapResolution=512
+TAA=false
+LENS_FLARE=false
+SHADOW_VEGETATION=false
+SHADOW_CLOUD=true

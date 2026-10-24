@@ -1,0 +1,78 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
+            },
+            {
+                "char": "β",
+                "block": "minecraft:quartz_block"
+            },
+            {
+                "char": "γ",
+                "block": "minecraft:quartz_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "δ",
+                "block": "minecraft:polished_andesite"
+            },
+            {
+                "char": "ε",
+                "block": "minecraft:gray_concrete"
+            },
+            {
+                "char": "ζ",
+                "block": "minecraft:polished_andesite_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "η",
+                "block": "minecraft:polished_andesite_stairs[facing=north,half=top,shape=straight,waterlogged=false]"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "       ααααα    ",
+            "       αβββααααα",
+            "       αγβββαααα",
+            "       αδβββεδδε",
+            "       αζβββββββ",
+            "       αζβββββββ",
+            "       αδβββββββ",
+            "       αγβββββββ",
+            "       αββββββββ",
+            "       αγβββδηηδ",
+            "       αββββαααα",
+            "       αβββααααα",
+            "       ααααα    ",
+            "                ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            "                ",
+            "            εεεε",
+            "            εεεε",
+            "            εεεε",
+            "            εεεε",
+            "            εεεε",
+            "            εεεε",
+            "            εεεε",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                "
+        ]
+    ]
+}

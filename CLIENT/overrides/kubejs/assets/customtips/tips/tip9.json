@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Survival",
+    "color": "yellow",
+    "bold": true
+  },
+  "tip": {
+    "text": "You cannot travel to the Nether or End."
+  }
+}

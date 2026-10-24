@@ -1,0 +1,56 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:quartz_pillar[axis=z]"
+            },
+            {
+                "char": "β",
+                "block": "minecraft:chiseled_quartz_block"
+            },
+            {
+                "char": "γ",
+                "block": "minecraft:quartz_block"
+            },
+            {
+                "char": "δ",
+                "block": "minecraft:quartz_pillar[axis=y]"
+            },
+            {
+                "char": "ε",
+                "block": "minecraft:quartz_pillar[axis=x]"
+            },
+            {
+                "char": "ζ",
+                "block": "minecraft:smooth_stone"
+            }
+        ]
+    },
+    "slices": [
+        [
+            " αβββββββ       ",
+            " αβββββββ       ",
+            " αβββββββ       ",
+            " αβββββββ       ",
+            " αββββββββββββββ",
+            " αββββββββββββββ",
+            " αββββββββββββββ",
+            " αββββββββββββββ",
+            " αββββββββββββββ",
+            " αββββββββββββββ",
+            " αββββββββββββββ",
+            " αββββββββββββββ",
+            " αββββββββββββββ",
+            " δββββββββββββββ",
+            " δδεεεεεεεεεεεεε",
+            "                "
+        ]
+    ]
+}

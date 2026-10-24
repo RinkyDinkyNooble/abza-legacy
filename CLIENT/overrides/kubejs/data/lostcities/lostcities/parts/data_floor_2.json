@@ -1,0 +1,243 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:gray_concrete"
+            },
+            {
+                "char": "β",
+                "block": "create:andesite_ladder[facing=north,waterlogged=false]"
+            },
+            {
+                "char": "γ",
+                "block": "minecraft:black_stained_glass"
+            },
+            {
+                "char": "δ",
+                "block": "refurbished_furniture:birch_crate[open=false]",
+                "loot": "data"
+            },
+            {
+                "char": "ε",
+                "block": "refurbished_furniture:dark_oak_desk[facing=north,left=false,right=false]"
+            },
+            {
+                "char": "ζ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=north,left=true,right=false]"
+            },
+            {
+                "char": "η",
+                "block": "refurbished_furniture:dark_oak_desk[facing=north,left=true,right=true]"
+            },
+            {
+                "char": "θ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=north,left=false,right=true]"
+            },
+            {
+                "char": "ι",
+                "block": "refurbished_furniture:dark_oak_desk[facing=west,left=false,right=true]"
+            },
+            {
+                "char": "κ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=west,left=true,right=true]"
+            },
+            {
+                "char": "λ",
+                "block": "create:framed_glass_door[facing=south,half=lower,hinge=left,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "μ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=west,left=true,right=false]"
+            },
+            {
+                "char": "ν",
+                "block": "refurbished_furniture:dark_oak_desk[facing=east,left=true,right=false]"
+            },
+            {
+                "char": "ξ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=south,left=false,right=true]"
+            },
+            {
+                "char": "ο",
+                "block": "refurbished_furniture:dark_oak_desk[facing=south,left=true,right=true]"
+            },
+            {
+                "char": "π",
+                "block": "refurbished_furniture:dark_oak_desk[facing=south,left=true,right=false]"
+            },
+            {
+                "char": "ρ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=east,left=false,right=true]"
+            },
+            {
+                "char": "σ",
+                "block": "refinedstorage:white_grid[connected=false,direction=south]"
+            },
+            {
+                "char": "τ",
+                "block": "refinedstorage:black_relay[connected=false]"
+            },
+            {
+                "char": "υ",
+                "block": "refinedstorage:white_crafter[connected=false,direction=south]"
+            },
+            {
+                "char": "φ",
+                "block": "refinedstorage:white_security_manager[connected=false,direction=south]"
+            },
+            {
+                "char": "χ",
+                "block": "refinedstorage:white_disk_manipulator[connected=false,direction=south]"
+            },
+            {
+                "char": "ψ",
+                "block": "refinedstorage:black_network_receiver[connected=false]"
+            },
+            {
+                "char": "ω",
+                "block": "refinedstorage:fluid_interface[connected=false]"
+            },
+            {
+                "char": "Α",
+                "block": "create:framed_glass_door[facing=south,half=upper,hinge=left,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "Β",
+                "block": "refinedstorage:black_network_transmitter[connected=false]"
+            },
+            {
+                "char": "Γ",
+                "block": "refinedstorage:black_detector[powered=false]"
+            },
+            {
+                "char": "Δ",
+                "block": "refinedstorage:white_security_manager[connected=false,direction=east]"
+            },
+            {
+                "char": "Ε",
+                "block": "refinedstorage:white_grid[connected=false,direction=north]"
+            },
+            {
+                "char": "Ζ",
+                "block": "minecraft:sea_lantern"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "                ",
+            "    αααααααα    ",
+            "   αααααααααα   ",
+            "  αααααααααααα  ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααβαααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            "  αααααααααααα  ",
+            "   αααααααααα   ",
+            "    αααααααα    ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            "                ",
+            "    αγγγγγγα    ",
+            "   αδ ε ζηηθα   ",
+            "   γι      δγ   ",
+            "   γκ  αλα δγ   ",
+            "   γμ  αβα  γ   ",
+            "   γ   δαδ δγ   ",
+            "   γι       γ   ",
+            "   γμ      νγ   ",
+            "   αδ  ξοπ ρα   ",
+            "    αγγγγγγα    ",
+            "                ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            "                ",
+            "    αγγγγγγα    ",
+            "   α  σ τυφχα   ",
+            "   γψ       γ   ",
+            "   γω  αΑα  γ   ",
+            "   γΒ  αβα  γ   ",
+            "   γ    αδ δγ   ",
+            "   γΓ       γ   ",
+            "   γΔ       γ   ",
+            "   α   Εψ  τα   ",
+            "    αγγγγγγα    ",
+            "                ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            "                ",
+            "    αγγγγγγα    ",
+            "   α        α   ",
+            "   γ        γ   ",
+            "   γ   ααα  γ   ",
+            "   γ   αβα  γ   ",
+            "   γ    α   γ   ",
+            "   γ        γ   ",
+            "   γ        γ   ",
+            "   α        α   ",
+            "    αγγγγγγα    ",
+            "                ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            "                ",
+            "    αγγγγγγα    ",
+            "   α        α   ",
+            "   γ        γ   ",
+            "   γ   ααα  γ   ",
+            "   γ   αβα  γ   ",
+            "   γ    α   γ   ",
+            "   γ        γ   ",
+            "   γ        γ   ",
+            "   α        α   ",
+            "    αγγγγγγα    ",
+            "                ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            "    αααααααα    ",
+            "   αααααααααα   ",
+            "  αααααααααααα  ",
+            " αααααααααααααα ",
+            " αααααααΖαααααα ",
+            " αααααααααααααα ",
+            " αααααααβαααααα ",
+            " ααααααΖαΖααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            "  αααααααααααα  ",
+            "   αααααααααα   ",
+            "    αααααααα    ",
+            "                "
+        ]
+    ]
+}
