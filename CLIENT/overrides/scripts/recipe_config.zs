@@ -76,9 +76,6 @@ craftingTable.addShaped("vein_finder", <item:createoreexcavation:vein_finder>, [
 // Gun Powder
 craftingTable.addShapeless("gunpowder", <item:minecraft:gunpowder> * 16, [<item:minecraft:charcoal>, <item:refurbished_furniture:sea_salt>]);
 
-// Rotten Flesh
-craftingTable.addShapeless("rotten_flesh", <item:minecraft:rotten_flesh> * 8, [<item:infectious:maggot>, <item:infectious:intestine>, <item:infectious:rotten_brain>]);
-
 // Hazmat Suit
 craftingTable.addShaped("hazmat_suit_helmet", <item:infectious:hazmat_suit_helmet>, [
     [<item:create:brass_sheet>, <item:minecraft:yellow_dye>, <item:create:brass_sheet>], 
