@@ -1,12 +1,5 @@
 ItemEvents.modification(event => {
 
-  /*
-  event.modify('minecraft:diamond_sword', item => {
-    item.attackDamage = 10.0
-    item.attackSpeed = -2.0
-  })*/
-
-
     event.modify('infectious:soldier_armor_helmet', item => {
         item.armorProtection = 8
         item.armorToughness = 6
@@ -30,7 +23,6 @@ ItemEvents.modification(event => {
         item.armorToughness = 6
         item.armorKnockbackResistance = 0.8
     })
-
 
     event.modify('infectious:swatarmor_helmet', item => {
         item.armorKnockbackResistance = 0.9

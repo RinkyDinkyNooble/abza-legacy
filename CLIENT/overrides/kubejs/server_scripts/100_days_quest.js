@@ -1,6 +1,6 @@
 const ticksPerDay = 24000;
 const dayToId = {
-    10: "0129695E4277ADFB", 
+    10: "0129695E4277ADFB",
     25: "244A838BF46E59B6",
     50: "24D978E6C95CF3E8",
     100: "5011B1919FD48ECB"

@@ -1,6 +1,5 @@
 let gameTime = 0;
 let timeChecked = false;
-//const diets = ["fruits", "grains", "proteins", "sugars", "vegetables"];
 
 function getCurrentDay() {
     return Math.floor(gameTime / 24000);
@@ -32,10 +31,6 @@ ServerEvents.tick(event => {
         });
     }
 })
-/*
-NetworkEvents.dataReceived("request_day", event => {
-    sentPlayerDay(event.player)
-})*/
 
 PlayerEvents.loggedIn(event => {
     const player = event.player;
