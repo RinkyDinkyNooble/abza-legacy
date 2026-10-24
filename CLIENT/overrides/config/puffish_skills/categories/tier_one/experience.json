@@ -1,0 +1,89 @@
+{
+    "experience_per_level": {
+        "type": "expression",
+        "data": {
+            "expression": "100 + level * 10"
+        }
+    },
+    "sources": [
+        {
+            "type": "puffish_skills:kill_entity",
+            "data": {
+                "variables": {
+                    "max_health": {
+                        "operations": [
+                            {
+                                "type": "get_killed_living_entity"
+                            },
+                            {
+                                "type": "get_max_health"
+                            }
+                        ]
+                    },
+                    "is_t1_mob": {
+                        "operations": [
+                            {
+                                "type": "get_killed_living_entity"
+                            },
+                            {
+                                "type": "get_type"
+                            },
+                            {
+                                "type": "puffish_skills:test",
+                                "data": {
+                                    "entity_type": "#abza:t1_mobs"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "experience": [
+                    {
+                        "condition": "is_t1_mob",
+                        "expression": "max_health"
+                    }
+                ],
+                "anti_farming": {
+                    "limit_per_chunk": 100000,
+                    "reset_after_seconds": 1
+                }
+            }
+        },
+        {
+            "type": "puffish_skills:deal_damage",
+            "data": {
+                "variables": {
+                    "damage": {
+                        "operations": [
+                            {
+                                "type": "get_dealt_damage"
+                            }
+                        ]
+                    },
+                    "is_t1_mob": {
+                        "operations": [
+                            {
+                                "type": "get_damaged_living_entity"
+                            },
+                            {
+                                "type": "get_type"
+                            },
+                            {
+                                "type": "puffish_skills:test",
+                                "data": {
+                                    "entity_type": "#abza:t1_mobs"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "experience": [
+                    {
+                        "condition": "is_t1_mob",
+                        "expression": "damage"
+                    }
+                ]
+            }
+        }
+    ]
+}

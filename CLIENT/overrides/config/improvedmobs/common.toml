@@ -14,7 +14,7 @@
 	#So the difficulty increases by 0.01 every 2400 ticks (->0.1 per mc day since a mc day has 24000 ticks) till it reaches a difficulty of 10.
 	#Then it increases by 1 per mc day till it reaches 30 and then stops.
 	#If you want to use negative values use | instead of - as the delimiter.
-	"Difficulty Increase" = ["0.0-0.1", "25.0-0.5", "100.0-2.5", "1000.0-10.0"]
+	"Difficulty Increase" = ["0.0-0.05", "25.0-0.2", "100.0-1.0"]
 	#Wether difficulty should only increase with at least one online players or not
 	"Ignore Players" = false
 	#If true will increase difficulty by the amount of time skipped. Else will only increase difficulty once.
@@ -258,7 +258,7 @@
 	"Health Increase Multiplier" = 1.0
 	#Health will be multiplied by at maximum this. Set to 0 means no limit
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Max Health Increase" = 5.0
+	"Max Health Increase" = 20.0
 	#Round health to the nearest x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Round HP" = 0.5
@@ -267,10 +267,10 @@
 	"Damage Increase Multiplier" = 1.0
 	#Damage will be multiplied by at maximum this. Set to 0 means no limit
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Max Damage Increase" = 3.0
+	"Max Damage Increase" = 4.0
 	#Speed will be increased by difficulty*0.0008*x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Speed Increase" = 1.0
+	"Speed Increase" = 2.0
 	#Maximum increase in speed
 	#Range: 0.0 ~ 1.0
 	"Max Speed" = 0.5
