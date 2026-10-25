@@ -12,7 +12,7 @@
     "manifestType": "minecraftModpack",
     "manifestVersion": 1,
     "name": "Apocalypse Begins [LEGACY]",
-    "version": "2.2.2",
+    "version": "2.2.3",
     "author": "RinkyNooble",
     "overrides": "overrides",
     "files": [
@@ -967,12 +967,6 @@
         {
             "projectID": 232131,
             "fileID": 6972483,
-            "required": true,
-            "isLocked": true
-        },
-        {
-            "projectID": 454372,
-            "fileID": 7521769,
             "required": true,
             "isLocked": true
         },
