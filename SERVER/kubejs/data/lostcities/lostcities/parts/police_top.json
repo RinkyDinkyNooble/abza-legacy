@@ -1,0 +1,126 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:quartz_block"
+            },
+            {
+                "char": "β",
+                "block": "infectious:barbed_wire[facing=north,waterlogged=false]"
+            },
+            {
+                "char": "γ",
+                "block": "infectious:barbed_wire[facing=south,waterlogged=false]"
+            },
+            {
+                "char": "δ",
+                "block": "infectious:barbed_wire[facing=west,waterlogged=false]"
+            },
+            {
+                "char": "ε",
+                "block": "minecraft:gray_concrete"
+            },
+            {
+                "char": "ζ",
+                "block": "minecraft:deepslate_tiles"
+            },
+            {
+                "char": "η",
+                "block": "create:framed_glass_door[facing=east,half=lower,hinge=right,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "θ",
+                "block": "refurbished_furniture:birch_crate[open=false]",
+                "loot": "police_good"
+            },
+            {
+                "char": "ι",
+                "block": "refurbished_furniture:dark_oak_crate[open=false]",
+                "loot": "police_great"
+            },
+            {
+                "char": "κ",
+                "block": "create:framed_glass_door[facing=east,half=upper,hinge=right,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "λ",
+                "block": "minecraft:rail[shape=south_east,waterlogged=false]"
+            },
+            {
+                "char": "μ",
+                "block": "minecraft:rail[shape=south_west,waterlogged=false]"
+            },
+            {
+                "char": "ν",
+                "block": "minecraft:rail[shape=north_east,waterlogged=false]"
+            },
+            {
+                "char": "ξ",
+                "block": "minecraft:rail[shape=north_west,waterlogged=false]"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "αβββββββββββββγα",
+            "δ              δ",
+            "αεζζζζζ        δ",
+            "  ζ   ζ        δ",
+            "  ζ   η        δ",
+            "ζζζζζζζζζζζζζζζζ",
+            "ζζζζζζζζζζζζζζζζ",
+            "  θιθ           ",
+            "   θ   ζζ       ",
+            "       ζζ       ",
+            "                ",
+            "   ζζ      ζζ   ",
+            "   ζζ      ζζ   ",
+            "                ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            " εζζζζζ         ",
+            "  ζ   ζ         ",
+            "  ζ   κ         ",
+            "  ζζζζζ         ",
+            "                ",
+            "   θ            ",
+            "       λμ       ",
+            "       νξ       ",
+            "                ",
+            "   λμ      λμ   ",
+            "   νξ      νξ   ",
+            "                ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            " εεεεεεε        ",
+            " εεεεεεε        ",
+            " εεεεεεε        ",
+            " εεεεεεε        ",
+            " εεεεεεε        ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                "
+        ]
+    ]
+}

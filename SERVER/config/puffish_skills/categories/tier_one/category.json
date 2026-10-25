@@ -1,0 +1,14 @@
+{
+    "title": "Tier 1",
+    "description": "Contains all the attributes available to upgrade in Tier 1",
+    "unlocked_by_default": true,
+    "starting_points": 0,
+    "exclusive_root": true,
+    "icon": {
+        "type": "item",
+        "data": {
+            "item": "iron_sword"
+        }
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+}

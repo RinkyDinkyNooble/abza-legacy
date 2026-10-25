@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "factor": 3,
+      "value": "minecraft:chests/village/village_cartographer"
+    },
+    {
+      "factor": 1,
+      "value": "minecraft:chests/village/village_fisher"
+    },
+    {
+      "factor": 2,
+      "value": "minecraft:chests/village/village_desert_house"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
+            },
+            {
+                "char": "β",
+                "block": "minecraft:quartz_block"
+            },
+            {
+                "char": "γ",
+                "block": "minecraft:gray_concrete"
+            },
+            {
+                "char": "δ",
+                "block": "minecraft:polished_andesite"
+            },
+            {
+                "char": "ε",
+                "block": "minecraft:polished_andesite_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ζ",
+                "block": "minecraft:quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "η",
+                "block": "minecraft:quartz_stairs[facing=north,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "θ",
+                "block": "minecraft:red_concrete"
+            },
+            {
+                "char": "ι",
+                "block": "minecraft:command_block[conditional=false,facing=east]",
+                "tag": {
+                    "Command": "/spawn superbwarfare:ah_6 {Energy:100000}",
+                    "auto": 1,
+                    "conditionMet": 1
+                }
+            }
+        ]
+    },
+    "slices": [
+        [
+            "αααααααααααααααα",
+            "αβγδδγβββγδδγβαα",
+            "βββββββββββββββα",
+            "ββββββββββββββδα",
+            "ββββββββββββββεα",
+            "ββββββββββββββγα",
+            "ββββββββββββββζα",
+            "ββββββββββββββγα",
+            "ββββββββββββββεα",
+            "ββββββββββββββδα",
+            "βββββββββββββββα",
+            "αβγδδγβγδδγβηβαα",
+            "αααααααααααααααα",
+            "                ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            "  ββββββββββββ  ",
+            "  βββββββββββββ ",
+            "  ββββθβββθββββ ",
+            "  ββββθβββθββββ ",
+            "  ββββθβββθββββ ",
+            "  ββββθθθθθββββ ",
+            "  ββββθβββθββββ ",
+            "  ββββθβββθββββ ",
+            "  ββββθβββθββββ ",
+            "  βββββββββββββ ",
+            "  ββββββββββββ  ",
+            "                ",
+            "                ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "        ι       ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                "
+        ]
+    ]
+}

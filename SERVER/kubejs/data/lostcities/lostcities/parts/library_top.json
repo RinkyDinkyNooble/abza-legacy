@@ -1,0 +1,66 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:gray_concrete"
+            },
+            {
+                "char": "β",
+                "block": "minecraft:deepslate_tile_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+            },
+            {
+                "char": "γ",
+                "block": "minecraft:black_stained_glass"
+            },
+            {
+                "char": "δ",
+                "block": "minecraft:quartz_block"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "  β          β  ",
+            "   αααααααααα   ",
+            "   αγγγγγγγγα   ",
+            "   αγγγγγγγγα   ",
+            "   αγγγγγγγγα   ",
+            "   αααααααααα   ",
+            "  β          β  ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "  δδδδδδδδδδδδ  ",
+            "  δδδδδδδδδδδδ  ",
+            "  δδ        δδ  ",
+            "  δδ        δδ  ",
+            "  δδ        δδ  ",
+            "  δδδδδδδδδδδδ  ",
+            "  δδδδδδδδδδδδ  ",
+            "                ",
+            "                "
+        ]
+    ]
+}

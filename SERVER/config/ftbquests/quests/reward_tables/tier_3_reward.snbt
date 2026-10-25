@@ -1,0 +1,14 @@
+{
+	id: "22A7056F1AFFAD6A"
+	loot_size: 1
+	order_index: 2
+	rewards: [{
+		count: 500
+		item: {
+			Count: 1
+			RCount: 1L
+			id: "create:experience_nugget"
+		}
+	}]
+	title: "Tier 3 Reward"
+}

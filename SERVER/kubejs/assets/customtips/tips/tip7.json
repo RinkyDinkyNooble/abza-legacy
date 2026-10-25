@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Survival",
+    "color": "yellow",
+    "bold": true
+  },
+  "tip": {
+    "text": "In hardcore, you can have extra lives using cloning technology."
+  }
+}

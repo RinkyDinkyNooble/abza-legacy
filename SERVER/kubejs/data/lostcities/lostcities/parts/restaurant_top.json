@@ -1,0 +1,100 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:mangrove_planks"
+            },
+            {
+                "char": "β",
+                "block": "minecraft:deepslate_tiles"
+            },
+            {
+                "char": "γ",
+                "block": "minecraft:black_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+            },
+            {
+                "char": "δ",
+                "block": "minecraft:brick_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ε",
+                "block": "minecraft:bricks"
+            },
+            {
+                "char": "ζ",
+                "block": "minecraft:gray_concrete"
+            },
+            {
+                "char": "η",
+                "block": "minecraft:mangrove_slab[type=double,waterlogged=false]"
+            },
+            {
+                "char": "θ",
+                "block": "minecraft:mangrove_slab[type=top,waterlogged=false]"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "                ",
+            "    α        α  ",
+            "   βαγγγγγγγγββ ",
+            "   βα        δ  ",
+            "   βα        δ  ",
+            "   βα        δ  ",
+            "   βα        εβ ",
+            "    α       ζ   ",
+            "    α       ζ   ",
+            "    α      ζ    ",
+            "    α      ζ    ",
+            "    α     ζ     ",
+            "    α     ζ     ",
+            "    αζζζζζ      ",
+            "    ηθ          ",
+            "                "
+        ],
+        [
+            "                ",
+            "     ααααααααα  ",
+            "    βαααααααααβ ",
+            "    βαααααααααβ ",
+            "    βαααααααααβ ",
+            "    βαααααααααβ ",
+            "    βαααααααααβ ",
+            "     αααααααααα ",
+            "     ααααααααα  ",
+            "     ααααααααα  ",
+            "     αααααααα   ",
+            "     αααααααα   ",
+            "     ααααααα    ",
+            "     ααααααα    ",
+            "     αααααα     ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            "     ββββββββββ ",
+            "     ββββββββββ ",
+            "     ββββββββββ ",
+            "     ββββββββββ ",
+            "     ββββββββββ ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                "
+        ]
+    ]
+}

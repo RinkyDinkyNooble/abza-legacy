@@ -1,0 +1,386 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	disable_toast: true
+	filename: "survival"
+	group: ""
+	icon: {
+		Count: 1
+		RCount: 1L
+		id: "artifacts:crystal_heart"
+	}
+	id: "7AD4EFDDD6E52DD7"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3582892076B0AD1A"]
+			description: [
+				"Use bandages, plasters and medkits heal. You can use string to craft them or find them in the hospital."
+				""
+				"&lBandage&r"
+				"{image:firstaid:item/bandage width:25 height:25 align:center}"
+				"&lPlaster&r"
+				"{image:firstaid:item/plaster width:25 height:25 align:center}"
+				"&lMedical Kit&r"
+				"{image:superbwarfare:item/medical_kit width:25 height:25 align:center}"
+				""
+				"{@pagebreak}"
+				"Some medical supplies can only be obtained by mob drops."
+				""
+				"&lMedikit&r"
+				"{image:infectious:item/medikit width:25 height:25 align:center}"
+				""
+				"&lBandage&r"
+				"{image:infectious:item/bandage width:25 height:25 align:center}"
+				""
+				"{@pagebreak}"
+				"You can use morphine to suppress negative status effects that come from losing too much health on particular limbs."
+				""
+				"&lMorphine&r"
+				"{image:firstaid:item/morphine width:25 height:25 align:center}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				RCount: 1L
+				id: "firstaid:bandage"
+			}
+			id: "62E4BF9602B01245"
+			optional: true
+			subtitle: "Medical Supplies"
+			tasks: [{
+				disable_toast: true
+				id: "0770F9F3D4C5AA5F"
+				optional_task: true
+				title: "Health"
+				type: "checkmark"
+			}]
+			title: "Health Guide"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3582892076B0AD1A"]
+			description: [
+				"You must have full hyderation and no hunger in order to heal naturally. You can drink water, but drinking non-purified water may"
+				"give you thirst status effect."
+				""
+				"&l&4Thirst&r&r"
+				"{image:toughasnails:textures/mob_effect/thirst.png width:25 height:25 align:center}"
+				""
+				"{@pagebreak}"
+				"You can find purified water in the city, as well as craft it using a"
+				"water purifier."
+				""
+				"&lWater Purifier&r"
+				"{image:toughasnails:block/water_purifier_front width:25 height:25 align:center}"
+				""
+				"It requires burning &lCharcoal&r"
+				"{image:minecraft:item/charcoal width:25 height:25 align:center}"
+				""
+				"{@pagebreak}"
+				"You can use canteens to store lots of water and purify together."
+				""
+				"&lLeather Canteen&r"
+				"{image:toughasnails:item/empty_leather_canteen width:25 height:25 align:center}"
+				""
+				"You can upgrade all the way to &lNetherite Canteen&r"
+				"{image:toughasnails:item/netherite_purified_water_canteen width:25 height:25 align:center}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				RCount: 1L
+				id: "toughasnails:purified_water_bottle"
+			}
+			id: "4A6B1CC6B58FA9B7"
+			optional: true
+			subtitle: "Water Supplies"
+			tasks: [{
+				disable_toast: true
+				id: "08815522963A9ED3"
+				optional_task: true
+				title: "Hyderation"
+				type: "checkmark"
+			}]
+			title: "Hyderation Guide"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3582892076B0AD1A"]
+			description: [
+				"You are affected by the temperature of your surrounding biome and objects. You may freeze to death if you get too cold and burn to death if you get too hot."
+				""
+				"Use a thermoregulator to balance out the surrounding temperature, this will allow you to stay at room temperature without needing the necessary armor. "
+				""
+				"&lThermoregulator&r"
+				"{image:toughasnails:block/thermoregulator_front_active width:25 height:25 align:center}"
+				""
+				"It needs ice, packed ice, or blue ice as fuel for cooling."
+				"{image:minecraft:block/blue_ice width:25 height:25 align:center}"
+				""
+				"It needs coal, coal blocks, or a lava bucket for heating."
+				"{image:minecraft:item/coal width:25 height:25 align:center}"
+				""
+				"{@pagebreak}"
+				"Armor set to survive the &l&4heat&r&r. Made of leaves"
+				"{image:toughasnails:item/leaf_helmet width:25 height:25 align:center}"
+				"{image:toughasnails:item/leaf_chestplate width:25 height:25 align:center}"
+				"{image:toughasnails:item/leaf_leggings width:25 height:25 align:center}"
+				"{image:toughasnails:item/leaf_boots width:25 height:25 align:center}"
+				""
+				"{@pagebreak}"
+				"Armor set to survive the &l&1cold&r&r. Made of wool"
+				"{image:toughasnails:item/wool_helmet width:25 height:25 align:center}"
+				"{image:toughasnails:item/wool_chestplate width:25 height:25 align:center}"
+				"{image:toughasnails:item/wool_leggings width:25 height:25 align:center}"
+				"{image:toughasnails:item/wool_boots width:25 height:25 align:center}"
+				""
+				"{@pagebreak}"
+				"You can build an insulation charm that protects you from all extreme temperature damage without needing any armor or a thermoregulator."
+				""
+				"&e&lUniversal&r&r Thermal Body Insulation"
+				"{image:tan__a_curios_expansion:item/universalthermalinsulation width:25 height:25 align:center}"
+				""
+				"{@pagebreak}"
+				"You can use the calender to monitor the season. The season effects the temperature world wide, as well as impacting farming."
+				""
+				"&l&5Calender&r&r"
+				"{image:sereneseasons:item/calendar_00 width:25 height:25 align:center}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				RCount: 1L
+				id: "toughasnails:thermometer"
+			}
+			id: "6442294729304597"
+			optional: true
+			subtitle: "Surviving The Elements"
+			tasks: [{
+				disable_toast: true
+				id: "0422EAAE14753BBB"
+				optional_task: true
+				title: "Temperature"
+				type: "checkmark"
+			}]
+			title: "Temperature Guide"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3582892076B0AD1A"]
+			description: [
+				"By default, you can see your skill tree by pressing &e&lI&r&r on the keyboard. "
+				""
+				"You can earn skill &l&dpoints&r&r by gaining &l&aexperience&r&r. Experience is gained by kill entities and is directly proportional to the max health of the enemies you kill. This experience is &l&4not&r&r to be confused with the xp you use to enchant."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				RCount: 1L
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "43D69D8AE08111C4"
+			optional: true
+			subtitle: "Upgrade Your Attributes"
+			tasks: [{
+				disable_toast: true
+				id: "759F87C54810D950"
+				optional_task: true
+				title: "Skill Tree"
+				type: "checkmark"
+			}]
+			title: "Skill Tree"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"You can find the quest book at the &l&9top left&r&r corner of the screen when you enter your &l&7inventory&r&r."
+				"{image:ftbquests:item/book width:25 height:25 align:center}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				RCount: 1L
+				id: "ftbquests:book"
+			}
+			id: "3582892076B0AD1A"
+			optional: true
+			shape: "circle"
+			size: 2.0d
+			subtitle: "Remove Quest Book"
+			tasks: [{
+				consume_items: true
+				id: "0BA250BA2CEDD8F1"
+				item: {
+					Count: 1
+					RCount: 1L
+					id: "ftbquests:book"
+				}
+				optional_task: true
+				type: "item"
+			}]
+			title: "Quest Book"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3582892076B0AD1A"]
+			description: [
+				"Use a backpack to carry more items during your journies. It is recommended to craft multiple and craft upgrades for your backpack that serve all kinds of purposes."
+				""
+				"Backpack Upgrades: &6&lCrafting Grid&r&r Upgrade. Allows you to craft on the go without placing crafting table. This is vital for intense situations."
+				"{image:sophisticatedbackpacks:item/crafting_upgrade width:25 height:25 align:center}"
+				""
+				"{@pagebreak}"
+				"Once you get &l&delectricity&r&r, it is recommended that you use refined storage to manage all the items at your base. This is because you will likely encounter more materials than you could ever carry, and it would be a pain to manually organize them all."
+				""
+				"{image:refinedstorage:item/1024k_fluid_storage_disk width:25 height:25 align:center}"
+				""
+				"An external &7&ltutorial&r&r on Refined Storage is recommended, if your not already familiar."
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				RCount: 1L
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "42874055AC454332"
+			optional: true
+			subtitle: "Manage The Countless Items"
+			tasks: [{
+				disable_toast: true
+				id: "7871004CB9904709"
+				optional_task: true
+				title: "Storage"
+				type: "checkmark"
+			}]
+			title: "Storage"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3582892076B0AD1A"]
+			description: [
+				"You can use &6&lrotational power&r&r for machines that can drill"
+				"ores for you automatically. "
+				""
+				"The &l&edrilling machine&r&r will require a drill, rotational power, and must be placed in a chunk with a vein."
+				""
+				"Drill"
+				"{image:createoreexcavation:item/diamond_drill width:25 height:25 align:center}"
+				""
+				"&l&5Ore Vein Finder&r&r can be used to find chunks with ore veins."
+				""
+				"{image:createoreexcavation:item/vein_finder width:25 height:25 align:center}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				RCount: 1L
+				id: "createoreexcavation:drill"
+			}
+			id: "3560D4923BD08FDD"
+			optional: true
+			subtitle: "Automated Ore Mining"
+			tasks: [{
+				disable_toast: true
+				id: "7886E9EEF01FF3FC"
+				optional_task: true
+				title: "Excavation"
+				type: "checkmark"
+			}]
+			title: "Ore Excavation"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3582892076B0AD1A"]
+			description: [
+				"When holding a gun, you can equip attachments for &l&afree&r&r by pressing &l&eJ&r&r (default) to open the attachments menu. This only works if the gun supports attachments."
+				""
+				"In order to apply perks to your gun, you will need a &5&lgun reforge table&r&r."
+				""
+				"{@pagebreak}"
+				"Once you get &d&lelectricity&r&r, you can craft a &l&3charging station&r&r and use it "
+				"to charge any vehicles or defencive artillery you might have."
+				""
+				"{image:mcsp:item/humvee_iraq width:25 height:25 align:center}"
+				""
+				"{@pagebreak}"
+				"If you intend to craft a vehicle from scratch, you will need a &3&lvehicle assembly table&r&r and a crowbar to open crates containing your vehicles. "
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				RCount: 1L
+				id: "superbwarfare:m_1911"
+				tag: {
+					Attachments: { }
+					GunData: { }
+					Perks: {
+						Ammo: { }
+						Damage: { }
+						Functional: { }
+					}
+				}
+			}
+			id: "5CE09077F74B4D02"
+			optional: true
+			subtitle: "Ranged Warfare"
+			tasks: [{
+				disable_toast: true
+				id: "5BE563C375A421B6"
+				optional_task: true
+				title: "Combat"
+				type: "checkmark"
+			}]
+			title: "Combat"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3582892076B0AD1A"]
+			description: [
+				"A vaccine perminently gives you immunity to infection and regeneration."
+				""
+				"Crafting this will require &l&6Create&r&r mod technology and exploration of the"
+				"&7&lLaboratory&r&r."
+				""
+				"You will need many hard-to-obtain items"
+				"{image:minecraft:item/ghast_tear width:25 height:25 align:center}"
+				"{image:cure:textures/foxweedflower.png width:25 height:25 align:center}"
+				"{image:cure:item/syringe width:25 height:25 align:center}"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				RCount: 1L
+				id: "cure:vaccine"
+			}
+			id: "29CFB1FD37CB85C1"
+			optional: true
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Craft A Vaccine"
+			tasks: [{
+				disable_toast: true
+				id: "42573F8B1C453E39"
+				optional_task: true
+				title: "Goal"
+				type: "checkmark"
+			}]
+			title: "Vaccine"
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+	title: "Survival Guide"
+}

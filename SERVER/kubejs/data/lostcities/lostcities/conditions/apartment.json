@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "factor": 10,
+      "value": "minecraft:chests/igloo_chest"
+    },
+    {
+      "factor": 20,
+      "value": "minecraft:chests/buried_treasure"
+    },
+    {
+      "factor": 1,
+      "value": "minecraft:chests/village/village_armorer"
+    }
+  ]
+}

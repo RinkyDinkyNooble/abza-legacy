@@ -1,0 +1,90 @@
+{
+    "meta": [
+        {
+            "key": "support",
+            "char": "v"
+        }
+    ],
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:smooth_stone"
+            },
+            {
+                "char": "β",
+                "block": "minecraft:gray_concrete"
+            },
+            {
+                "char": "γ",
+                "block": "minecraft:white_concrete"
+            },
+            {
+                "char": "δ",
+                "block": "minecraft:stone_bricks"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "vvvvvvvvvvvvvvvv",
+            "vvvvvvvvvvvvvvvv",
+            "vvvvvvvvvvvvvvvv",
+            "vvvvvvvvvvvvvvvv",
+            "vvvvvvvvvvvvvvvv",
+            "vvvvvvvvvvvvvvvv",
+            "vvvvvvvvvvvvvvvv",
+            "vvvvvvvvvvvvvvvv",
+            "vvvvvvvvvvvvvvvv",
+            "vvvvvvvvvvvvvvvv",
+            "vvvvvvvvvvvvvvvv",
+            "vvvvvvvvvvvvvvvv",
+            "vvvvvvvvvvvvvvvv",
+            "vvvvvvvvvvvvvvvv",
+            "vvvvvvvvvvvvvvvv",
+            "vvvvvvvvvvvvvvvv"
+        ],
+        [
+            "ααβββββααβββββαα",
+            "ααββγββααββγββαα",
+            "ββββββββββββββββ",
+            "ββββββββββββββββ",
+            "βγβββββγγβββββγβ",
+            "ββββββββββββββββ",
+            "ββββββββββββββββ",
+            "ααββγββααββγββαα",
+            "ααββγββααββγββαα",
+            "ββββββββββββββββ",
+            "ββββββββββββββββ",
+            "βγβββββγγβββββγβ",
+            "ββββββββββββββββ",
+            "ββββββββββββββββ",
+            "ααββγββααββγββαα",
+            "ααβββββααβββββαα"
+        ],
+        [
+            "δ              δ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "δ              δ"
+        ]
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "factor": 1,
+      "value": "minecraft:chests/village/village_desert_house"
+    },
+    {
+      "factor": 3,
+      "value": "minecraft:chests/stronghold_crossing"
+    },
+    {
+      "factor": 4,
+      "value": "minecraft:chests/stronghold_corridor"
+    },
+    {
+      "factor": 5,
+      "value": "minecraft:chests/pillager_outpost"
+    },
+    {
+      "factor": 1,
+      "value": "minecraft:chests/jungle_temple_dispenser"
+    },
+    {
+      "factor": 1,
+      "value": "minecraft:chests/simple_dungeon"
+    },
+    {
+      "factor": 1,
+      "value": "minecraft:chests/spawn_bonus_chest"
+    }
+  ]
+}

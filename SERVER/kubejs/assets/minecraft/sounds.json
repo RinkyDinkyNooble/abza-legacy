@@ -1,0 +1,37 @@
+{
+  "music.game": {
+    "replace": true,
+    "sounds": [
+      { "name": "music/game/overworld/theme", "stream": true },
+      { "name": "music/game/overworld/stalemate", "stream": true }
+    ]
+  },
+  "music.overworld.day": {
+    "replace": true,
+    "sounds": [
+      { "name": "music/game/overworld/theme", "stream": true },
+      { "name": "music/game/overworld/stalemate", "stream": true }
+    ]
+  },
+  "music.overworld.night": {
+    "replace": true,
+    "sounds": [
+      { "name": "music/game/overworld/theme", "stream": true },
+      { "name": "music/game/overworld/stalemate", "stream": true }
+    ]
+  },
+  "music.creative": {
+    "replace": true,
+    "sounds": [
+      { "name": "music/game/overworld/theme", "stream": true },
+      { "name": "music/game/overworld/stalemate", "stream": true }
+    ]
+  },
+  "music.menu": {
+    "replace": true,
+    "sounds": [
+      { "name": "music/game/overworld/theme", "stream": true },
+      { "name": "music/game/overworld/stalemate", "stream": true }
+    ]
+  }
+}

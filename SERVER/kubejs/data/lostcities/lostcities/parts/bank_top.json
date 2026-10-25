@@ -1,0 +1,152 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:sea_lantern"
+            },
+            {
+                "char": "β",
+                "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
+            },
+            {
+                "char": "γ",
+                "block": "minecraft:quartz_block"
+            },
+            {
+                "char": "δ",
+                "block": "minecraft:smooth_quartz_stairs[facing=north,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ε",
+                "block": "minecraft:smooth_quartz_slab[type=bottom,waterlogged=false]"
+            },
+            {
+                "char": "ζ",
+                "block": "minecraft:smooth_quartz_slab[type=top,waterlogged=false]"
+            },
+            {
+                "char": "η",
+                "block": "minecraft:smooth_quartz_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "θ",
+                "block": "minecraft:smooth_quartz_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ι",
+                "block": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
+            },
+            {
+                "char": "κ",
+                "block": "refurbished_furniture:white_kitchen_storage_cabinet[facing=north,hinge=left,open=false]",
+                "loot": "statue"
+            },
+            {
+                "char": "λ",
+                "block": "refurbished_furniture:white_kitchen_storage_cabinet[facing=north,hinge=right,open=false]",
+                "loot": "statue"
+            },
+            {
+                "char": "μ",
+                "block": "refurbished_furniture:white_kitchen_storage_cabinet[facing=east,hinge=right,open=false]",
+                "loot": "statue"
+            },
+            {
+                "char": "ν",
+                "block": "refurbished_furniture:white_kitchen_storage_cabinet[facing=east,hinge=left,open=false]",
+                "loot": "statue"
+            },
+            {
+                "char": "ξ",
+                "block": "refurbished_furniture:white_kitchen_storage_cabinet[facing=south,hinge=right,open=false]",
+                "loot": "statue"
+            },
+            {
+                "char": "ο",
+                "block": "refurbished_furniture:white_kitchen_storage_cabinet[facing=south,hinge=left,open=false]",
+                "loot": "statue"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "                ",
+            "   βγγγγγγγγγγγβ",
+            "    γ δ δ δ δ γβ",
+            "    γ         γβ",
+            "    γ         γβ",
+            "   εγ         γβ",
+            "   ζγ        ηγβ",
+            "    γ         γβ",
+            "    γ         γβ",
+            "   ζγ        ηγβ",
+            "   εγ         γβ",
+            "    γ         γβ",
+            "    γ         γβ",
+            "    γ θ θ θ θ γβ",
+            "   βγγγγγγγγγγγβ",
+            "                "
+        ],
+        [
+            "   ζζζζζζζζζζζζζ",
+            "   ζγγγγγγγγγγγζ",
+            "   ιγκαλακαλαλγι",
+            "   βγ         γβ",
+            "    γ        μγ ",
+            "    γ        νγ ",
+            "    γ        αγ ",
+            "   εγ        νγ ",
+            "   εγ        νγ ",
+            "    γ        αγ ",
+            "    γ        νγ ",
+            "    γ        νγ ",
+            "   βγ         γβ",
+            "   ιγξαοαοαξαογι",
+            "   ζγγγγγγγγγγγζ",
+            "   ζζζζζζζζζζζζζ"
+        ],
+        [
+            "   ζζζζζζζζζζζζζ",
+            "   ζγγγγγγγγγγγζ",
+            "   ζγγγγγγγγγγγζ",
+            "   ζγγγγγγγγγγγζ",
+            "   γγγγγγγγγγγγγ",
+            "   βγγγγγγγγγγγβ",
+            "    γγγγγγγγγγγ ",
+            "    γγγγγγγγγγγ ",
+            "    γγγγγγγγγγγ ",
+            "    γγγγγγγγγγγ ",
+            "   βγγγγγγγγγγγβ",
+            "   γγγγγγγγγγγγγ",
+            "   ζγγγγγγγγγγγζ",
+            "   ζγγγγγγγγγγγζ",
+            "   ζγγγγγγγγγγγζ",
+            "   ζζζζζζζζζζζζζ"
+        ],
+        [
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "   ιιιιιιιιιιιιι",
+            "   βγβββββββββγβ",
+            "   βγβββββββββγβ",
+            "   ιιιιιιιιιιιιι",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                "
+        ]
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "factor": 1,
+      "value": "minecraft:chests/village/village_mason"
+    },
+    {
+      "factor": 1,
+      "value": "minecraft:chests/village/village_fletcher"
+    }
+  ]
+}

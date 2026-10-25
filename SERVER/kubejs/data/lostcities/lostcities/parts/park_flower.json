@@ -1,0 +1,186 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:stone_bricks"
+            },
+            {
+                "char": "β",
+                "block": "minecraft:stone_brick_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "γ",
+                "block": "minecraft:stone_brick_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "δ",
+                "block": "minecraft:grass_block[snowy=false]"
+            },
+            {
+                "char": "ε",
+                "block": "minecraft:water[level=0]"
+            },
+            {
+                "char": "ζ",
+                "block": "minecraft:stone_brick_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "η",
+                "block": "minecraft:stone_brick_slab[type=bottom,waterlogged=false]"
+            },
+            {
+                "char": "θ",
+                "block": "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ι",
+                "block": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "κ",
+                "block": "minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "λ",
+                "block": "minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "μ",
+                "block": "minecraft:stone_brick_stairs[facing=north,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ν",
+                "block": "minecraft:deepslate_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+            },
+            {
+                "char": "ξ",
+                "block": "minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]"
+            },
+            {
+                "char": "ο",
+                "block": "minecraft:potted_cactus"
+            },
+            {
+                "char": "π",
+                "block": "minecraft:stone_brick_slab[type=top,waterlogged=false]"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "αβββββα  αβββββα",
+            "γδδδδδα  αεεεεεζ",
+            "γδδδδα    αεεεεζ",
+            "γδδδα      αεεεζ",
+            "γδδα        αεεζ",
+            "γδα   ηθθη   αεζ",
+            "αα   ηαδδαη   αα",
+            "     ιδδδδκ     ",
+            "     ιδδδδκ     ",
+            "αα   ηαδδαη   αα",
+            "γεα   ηλλη   αδζ",
+            "γεεα        αδδζ",
+            "γεεεα      αδδδζ",
+            "γεεεεα    αδδδδζ",
+            "γεεεεεα  αδδδδδζ",
+            "αμμμμμα  αμμμμμα"
+        ],
+        [
+            "ν     ν  ν     ν",
+            " ξξξξξ          ",
+            " ξξξξ           ",
+            " ξξξ            ",
+            " ξξ             ",
+            " ξ              ",
+            "ν     νξξν     ν",
+            "      ξξξξ      ",
+            "      ξξξξ      ",
+            "ν     νξξν     ν",
+            "              ξ ",
+            "             ξξ ",
+            "            ξξξ ",
+            "           ξξξξ ",
+            "          ξξξξξ ",
+            "ν     ν  ν     ν"
+        ],
+        [
+            "ν     ν  ν     ν",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "ν     ν  ν     ν",
+            "                ",
+            "                ",
+            "ν     ν  ν     ν",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "ν     ν  ν     ν"
+        ],
+        [
+            "ν     ν  ν     ν",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "ν     ν  ν     ν",
+            "                ",
+            "                ",
+            "ν     ν  ν     ν",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "ν     ν  ν     ν"
+        ],
+        [
+            "απππππα  απππππα",
+            "ππππππ    ππππππ",
+            "πππππ      πππππ",
+            "ππππ        ππππ",
+            "πππ          πππ",
+            "ππ            ππ",
+            "α     ν  ν     α",
+            "                ",
+            "                ",
+            "α     ν  ν     α",
+            "ππ            ππ",
+            "πππ          πππ",
+            "ππππ        ππππ",
+            "πππππ      πππππ",
+            "ππππππ    ππππππ",
+            "απππππα  απππππα"
+        ],
+        [
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "      αββα      ",
+            "      γππζ      ",
+            "      γππζ      ",
+            "      αμμα      ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                "
+        ]
+    ]
+}

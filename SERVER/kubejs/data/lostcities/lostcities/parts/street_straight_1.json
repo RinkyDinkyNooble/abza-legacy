@@ -1,0 +1,194 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:smooth_stone"
+            },
+            {
+                "char": "β",
+                "block": "minecraft:gray_concrete"
+            },
+            {
+                "char": "γ",
+                "block": "minecraft:white_concrete"
+            },
+            {
+                "char": "δ",
+                "block": "minecraft:stone_bricks"
+            },
+            {
+                "char": "ε",
+                "block": "minecraft:stone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+            },
+            {
+                "char": "ζ",
+                "block": "minecraft:sea_lantern"
+            },
+            {
+                "char": "η",
+                "block": "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "θ",
+                "block": "minecraft:stone_brick_slab[type=top,waterlogged=false]"
+            },
+            {
+                "char": "ι",
+                "block": "minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "αααααααααααααααα",
+            "αααααααααααααααα",
+            "ββββββββββββββββ",
+            "ββββββββββββββββ",
+            "βγγββγγββγγββγγβ",
+            "ββββββββββββββββ",
+            "ββββββββββββββββ",
+            "γγγγγγγγγγγγγγγγ",
+            "γγγγγγγγγγγγγγγγ",
+            "ββββββββββββββββ",
+            "ββββββββββββββββ",
+            "βγγββγγββγγββγγβ",
+            "ββββββββββββββββ",
+            "ββββββββββββββββ",
+            "αααααααααααααααα",
+            "αααααααααααααααα"
+        ],
+        [
+            "                ",
+            "       δ        ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "        δ       ",
+            "                "
+        ],
+        [
+            "                ",
+            "       ε        ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "        ε       ",
+            "                "
+        ],
+        [
+            "                ",
+            "       ε        ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "        ε       ",
+            "                "
+        ],
+        [
+            "                ",
+            "       ε        ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "        ε       ",
+            "                "
+        ],
+        [
+            "                ",
+            "       ε        ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "        ε       ",
+            "                "
+        ],
+        [
+            "                ",
+            "       δ        ",
+            "                ",
+            "       ζ        ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "        ζ       ",
+            "                ",
+            "        δ       ",
+            "                "
+        ],
+        [
+            "                ",
+            "       η        ",
+            "       θ        ",
+            "       ι        ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "        η       ",
+            "        θ       ",
+            "        ι       ",
+            "                "
+        ]
+    ]
+}

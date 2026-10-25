@@ -1,0 +1,259 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:gray_concrete"
+            },
+            {
+                "char": "β",
+                "block": "create:andesite_ladder[facing=north,waterlogged=false]"
+            },
+            {
+                "char": "γ",
+                "block": "minecraft:quartz_block"
+            },
+            {
+                "char": "δ",
+                "block": "minecraft:quartz_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ε",
+                "block": "refurbished_furniture:birch_crate[open=false]",
+                "loot": "data"
+            },
+            {
+                "char": "ζ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=north,left=false,right=false]"
+            },
+            {
+                "char": "η",
+                "block": "refurbished_furniture:dark_oak_desk[facing=north,left=true,right=false]"
+            },
+            {
+                "char": "θ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=north,left=false,right=true]"
+            },
+            {
+                "char": "ι",
+                "block": "minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "κ",
+                "block": "minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "λ",
+                "block": "create:framed_glass_door[facing=south,half=lower,hinge=right,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "μ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=east,left=true,right=false]"
+            },
+            {
+                "char": "ν",
+                "block": "refurbished_furniture:dark_oak_desk[facing=west,left=false,right=true]"
+            },
+            {
+                "char": "ξ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=east,left=true,right=true]"
+            },
+            {
+                "char": "ο",
+                "block": "refurbished_furniture:dark_oak_desk[facing=west,left=true,right=true]"
+            },
+            {
+                "char": "π",
+                "block": "refurbished_furniture:dark_oak_desk[facing=west,left=true,right=false]"
+            },
+            {
+                "char": "ρ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=east,left=false,right=true]"
+            },
+            {
+                "char": "σ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=south,left=false,right=true]"
+            },
+            {
+                "char": "τ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=south,left=true,right=false]"
+            },
+            {
+                "char": "υ",
+                "block": "minecraft:quartz_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "φ",
+                "block": "minecraft:black_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+            },
+            {
+                "char": "χ",
+                "block": "refinedstorage:fluid_interface[connected=false]"
+            },
+            {
+                "char": "ψ",
+                "block": "refinedstorage:machine_casing"
+            },
+            {
+                "char": "ω",
+                "block": "minecraft:black_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]"
+            },
+            {
+                "char": "Α",
+                "block": "create:framed_glass_door[facing=south,half=upper,hinge=right,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "Β",
+                "block": "refinedstorage:black_controller[energy_type=off]"
+            },
+            {
+                "char": "Γ",
+                "block": "refinedstorage:disk_drive[direction=west]"
+            },
+            {
+                "char": "Δ",
+                "block": "refinedstorage:disk_drive[direction=east]"
+            },
+            {
+                "char": "Ε",
+                "block": "refinedstorage:black_network_receiver[connected=false]"
+            },
+            {
+                "char": "Ζ",
+                "block": "minecraft:quartz_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Η",
+                "block": "minecraft:quartz_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Θ",
+                "block": "minecraft:quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Ι",
+                "block": "minecraft:quartz_stairs[facing=north,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Κ",
+                "block": "minecraft:sea_lantern"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "                ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααβαααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            "                "
+        ],
+        [
+            "                ",
+            "       αα       ",
+            "    γδγγγγδγ    ",
+            "   γε ζ ηθ εγ   ",
+            "  γε        εγ  ",
+            "  ιε         κ  ",
+            "  γ   εαλα  μγ  ",
+            " αγν  εαβαε ξγα ",
+            " αγο   εαε  ξγα ",
+            "  γπ        ργ  ",
+            "  ι          κ  ",
+            "  γε        εγ  ",
+            "   γε ε στ εγ   ",
+            "    γυγγγγυγ    ",
+            "       αα       ",
+            "                "
+        ],
+        [
+            "                ",
+            "       αα       ",
+            "    γφγγγγφγ    ",
+            "   γ  χ ψ  εγ   ",
+            "  γ          γ  ",
+            "  ω          ω  ",
+            "  γ    αΑα  ψγ  ",
+            " αγΒ   αβα  Γγα ",
+            " αγ     α    γα ",
+            "  γΔ        Βγ  ",
+            "  ω          ω  ",
+            "  γ          γ  ",
+            "   γ     Ε εγ   ",
+            "    γφγγγγφγ    ",
+            "       αα       ",
+            "                "
+        ],
+        [
+            "                ",
+            "       αα       ",
+            "    γφγγγγφγ    ",
+            "   γ        γ   ",
+            "  γ          γ  ",
+            "  ω          ω  ",
+            "  γ    ααα   γ  ",
+            " αγ    αβα   γα ",
+            " αγ     α    γα ",
+            "  γ          γ  ",
+            "  ω          ω  ",
+            "  γ          γ  ",
+            "   γ        γ   ",
+            "    γφγγγγφγ    ",
+            "       αα       ",
+            "                "
+        ],
+        [
+            "                ",
+            "       αα       ",
+            "    γΖγγγγΖγ    ",
+            "   γ        γ   ",
+            "  γ          γ  ",
+            "  Η          Θ  ",
+            "  γ    ααα   γ  ",
+            " αγ    αβα   γα ",
+            " αγ     α    γα ",
+            "  γ          γ  ",
+            "  Η          Θ  ",
+            "  γ          γ  ",
+            "   γ        γ   ",
+            "    γΙγγγγΙγ    ",
+            "       αα       ",
+            "                "
+        ],
+        [
+            "                ",
+            "    αααααααα    ",
+            "   αααααααααα   ",
+            "  αααααααααααα  ",
+            " αααααααααααααα ",
+            " αααααααΚαααααα ",
+            " αααααααααααααα ",
+            " αααααααβαααααα ",
+            " ααααααΚαΚααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            " αααααααααααααα ",
+            "  αααααααααααα  ",
+            "   αααααααααα   ",
+            "    αααααααα    ",
+            "                "
+        ]
+    ]
+}

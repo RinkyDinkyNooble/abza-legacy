@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "factor": 3,
+      "value": "minecraft:chests/jungle_temple_dispenser"
+    },
+    {
+      "factor": 2,
+      "value": "minecraft:chests/shipwreck_supply"
+    },
+    {
+      "factor": 1,
+      "value": "minecraft:chests/pillager_outpost"
+    }
+  ]
+}

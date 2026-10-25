@@ -1,0 +1,261 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:smooth_stone"
+            },
+            {
+                "char": "β",
+                "block": "minecraft:polished_andesite"
+            },
+            {
+                "char": "γ",
+                "block": "create:polished_cut_andesite"
+            },
+            {
+                "char": "δ",
+                "block": "create:andesite_bars[east=true,north=false,south=false,waterlogged=false,west=true]"
+            },
+            {
+                "char": "ε",
+                "block": "minecraft:quartz_block"
+            },
+            {
+                "char": "ζ",
+                "block": "create:andesite_bars[east=false,north=true,south=true,waterlogged=false,west=false]"
+            },
+            {
+                "char": "η",
+                "block": "minecraft:quartz_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "θ",
+                "block": "refurbished_furniture:dark_oak_desk[facing=north,left=true,right=false]"
+            },
+            {
+                "char": "ι",
+                "block": "refurbished_furniture:dark_oak_drawer[facing=north,left=false,open=false,right=true]",
+                "loot": "hospital"
+            },
+            {
+                "char": "κ",
+                "block": "minecraft:gray_concrete"
+            },
+            {
+                "char": "λ",
+                "block": "minecraft:polished_andesite_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "μ",
+                "block": "minecraft:dark_oak_door[facing=west,half=lower,hinge=right,open=false,powered=false]"
+            },
+            {
+                "char": "ν",
+                "block": "refurbished_furniture:black_sofa[facing=north,shape=left]"
+            },
+            {
+                "char": "ξ",
+                "block": "refurbished_furniture:black_sofa[facing=north,shape=right]"
+            },
+            {
+                "char": "ο",
+                "block": "minecraft:dark_oak_door[facing=west,half=lower,hinge=left,open=false,powered=false]"
+            },
+            {
+                "char": "π",
+                "block": "minecraft:quartz_stairs[facing=north,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ρ",
+                "block": "minecraft:dark_oak_door[facing=south,half=lower,hinge=right,open=false,powered=false]"
+            },
+            {
+                "char": "σ",
+                "block": "minecraft:dark_oak_door[facing=south,half=lower,hinge=left,open=false,powered=false]"
+            },
+            {
+                "char": "τ",
+                "block": "refurbished_furniture:dark_oak_drawer[facing=south,left=false,open=false,right=true]",
+                "loot": "hospital"
+            },
+            {
+                "char": "υ",
+                "block": "refurbished_furniture:dark_oak_drawer[facing=south,left=true,open=false,right=false]",
+                "loot": "hospital"
+            },
+            {
+                "char": "φ",
+                "block": "refurbished_furniture:black_lamp[powered=false]"
+            },
+            {
+                "char": "χ",
+                "block": "create:framed_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+            },
+            {
+                "char": "ψ",
+                "block": "minecraft:dark_oak_door[facing=west,half=upper,hinge=right,open=false,powered=false]"
+            },
+            {
+                "char": "ω",
+                "block": "minecraft:dark_oak_door[facing=west,half=upper,hinge=left,open=false,powered=false]"
+            },
+            {
+                "char": "Α",
+                "block": "minecraft:dark_oak_door[facing=south,half=upper,hinge=right,open=false,powered=false]"
+            },
+            {
+                "char": "Β",
+                "block": "minecraft:dark_oak_door[facing=south,half=upper,hinge=left,open=false,powered=false]"
+            },
+            {
+                "char": "Γ",
+                "block": "minecraft:red_concrete"
+            },
+            {
+                "char": "Δ",
+                "block": "minecraft:quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Ε",
+                "block": "minecraft:polished_andesite_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Ζ",
+                "block": "minecraft:polished_andesite_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Η",
+                "block": "minecraft:polished_andesite_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Θ",
+                "block": "minecraft:sea_lantern"
+            },
+            {
+                "char": "Ι",
+                "block": "minecraft:quartz_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "Κ",
+                "block": "minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "αααααααααααααααα",
+            "αβββββββαααααααα",
+            "αβββββββαααααααα",
+            "αβββββββαααααααα",
+            "αβββββββαααααααα",
+            "αβββββββαααααααα",
+            "αβββββββαααααααα",
+            "αβββββββαααααααα",
+            "αβββββββαααααααα",
+            "αβββββββαααααααα",
+            "αβββββββαααααααα",
+            "αβββββββαααααααα",
+            "αβββββββαααααααα",
+            "αβββββββαααααααα",
+            "αβββββββαααααααα",
+            "αααααααααααααααα"
+        ],
+        [
+            "                ",
+            " γδδδδδδεεε     ",
+            " ζ      ηθιε    ",
+            " ζ      κ   κλλκ",
+            " ζ      μ   νξ κ",
+            " ζ      ο       ",
+            " ζ      κππε    ",
+            " ζ      η  η   κ",
+            " ζ      ε  η   κ",
+            " ζ      η  ηκρσκ",
+            " ζ      ετυε    ",
+            " ζ      επε     ",
+            " ζ     γ        ",
+            " ζ     ζ        ",
+            " γ     γ        ",
+            "                "
+        ],
+        [
+            "                ",
+            " γδδδδδδεεε     ",
+            " ζ      ηφ ε    ",
+            " ζ      κ   κχχκ",
+            " ζ      ψ      κ",
+            " ζ      ω       ",
+            " ζ      κ       ",
+            " ζ      η      κ",
+            " ζ      ε      κ",
+            " ζ      η   κΑΒκ",
+            " ζ      ε  ε    ",
+            " ζ      επε     ",
+            " ζ     γ        ",
+            " ζ     ζ        ",
+            " γ     γ        ",
+            "                "
+        ],
+        [
+            "                ",
+            " γ      εεε     ",
+            "        η  ε    ",
+            "        κ   κχχκ",
+            "        κ      κ",
+            "        κ      κ",
+            "        κ      κ",
+            "        η      κ",
+            "        ε      κ",
+            "        η   κκκκ",
+            "        ε  ε    ",
+            "       ηεΓεΔ    ",
+            "       γ        ",
+            "                ",
+            " γ     γ        ",
+            "                "
+        ],
+        [
+            "                ",
+            "        εεε     ",
+            "        η  ε    ",
+            "        β   κΕΕκ",
+            "        Ζ   κκκκ",
+            "        Ζ   κκκκ",
+            "        β   κκκκ",
+            "        η   κκκκ",
+            "        ε   κκκκ",
+            "        η   βΗΗβ",
+            "        ε  ε    ",
+            "       εΓΓΓε    ",
+            "                ",
+            "                ",
+            "                ",
+            "                "
+        ],
+        [
+            "                ",
+            "        εεε     ",
+            "        ηεεε    ",
+            "        βεεεκββκ",
+            "        Ζεεεεεεκ",
+            "        Ζεεεεεεκ",
+            "        βεεεεεεκ",
+            "        ηΘεεεεεκ",
+            "        εεεεεΓΓκ",
+            "        ηεεεβ  β",
+            "        εεεε    ",
+            "       ΙεΓεΚ    ",
+            "                ",
+            "                ",
+            "                ",
+            "                "
+        ]
+    ]
+}

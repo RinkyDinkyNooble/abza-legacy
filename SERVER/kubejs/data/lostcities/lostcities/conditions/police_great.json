@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "factor": 3,
+      "value": "minecraft:chests/stronghold_crossing"
+    },
+    {
+      "factor": 3,
+      "value": "minecraft:chests/stronghold_corridor"
+    },
+    {
+      "factor": 1,
+      "value": "minecraft:chests/village/village_desert_house"
+    }
+  ]
+}

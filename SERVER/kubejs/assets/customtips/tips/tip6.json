@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Zombies",
+    "color": "red",
+    "bold": true
+  },
+  "tip": {
+    "text": "Most zombies can break blocks."
+  }
+}

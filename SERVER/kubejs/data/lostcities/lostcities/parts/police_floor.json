@@ -1,0 +1,257 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:deepslate_tiles"
+            },
+            {
+                "char": "β",
+                "block": "minecraft:gray_concrete"
+            },
+            {
+                "char": "γ",
+                "block": "minecraft:quartz_slab[type=bottom,waterlogged=false]"
+            },
+            {
+                "char": "δ",
+                "block": "minecraft:quartz_slab[type=top,waterlogged=false]"
+            },
+            {
+                "char": "ε",
+                "block": "minecraft:smooth_quartz_stairs[facing=south,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ζ",
+                "block": "minecraft:smooth_quartz_stairs[facing=east,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "η",
+                "block": "minecraft:quartz_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "θ",
+                "block": "refurbished_furniture:birch_crate[open=false]",
+                "loot": "police_good"
+            },
+            {
+                "char": "ι",
+                "block": "minecraft:smooth_quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "κ",
+                "block": "create:andesite_bars[east=true,north=false,south=false,waterlogged=false,west=true]"
+            },
+            {
+                "char": "λ",
+                "block": "minecraft:iron_door[facing=south,half=lower,hinge=right,open=false,powered=false]"
+            },
+            {
+                "char": "μ",
+                "block": "minecraft:black_carpet"
+            },
+            {
+                "char": "ν",
+                "block": "minecraft:iron_bars[east=false,north=true,south=true,waterlogged=false,west=false]"
+            },
+            {
+                "char": "ξ",
+                "block": "minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]"
+            },
+            {
+                "char": "ο",
+                "block": "minecraft:black_bed[facing=west,occupied=false,part=head]"
+            },
+            {
+                "char": "π",
+                "block": "minecraft:black_bed[facing=west,occupied=false,part=foot]"
+            },
+            {
+                "char": "ρ",
+                "block": "minecraft:dark_oak_trapdoor[facing=east,half=bottom,open=true,powered=false,waterlogged=false]"
+            },
+            {
+                "char": "σ",
+                "block": "minecraft:dark_oak_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]"
+            },
+            {
+                "char": "τ",
+                "block": "minecraft:black_bed[facing=east,occupied=false,part=foot]"
+            },
+            {
+                "char": "υ",
+                "block": "minecraft:black_bed[facing=east,occupied=false,part=head]"
+            },
+            {
+                "char": "φ",
+                "block": "minecraft:chest[facing=east,type=single,waterlogged=false]",
+                "loot": "police_bad"
+            },
+            {
+                "char": "χ",
+                "block": "minecraft:chest[facing=west,type=single,waterlogged=false]",
+                "loot": "police_bad"
+            },
+            {
+                "char": "ψ",
+                "block": "minecraft:iron_bars[east=true,north=true,south=false,waterlogged=false,west=false]"
+            },
+            {
+                "char": "ω",
+                "block": "minecraft:iron_bars[east=true,north=false,south=false,waterlogged=false,west=true]"
+            },
+            {
+                "char": "Α",
+                "block": "minecraft:iron_bars[east=false,north=true,south=false,waterlogged=false,west=true]"
+            },
+            {
+                "char": "Β",
+                "block": "create:framed_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+            },
+            {
+                "char": "Γ",
+                "block": "minecraft:lever[face=wall,facing=north,powered=false]"
+            },
+            {
+                "char": "Δ",
+                "block": "minecraft:iron_door[facing=south,half=upper,hinge=right,open=false,powered=false]"
+            },
+            {
+                "char": "Ε",
+                "block": "minecraft:deepslate_tile_slab[type=top,waterlogged=false]"
+            },
+            {
+                "char": "Ζ",
+                "block": "minecraft:dark_oak_trapdoor[facing=east,half=top,open=true,powered=false,waterlogged=false]"
+            },
+            {
+                "char": "Η",
+                "block": "minecraft:dark_oak_trapdoor[facing=west,half=top,open=true,powered=false,waterlogged=false]"
+            },
+            {
+                "char": "Θ",
+                "block": "create:andesite_bars[east=false,north=true,south=true,waterlogged=false,west=false]"
+            },
+            {
+                "char": "Ι",
+                "block": "minecraft:sea_lantern"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "                ",
+            " ββββββββββββββ ",
+            " ββββββββββββββ ",
+            " ββ   βββββββββ ",
+            " ββγβββββββββββ ",
+            "αββββββββββββββα",
+            "αββββββββββββββα",
+            "δββββββββββββββδ",
+            "δββββββββββββββδ",
+            "δββββββββββββββδ",
+            "δββββββββββββββδ",
+            "δββββββββββββββδ",
+            "δββββββββββββββδ",
+            "δββββββββββββββδ",
+            "δββββββββββββββδ",
+            "δδδδδδδδδδδδδδδδ"
+        ],
+        [
+            "                ",
+            " ββ          ββ ",
+            " ββαεεαααααααββ ",
+            "  ζ   βη    θι  ",
+            "  ζ          ι  ",
+            "ααακκκκκκβλβκααα",
+            "ααα    μμμμ  ααα",
+            "νξαοπρ μμ στυαξν",
+            "ν αφ   μμ   χα ν",
+            "ν αοπρ μμ στυα ν",
+            "ν αφ   μμ   χα ν",
+            "ν αοπρ μμ στυα ν",
+            "ν αφ   μμ   χα ν",
+            "ν αααααααααααα ν",
+            "ν              ν",
+            "ψωωωωωωωωωωωωωωΑ"
+        ],
+        [
+            "                ",
+            " ββ          ββ ",
+            " ββαεεααΒΒΒααββ ",
+            "  ζ  βη     θι  ",
+            "  ζ      Γ   ι  ",
+            "ααακκκκκκβΔβκααα",
+            "ααα          ααα",
+            "νξαΕΕΖ    ΗΕΕαξν",
+            "ν α          α ν",
+            "ν ΘΕΕΖ    ΗΕΕΘ ν",
+            "ν Θ          Θ ν",
+            "ν ΘΕΕΖ    ΗΕΕΘ ν",
+            "ν α          α ν",
+            "ν αακκκαακκκαα ν",
+            "ν              ν",
+            "ψωωωωωωωωωωωωωωΑ"
+        ],
+        [
+            "                ",
+            " ββ          ββ ",
+            " ββαεεααΒΒΒααββ ",
+            "  ζ βη      θι  ",
+            "  ζ          ι  ",
+            "ααακκκκκκβββκααα",
+            "ααα          ααα",
+            "νξαοπ      τυαξν",
+            "ν α          α ν",
+            "ν Θοπ      τυΘ ν",
+            "ν Θ          Θ ν",
+            "ν Θοπ      τυΘ ν",
+            "ν α          α ν",
+            "ν αακκκαακκκαα ν",
+            "ν              ν",
+            "ψωωωωωωωωωωωωωωΑ"
+        ],
+        [
+            "                ",
+            " ββξξξξξξξξξξββ ",
+            " ββααααααααααββ ",
+            " ξαβη       θαξ ",
+            " ξα          αξ ",
+            "ααακκκκκκκκκκααα",
+            "ααα          ααα",
+            "νξα          αξν",
+            "νξα          αξν",
+            "νξα          αξν",
+            "νξα          αξν",
+            "νξα          αξν",
+            "νξα          αξν",
+            "νξααααααααααααξν",
+            "νξξξξξξξξξξξξξξν",
+            "ψωωωωωωωωωωωωωωΑ"
+        ],
+        [
+            "                ",
+            " ββββββββββββββ ",
+            " ββββββββββββββ ",
+            " ββη   ββββββββ ",
+            " ββββββββββββββ ",
+            "αββββββββββββββα",
+            "αββββββββββββββα",
+            " ββββββββββββββ ",
+            " ββββββββββββββ ",
+            " ββββββββββββββ ",
+            " ββββββββββββββ ",
+            " ββββββββββββββ ",
+            " ββΙββββββββΙββ ",
+            " ββββββββββββββ ",
+            " ββββββββββββββ ",
+            "                "
+        ]
+    ]
+}

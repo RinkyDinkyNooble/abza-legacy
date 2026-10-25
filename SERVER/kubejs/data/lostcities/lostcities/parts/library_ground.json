@@ -1,0 +1,217 @@
+{
+    "xsize": 16,
+    "zsize": 16,
+    "palette": {
+        "palette": [
+            {
+                "char": " ",
+                "block": "minecraft:air"
+            },
+            {
+                "char": "α",
+                "block": "minecraft:smooth_stone"
+            },
+            {
+                "char": "β",
+                "block": "minecraft:grass_block[snowy=false]"
+            },
+            {
+                "char": "γ",
+                "block": "minecraft:dirt"
+            },
+            {
+                "char": "δ",
+                "block": "minecraft:oak_planks"
+            },
+            {
+                "char": "ε",
+                "block": "minecraft:gray_concrete"
+            },
+            {
+                "char": "ζ",
+                "block": "minecraft:deepslate_tile_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+            },
+            {
+                "char": "η",
+                "block": "minecraft:oak_leaves[distance=7,persistent=true,waterlogged=false]"
+            },
+            {
+                "char": "θ",
+                "block": "minecraft:quartz_block"
+            },
+            {
+                "char": "ι",
+                "block": "create:framed_glass_door[facing=north,half=lower,hinge=left,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "κ",
+                "block": "create:framed_glass_door[facing=north,half=lower,hinge=right,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "λ",
+                "block": "refurbished_furniture:spruce_storage_cabinet[facing=west,hinge=right,open=false]",
+                "loot": "library"
+            },
+            {
+                "char": "μ",
+                "block": "minecraft:quartz_stairs[facing=west,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ν",
+                "block": "create:framed_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]"
+            },
+            {
+                "char": "ξ",
+                "block": "minecraft:bookshelf"
+            },
+            {
+                "char": "ο",
+                "block": "refurbished_furniture:spruce_drawer[facing=south,left=false,open=false,right=true]",
+                "loot": "library"
+            },
+            {
+                "char": "π",
+                "block": "refurbished_furniture:spruce_drawer[facing=south,left=true,open=false,right=false]",
+                "loot": "library"
+            },
+            {
+                "char": "ρ",
+                "block": "minecraft:quartz_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "σ",
+                "block": "create:framed_glass_door[facing=north,half=upper,hinge=left,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "τ",
+                "block": "create:framed_glass_door[facing=north,half=upper,hinge=right,open=false,powered=false,visible=true]"
+            },
+            {
+                "char": "υ",
+                "block": "refurbished_furniture:computer[facing=west,powered=false]"
+            },
+            {
+                "char": "φ",
+                "block": "refurbished_furniture:black_lamp[powered=false]"
+            },
+            {
+                "char": "χ",
+                "block": "minecraft:quartz_stairs[facing=north,half=top,shape=straight,waterlogged=false]"
+            },
+            {
+                "char": "ψ",
+                "block": "create:framed_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]"
+            }
+        ]
+    },
+    "slices": [
+        [
+            "αααααααααααααααα",
+            "αβββββγααγβββββα",
+            "αββββγγααγγββββα",
+            "αβββγδδδδδδγβββα",
+            "αβββγδδδδδδγβββα",
+            "αββγδδδδδδδδγββα",
+            "αββεδδδδδδδδεββα",
+            "αββεδδδδδδδδεββα",
+            "αββγδδδδδδδδγββα",
+            "αββγδδδδδδδδγββα",
+            "αββγδδδδδδδδγββα",
+            "αββεδδδδδδδδεββα",
+            "αββεδδδδδδδδεββα",
+            "αββγδδδδδδδδγββα",
+            "αγγγγγγγγγγγγγγα",
+            "αααααααααααααααα"
+        ],
+        [
+            "                ",
+            " ζ   ηθ  θη   ζ ",
+            "    ηεεικεεη    ",
+            "   ηελ   μ εη   ",
+            " ζ ηελ   θ εη ζ ",
+            "  ηε        εη  ",
+            "   ν ξ  ξ ξ ν   ",
+            "   ν ξ ξ  ξ ν   ",
+            "  ηε ξ  ξ ξ εη  ",
+            "  ηε ξ ξ  ξ εη  ",
+            "  ηε ξ  ξ ξ εη  ",
+            "   ν ξ ξ  ξ ν   ",
+            "   ν        ν   ",
+            "  ηεξξξοπξξξεη  ",
+            " θθθθθθρρθθθθθθ ",
+            "                "
+        ],
+        [
+            "                ",
+            " ζ    θ  θ    ζ ",
+            "     εεστεε     ",
+            "    ελ   υ ε    ",
+            " ζ  ελ     ε  ζ ",
+            "   ε        ε   ",
+            "   ν ξ  ξ ξ ν   ",
+            "   ν ξ ξ  ξ ν   ",
+            "   ν ξ  ξ ξ ν   ",
+            "   ν ξ ξ  ξ ν   ",
+            "   ν ξ  ξ ξ ν   ",
+            "   ν ξ ξ  ξ ν   ",
+            "   ν        ν   ",
+            "  ηεξξξφ ξξξεη  ",
+            " θχχθχθψψθχθχχθ ",
+            "                "
+        ],
+        [
+            "                ",
+            " θθθθθθθθθθθθθθ ",
+            " θθθθθθθθθθθθθθ ",
+            " θθθθθθθθθθθθθθ ",
+            " θθθθθθθθθθθθθθ ",
+            "   εεεεεεεεεε   ",
+            "   ν ξ  ξ ξ ν   ",
+            "   ν ξ ξ  ξ ν   ",
+            "   ν ξ  ξ ξ ν   ",
+            "   ν ξ ξ  ξ ν   ",
+            "   ν ξ  ξ ξ ν   ",
+            "   ν ξ ξ  ξ ν   ",
+            "   ν        ν   ",
+            "  ηεξξξ  ξξξεη  ",
+            " θχχθχθψψθχθχχθ ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "  ζ          ζ  ",
+            "   εεεεεεεεεε   ",
+            "   εεεεεεεεεε   ",
+            "   εεεεεεεεεε   ",
+            "   ε        ε   ",
+            "   ν        ν   ",
+            "   ν        ν   ",
+            "   ν        ν   ",
+            "   ε        ν   ",
+            "  ηεξξξξξξξξεη  ",
+            " θχχθχθχχθχθχχθ ",
+            "                "
+        ],
+        [
+            "                ",
+            "                ",
+            "                ",
+            "                ",
+            "  θθθθθθθθθθθθ  ",
+            "  θθθθθθθθθθθθ  ",
+            "  θθθθθθθθθθθθ  ",
+            "  θθθθθθθθθθθθ  ",
+            "   εεεεεεεεεε   ",
+            "   ν        ν   ",
+            "   ν        ν   ",
+            "   ν        ν   ",
+            "   εεεεεεεεεε   ",
+            " θθθθθθθθθθθθθθ ",
+            " θθθθθθθθθθθθθθ ",
+            "                "
+        ]
+    ]
+}

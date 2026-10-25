@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "factor": 2,
+      "value": "minecraft:chests/jungle_temple"
+    },
+    {
+      "factor": 1,
+      "value": "minecraft:chests/igloo_chest"
+    },
+    {
+      "factor": 2,
+      "value": "minecraft:chests/end_city_treasure"
+    }
+  ]
+}

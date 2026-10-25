@@ -1,0 +1,32 @@
+{
+  "filler": "#",
+  "rubble": "}",
+  "maxcellars": 0,
+  "allowDoors": false,
+  "parts": [
+    {
+      "ground": true,
+      "cellar": false,
+      "top": false,
+      "part": "data_ground"
+    },
+    {
+      "ground": false,
+      "cellar": false,
+      "top": false,
+      "part": "data_floor_1"
+    },
+    {
+      "ground": false,
+      "cellar": false,
+      "top": false,
+      "part": "data_floor_2"
+    },
+    {
+      "ground": false,
+      "cellar": false,
+      "top": true,
+      "part": "data_top"
+    }
+  ]
+}

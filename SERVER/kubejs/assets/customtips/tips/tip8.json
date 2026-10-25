@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "Survival",
+    "color": "yellow",
+    "bold": true
+  },
+  "tip": {
+    "text": "You can overeat to meet nutritional standards. Keeping maxed out nutrition stats gives powerfull buffs."
+  }
+}

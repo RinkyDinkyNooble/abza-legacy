@@ -1,0 +1,1 @@
+A kit focused on Create & Superb Warfare mod interaction. Has no defensive or offensive capability.

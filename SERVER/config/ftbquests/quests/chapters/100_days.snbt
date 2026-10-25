@@ -1,0 +1,233 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "100_days"
+	group: ""
+	icon: {
+		Count: 1
+		RCount: 1L
+		id: "sereneseasons:calendar"
+	}
+	id: "066A85F5AF55D117"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"By day ten, it's a good sign if you have stockpiles of all the basics you need to survive, engage in combat, and explore safely. "
+				""
+				"Zombies may now, commonly, mine blocks and steal items."
+			]
+			icon: {
+				Count: 1
+				RCount: 1L
+				id: "sereneseasons:calendar"
+			}
+			id: "0129695E4277ADFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6ADB1A7EC4D6A559"
+				table_id: 2496970493152701802L
+				type: "loot"
+			}]
+			shape: "square"
+			subtitle: "Survive 2 Horde Nights"
+			tasks: [{
+				icon: {
+					Count: 1
+					RCount: 1L
+					id: "sereneseasons:calendar"
+				}
+				id: "5D2E572A3340B2EF"
+				title: "Survive 10 Days"
+				type: "custom"
+			}]
+			title: "Survive 10 Days"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0129695E4277ADFB"]
+			description: [
+				"It's a good sign if you have,"
+				""
+				"&l1.&r a good base established"
+				""
+				"&l2.&r started using create for automations"
+				""
+				"&l3.&r explored and obtained most materials you will need for your playthrough"
+			]
+			icon: {
+				Count: 1
+				RCount: 1L
+				id: "sereneseasons:calendar"
+			}
+			id: "244A838BF46E59B6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C8730629D142BA8"
+					table_id: 2496970493152701802L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44FF5C51212757E8"
+					table_id: 2496970493152701802L
+					type: "all_table"
+				}
+			]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "Survive 5 Horde Nights"
+			tasks: [{
+				icon: {
+					Count: 1
+					RCount: 1L
+					id: "sereneseasons:calendar"
+				}
+				id: "5395A4BD3F07B888"
+				title: "Survive 25 Days"
+				type: "custom"
+			}]
+			title: "Survive 25 Days"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["244A838BF46E59B6"]
+			description: ["It's a good sign if you have &d&lelectricity&r&r generation by now."]
+			icon: {
+				Count: 1
+				RCount: 1L
+				id: "sereneseasons:calendar"
+			}
+			id: "24D978E6C95CF3E8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3AE9C24D71EE5ADE"
+					table_id: 2496970493152701802L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D8141CB6FDD33B1"
+					table_id: 2496970493152701802L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "632D21B12E4D887C"
+					table_id: 2496970493152701802L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3161474B49699FDC"
+					table_id: 2496970493152701802L
+					type: "all_table"
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "Survive 10 Horde Nights"
+			tasks: [{
+				icon: {
+					Count: 1
+					RCount: 1L
+					id: "sereneseasons:calendar"
+				}
+				id: "3972C65251DF8960"
+				title: "Survive 50 Days"
+				type: "custom"
+			}]
+			title: "Survive 50 Days"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24D978E6C95CF3E8"]
+			description: ["It's a good sign if you have been &e&lvaccinated&r&r by now."]
+			icon: {
+				Count: 1
+				RCount: 1L
+				id: "sereneseasons:calendar"
+			}
+			id: "5011B1919FD48ECB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65AD066730DE99AC"
+					table_id: 2496970493152701802L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "668B5897AF5946A3"
+					table_id: 2496970493152701802L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "109D4F23D34917BF"
+					table_id: 2496970493152701802L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "464A8F5EE386A979"
+					table_id: 2496970493152701802L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "112DE9BD649DFB7C"
+					table_id: 2496970493152701802L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B3CC8A0D27CBEC5"
+					table_id: 2496970493152701802L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "524FF16B3725148F"
+					table_id: 2496970493152701802L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "615E33E2E1D972DE"
+					table_id: 2496970493152701802L
+					type: "all_table"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F7B6514FC21ECC7"
+					table_id: 3614700050946835593L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "Survive 20 Horde Nights"
+			tasks: [{
+				icon: {
+					Count: 1
+					RCount: 1L
+					id: "sereneseasons:calendar"
+				}
+				id: "41256DF21C3B060E"
+				title: "Survive 100 Days"
+				type: "custom"
+			}]
+			title: "Survive 100 Days"
+			x: 4.5d
+			y: 1.5d
+		}
+	]
+	title: "100 Days' Rewards"
+}
