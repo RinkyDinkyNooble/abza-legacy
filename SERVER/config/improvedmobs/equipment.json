@@ -7,618 +7,618 @@
   ],
   "MAINHAND": {
     "create:cardboard_sword": [
-      194668,
-      0.0064999997
+      100,
+      -1.67
     ],
     "infectious:baseball_bat": [
-      194424,
-      0.030899998
+      100,
+      -1.0
     ],
     "infectious:baseball_bat_with_nails": [
-      194231,
-      0.26597553
+      -16,
+      2.0
     ],
     "infectious:bataring": [
-      194498,
-      0.0235
+      -80,
+      4.0
     ],
     "infectious:baton": [
-      194434,
-      0.0299
+      60,
+      -1.0
     ],
     "infectious:frying_pan": [
-      194264,
-      0.0469
+      100,
+      -1.67
     ],
     "infectious:iron_gauntlet": [
-      194379,
-      0.0354
+      -80,
+      4.0
     ],
     "infectious:robotic_saw": [
-      194328,
-      0.040499996
+      -100,
+      4.0
     ],
     "minecraft:bow": [
-      192165,
-      4.508568
+      -10,
+      2.0
     ],
     "minecraft:crossbow": [
-      192459,
-      3.826627
+      -80,
+      4.0
     ],
     "minecraft:diamond_axe": [
-      191928,
-      5.022479
+      -180,
+      4.0
     ],
     "minecraft:diamond_sword": [
-      191990,
-      4.889481
+      -140,
+      4.0
     ],
     "minecraft:enchanted_book": [
-      193133,
-      1.8573177
+      -80,
+      2.0
     ],
     "minecraft:golden_axe": [
-      194589,
-      0.014399999
+      -6,
+      2.0
     ],
     "minecraft:golden_sword": [
-      194652,
-      0.0081
+      50,
+      -0.83
     ],
     "minecraft:iron_axe": [
-      194156,
-      0.51635593
+      -30,
+      2.0
     ],
     "minecraft:iron_sword": [
-      194243,
-      0.049
+      -16,
+      2.0
     ],
     "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [
-      193233,
-      1.7269388
+      -100,
+      2.0
     ],
     "minecraft:netherite_axe": [
-      191092,
-      6.778693
+      -480,
+      6.0
     ],
     "minecraft:netherite_sword": [
-      191162,
-      6.632802
+      -420,
+      6.0
     ],
     "minecraft:snowball": [
-      194183,
-      0.46844563
+      30,
+      -0.5
     ],
     "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [
-      193233,
-      1.7269388
+      -60,
+      2.0
     ],
     "minecraft:stone_axe": [
-      194359,
-      0.0374
+      -10,
+      2.0
     ],
     "minecraft:stone_sword": [
-      194467,
-      0.026599998
+      -4,
+      2.0
     ],
     "minecraft:tnt": [
-      193033,
-      1.9881918
+      -100,
+      2.0
     ],
     "minecraft:trident": [
-      192233,
-      4.357304
+      -90,
+      2.0
     ],
     "minecraft:wooden_axe": [
-      194543,
-      0.019
+      -6,
+      2.0
     ],
     "minecraft:wooden_sword": [
-      194606,
-      0.0127
+      100,
+      -1.67
     ],
     "refurbished_furniture:knife": [
-      194233,
-      0.049999997
+      60,
+      -1.0
     ],
     "refurbished_furniture:spatula": [
-      194271,
-      0.046199996
+      60,
+      -1.0
     ],
     "superbwarfare:beast": [
-      16,
-      455.31818
+      0,
+      0.0
     ],
     "superbwarfare:cemented_carbide_hammer": [
-      191019,
-      6.930767
+      -480,
+      6.0
     ],
     "superbwarfare:crowbar": [
-      193976,
-      0.76867646
+      -16,
+      2.0
     ],
     "superbwarfare:diamond_hammer": [
-      191891,
-      5.1015
+      -180,
+      4.0
     ],
     "superbwarfare:electric_baton": [
-      192721,
-      2.756342
+      -100,
+      4.0
     ],
     "superbwarfare:golden_hammer": [
-      194242,
-      0.049099997
+      -20,
+      2.0
     ],
     "superbwarfare:hammer": [
-      193795,
-      1.0024772
+      -20,
+      2.0
     ],
     "superbwarfare:knife": [
-      192628,
-      3.3403335
+      -16,
+      2.0
     ],
     "superbwarfare:netherite_hammer": [
-      189635,
-      9.815241
+      -300,
+      3.0
     ],
     "superbwarfare:steel_hammer": [
-      193439,
-      1.4599235
+      -120,
+      4.0
     ],
     "superbwarfare:steel_pipe": [
-      193167,
-      1.812933
+      -24,
+      2.0
     ],
     "superbwarfare:t_baton": [
-      192686,
-      3.0837553
+      -100,
+      4.0
     ],
     "undead_revamp2:bonedagger": [
-      191306,
-      6.3323894
+      -360,
+      6.0
     ],
     "undead_revamp2:bostroxsword": [
-      192156,
-      4.5284204
+      -360,
+      6.0
     ],
     "undead_revamp2:chainsword": [
-      183656,
-      22.517443
+      -360,
+      3.0
     ],
     "undead_revamp2:toothmace": [
-      191381,
-      6.1757073
+      -300,
+      3.0
     ]
   },
   "OFFHAND": {
     "infectious:swat_shield": [
-      100,
+      -50,
       1.0
     ],
     "minecraft:ender_pearl": [
-      1,
-      10.0
+      -10,
+      1.0
     ],
     "minecraft:flint_and_steel": [
-      5,
-      10.0
+      -20,
+      1.0
     ],
     "minecraft:lava_bucket": [
-      2,
-      10.0
+      -40,
+      1.0
     ],
     "minecraft:shield": [
-      200,
+      40,
       1.0
     ]
   },
   "FEET": {
     "create:cardboard_boots": [
-      2711,
-      0.021699999
+      100,
+      -1.67
     ],
     "create:copper_diving_boots": [
-      2354,
-      0.5113901
+      -10,
+      2.0
     ],
     "create:netherite_diving_boots": [
-      1293,
-      1.9030677
+      -280,
+      4.0
     ],
     "infectious:security_armor_boots": [
-      1722,
-      1.346473
+      -30,
+      2.0
     ],
     "infectious:soldier_armor_boots": [
-      19,
-      5.2440405
+      -200,
+      2.0
     ],
     "infectious:swatarmor_boots": [
-      971,
-      2.326737
+      -120,
+      3.0
     ],
     "minecraft:chainmail_boots": [
-      2336,
-      0.540316
+      -10,
+      2.0
     ],
     "minecraft:diamond_boots": [
-      1420,
-      1.7373508
+      -105,
+      3.0
     ],
     "minecraft:golden_boots": [
-      2402,
-      0.4136078
+      -6,
+      2.0
     ],
     "minecraft:iron_boots": [
-      2088,
-      0.8764657
+      -20,
+      2.0
     ],
     "minecraft:leather_boots": [
-      2684,
-      0.0244
+      100,
+      -1.67
     ],
     "minecraft:netherite_boots": [
-      1293,
-      1.9030677
+      -280,
+      4.0
     ],
     "toughasnails:leaf_boots": [
-      2852,
-      0.0075999997
+      100,
+      -1.67
     ],
     "toughasnails:wool_boots": [
-      2852,
-      0.0075999997
+      100,
+      -1.67
     ],
     "undead_revamp2:bostroxset_boots": [
-      590,
-      3.9834037
+      -300,
+      4.0
     ],
     "undead_revamp2:cloggerarmor_boots": [
-      931,
-      2.3797028
+      -90,
+      3.0
     ],
     "undead_revamp2:primodialarmour_boots": [
-      2131,
-      0.82082254
+      -16,
+      2.0
     ]
   },
   "LEGS": {
     "create:cardboard_leggings": [
-      2711,
-      0.021699999
+      100,
+      -1.67
     ],
     "infectious:security_armor_leggings": [
-      1722,
-      1.346473
+      -30,
+      2.0
     ],
     "infectious:soldier_armor_leggings": [
-      19,
-      5.2440405
+      -200,
+      2.0
     ],
     "infectious:swatarmor_leggings": [
-      971,
-      2.326737
+      -120,
+      3.0
     ],
     "minecraft:chainmail_leggings": [
-      2336,
-      0.540316
+      -10,
+      2.0
     ],
     "minecraft:diamond_leggings": [
-      1420,
-      1.7373508
+      -105,
+      3.0
     ],
     "minecraft:golden_leggings": [
-      2402,
-      0.4136078
+      -6,
+      2.0
     ],
     "minecraft:iron_leggings": [
-      2088,
-      0.8764657
+      -20,
+      2.0
     ],
     "minecraft:leather_leggings": [
-      2684,
-      0.0244
+      100,
+      -1.67
     ],
     "minecraft:netherite_leggings": [
-      1293,
-      1.9030677
+      -280,
+      4.0
     ],
     "toughasnails:leaf_leggings": [
-      2852,
-      0.0075999997
+      100,
+      -1.67
     ],
     "toughasnails:wool_leggings": [
-      2852,
-      0.0075999997
+      100,
+      -1.67
     ],
     "undead_revamp2:cloggerarmor_leggings": [
-      931,
-      2.3797028
+      -90,
+      3.0
     ]
   },
   "CHEST": {
     "create:cardboard_chestplate": [
-      2711,
-      0.021699999
+      100,
+      -1.67
     ],
     "create:copper_backtank": [
-      2354,
-      0.5113901
+      -10,
+      2.0
     ],
     "create:netherite_backtank": [
-      1293,
-      1.9030677
+      -280,
+      4.0
     ],
     "creategoggles:chainmail_backtank": [
-      2336,
-      0.540316
+      -10,
+      2.0
     ],
     "creategoggles:diamond_backtank": [
-      1420,
-      1.7373508
+      -105,
+      3.0
     ],
     "creategoggles:golden_backtank": [
-      2402,
-      0.4136078
+      -6,
+      2.0
     ],
     "creategoggles:iron_backtank": [
-      2088,
-      0.8764657
+      -20,
+      2.0
     ],
     "creategoggles:leather_backtank": [
-      2684,
-      0.0244
+      100,
+      -1.67
     ],
     "infectious:jetpack_chestplate": [
-      2748,
-      0.018
+      -20,
+      2.0
     ],
     "infectious:security_armor_chestplate": [
-      1722,
-      1.346473
+      -30,
+      2.0
     ],
     "infectious:soldier_armor_chestplate": [
-      19,
-      5.2440405
+      -200,
+      2.0
     ],
     "infectious:swatarmor_chestplate": [
-      971,
-      2.326737
+      -120,
+      3.0
     ],
     "mcsp:vest_avs": [
-      1105,
-      2.1498325
+      -120,
+      3.0
     ],
     "mcsp:vest_cpc": [
-      2586,
-      0.034199998
+      100,
+      -1.67
     ],
     "mcsp:vest_cpc2": [
-      1105,
-      2.1498325
+      -120,
+      3.0
     ],
     "minecraft:chainmail_chestplate": [
-      2336,
-      0.540316
+      -10,
+      2.0
     ],
     "minecraft:diamond_chestplate": [
-      1420,
-      1.7373508
+      -105,
+      3.0
     ],
     "minecraft:golden_chestplate": [
-      2402,
-      0.4136078
+      -6,
+      2.0
     ],
     "minecraft:iron_chestplate": [
-      2088,
-      0.8764657
+      -20,
+      2.0
     ],
     "minecraft:leather_chestplate": [
-      2684,
-      0.0244
+      100,
+      -1.67
     ],
     "minecraft:netherite_chestplate": [
-      1293,
-      1.9030677
+      -280,
+      4.0
     ],
     "superbwarfare:ru_chest_6b43": [
-      846,
-      3.25236
+      -280,
+      4.0
     ],
     "superbwarfare:us_chest_iotv": [
-      846,
-      3.25236
+      -280,
+      4.0
     ],
     "toughasnails:leaf_chestplate": [
-      2852,
-      0.0075999997
+      100,
+      -1.67
     ],
     "toughasnails:wool_chestplate": [
-      2852,
-      0.0075999997
+      100,
+      -1.67
     ],
     "undead_revamp2:bostroxset_chestplate": [
-      590,
-      3.9834037
+      -300,
+      4.0
     ],
     "undead_revamp2:cloggerarmor_chestplate": [
-      931,
-      2.3797028
+      -90,
+      3.0
     ],
     "undead_revamp2:primodialarmour_chestplate": [
-      2131,
-      0.82082254
+      -16,
+      2.0
     ],
     "vvp:usachest": [
-      846,
-      3.25236
+      -280,
+      4.0
     ]
   },
   "HEAD": {
     "create:cardboard_helmet": [
-      2707,
-      0.021699999
+      100,
+      -1.67
     ],
     "create:copper_diving_helmet": [
-      2350,
-      0.5113901
+      -10,
+      2.0
     ],
     "create:netherite_diving_helmet": [
-      1289,
-      1.9030677
+      -280,
+      4.0
     ],
     "creategoggles:goggle_cardboard_helmet": [
-      2707,
-      0.021699999
+      100,
+      -1.67
     ],
     "creategoggles:goggle_chainmail_helmet": [
-      2332,
-      0.540316
+      -10,
+      2.0
     ],
     "creategoggles:goggle_diamond_helmet": [
-      1416,
-      1.7373508
+      -105,
+      3.0
     ],
     "creategoggles:goggle_diving_helmet": [
-      2350,
-      0.5113901
+      -10,
+      2.0
     ],
     "creategoggles:goggle_golden_helmet": [
-      2398,
-      0.4136078
+      -6,
+      2.0
     ],
     "creategoggles:goggle_iron_helmet": [
-      2084,
-      0.8764657
+      -20,
+      2.0
     ],
     "creategoggles:goggle_leather_helmet": [
-      2680,
-      0.0244
+      100,
+      -1.67
     ],
     "creategoggles:goggle_netherite_diving_helmet": [
-      1289,
-      1.9030677
+      -280,
+      4.0
     ],
     "creategoggles:goggle_netherite_helmet": [
-      1289,
-      1.9030677
+      -280,
+      4.0
     ],
     "creategoggles:goggle_turtle_helmet": [
-      2028,
-      0.948558
+      -10,
+      2.0
     ],
     "infectious:scientist_glasses_helmet": [
-      2861,
-      0.0063
+      100,
+      -1.67
     ],
     "infectious:security_armor_helmet": [
-      1718,
-      1.346473
+      -30,
+      2.0
     ],
     "infectious:soldier_armor_helmet": [
-      15,
-      5.2440405
+      -200,
+      2.0
     ],
     "infectious:swatarmor_helmet": [
-      967,
-      2.326737
+      -120,
+      3.0
     ],
     "mcsp:airframe_helmet": [
-      2581,
-      0.034299996
+      100,
+      -1.67
     ],
     "mcsp:helmettor_helmet": [
-      1041,
-      2.228941
+      -120,
+      3.0
     ],
     "mcsp:opscore2_helmet": [
-      1041,
-      2.228941
+      -120,
+      3.0
     ],
     "mcsp:opscore_helmet": [
-      1041,
-      2.228941
+      -120,
+      3.0
     ],
     "minecraft:chainmail_helmet": [
-      2332,
-      0.540316
+      -10,
+      2.0
     ],
     "minecraft:diamond_helmet": [
-      1416,
-      1.7373508
+      -105,
+      3.0
     ],
     "minecraft:golden_helmet": [
-      2398,
-      0.4136078
+      -6,
+      2.0
     ],
     "minecraft:iron_helmet": [
-      2084,
-      0.8764657
+      -20,
+      2.0
     ],
     "minecraft:leather_helmet": [
-      2680,
-      0.0244
+      100,
+      -1.67
     ],
     "minecraft:netherite_helmet": [
-      1289,
-      1.9030677
+      -280,
+      4.0
     ],
     "minecraft:turtle_helmet": [
-      2028,
-      0.948558
+      -10,
+      2.0
     ],
     "superbwarfare:ge_helmet_m_35": [
-      1610,
-      1.4857569
+      -75,
+      3.0
     ],
     "superbwarfare:ru_helmet_6b47": [
-      842,
-      3.25236
+      -280,
+      4.0
     ],
     "superbwarfare:us_helmet_pastg": [
-      842,
-      3.25236
+      -280,
+      4.0
     ],
     "toughasnails:leaf_helmet": [
-      2848,
-      0.0075999997
+      100,
+      -1.67
     ],
     "toughasnails:wool_helmet": [
-      2848,
-      0.0075999997
+      100,
+      -1.67
     ],
     "undead_revamp2:bostroxset_helmet": [
-      586,
-      3.9834037
+      -300,
+      4.0
     ],
     "undead_revamp2:cloggerarmor_helmet": [
-      927,
-      2.3797028
+      -90,
+      3.0
     ],
     "undead_revamp2:imbuemask_helmet": [
-      1885,
-      1.1319785
+      -90,
+      3.0
     ],
     "undead_revamp2:nullifymask_helmet": [
-      1885,
-      1.1319785
+      -90,
+      3.0
     ],
     "undead_revamp2:primodialarmour_helmet": [
-      2127,
-      0.82082254
+      -16,
+      2.0
     ],
     "undead_revamp2:shieldmask_helmet": [
-      395,
-      4.422107
+      -320,
+      4.0
     ],
     "undead_revamp2:witherchargemask_helmet": [
-      2335,
-      0.53562516
+      -75,
+      3.0
     ],
     "vvp:usahelmet": [
-      842,
-      3.25236
+      -280,
+      4.0
     ]
   }
 }

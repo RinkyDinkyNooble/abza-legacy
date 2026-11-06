@@ -86,3 +86,12 @@ ItemEvents.foodEaten("infectious:antibiotics", (event) => {
         `/effect clear ${event.player.username} hordes:infected`
     );
 });
+
+// Milk would otherwise clear infectious:infection without a golden apple
+ItemEvents.rightClicked("minecraft:milk_bucket", event => {
+    event.cancel();
+});
+
+ItemEvents.rightClicked("farmersdelight:milk_bottle", event => {
+    event.cancel();
+});

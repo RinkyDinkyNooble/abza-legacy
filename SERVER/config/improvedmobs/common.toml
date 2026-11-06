@@ -5,7 +5,7 @@
 	"Enable difficulty scaling" = true
 	#Time in ticks for which the difficulty shouldnt increase at the beginning. One full minecraft day is 24000 ticks
 	#Range: > 0
-	"Difficulty Delay" = 0
+	"Difficulty Delay" = 72000
 	#If true ignores mobs from spawners
 	"Ignore Spawner" = false
 	#Handles increase in difficulty regarding current difficulty.
@@ -14,7 +14,7 @@
 	#So the difficulty increases by 0.01 every 2400 ticks (->0.1 per mc day since a mc day has 24000 ticks) till it reaches a difficulty of 10.
 	#Then it increases by 1 per mc day till it reaches 30 and then stops.
 	#If you want to use negative values use | instead of - as the delimiter.
-	"Difficulty Increase" = ["0.0-0.05", "25.0-0.2", "100.0-1.0"]
+	"Difficulty Increase" = ["0.0-0.05", "25.0-0.15", "100.0-0.05", "150.0-0.0"]
 	#Wether difficulty should only increase with at least one online players or not
 	"Ignore Players" = false
 	#If true will increase difficulty by the amount of time skipped. Else will only increase difficulty once.
@@ -136,7 +136,7 @@
 	Sound = true
 	#Chance for a mob to be able to break blocks
 	#Range: 0.0 ~ 1.0
-	"Breaker Chance" = 0.9
+	"Breaker Chance" = 0.5
 	#Initial cooldown for block breaking mobs
 	#Range: > 0
 	"Breaker Initial Cooldown" = 120
@@ -160,7 +160,7 @@
 	#Addition to breaking speed modifier based on difficulty.
 	#Final modifier is base + addition * difficulty
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Breaking Speed Add" = 0.1
+	"Breaking Speed Add" = 0.05
 	#Chance for a mob to be able to steal items from inventory blocks
 	#Range: 0.0 ~ 1.0
 	"Stealer Chance" = 0.5
@@ -168,7 +168,7 @@
 	"Steal Block Blacklist" = ["refinedstorage", "create"]
 	#Items which will be given to mobs who can break blocks. Empty list = no items. Syntax: id;weight
 	#Note: Mobs can only break blocks if the tool they are holding can break the blocks
-	"Breaking items" = ["minecraft:diamond_pickaxe;1", "minecraft:diamoned_axe;1", "minecraft:diamoned_shovel;1"]
+	"Breaking items" = ["minecraft:diamond_pickaxe;1", "minecraft:diamond_axe;1", "minecraft:diamond_shovel;1"]
 	#Should mobs be able to break block entities? Evaluated before the break list
 	"Break BlockEntities" = true
 	#Chance for neutral mobs to be aggressive
@@ -190,7 +190,7 @@
 	#Range: 0.0 ~ 1.0
 	"Phantom Chance" = 0.01
 	#Set this to true to allow tnt thrown by mobs to destroy blocks
-	"TNT Block Destruction" = true
+	"TNT Block Destruction" = false
 	#Chance for a mob to ignore line of sight
 	#This config ONLY affects villager target, neutral aggressive and auto targeting feature
 	#Range: 0.0 ~ 1.0
@@ -214,10 +214,10 @@
 	"Entity Item Use Blacklist" = ["minecraft:drowned;TRIDENT", "minecraft:illusioner;BOW", "minecraft:piglin;CROSSBOW", "minecraft:pillager;CROSSBOW", "minecraft:skeleton;BOW", "minecraft:snow_golem;minecraft:snowball", "minecraft:stray;BOW", "minecraft:wither_skeleton;BOW"]
 	#Base chance that a mob can have one piece of armor
 	#Range: 0.0 ~ 1.0
-	"Equipment Chance" = 0.1
+	"Equipment Chance" = 0.05
 	#Base chance for each additional armor pieces
 	#Range: 0.0 ~ 1.0
-	"Additional Equipment Chance" = 0.3
+	"Additional Equipment Chance" = 0.1
 	#Adds additional x*difficulty% to base equip chance
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Equipment Addition" = 0.3
@@ -226,25 +226,25 @@
 	"Armor Trim Chance" = 0.05
 	#Chance for mobs to have a weapon
 	#Range: 0.0 ~ 1.0
-	"Weapon Chance" = 0.5
+	"Weapon Chance" = 0.1
 	#Adds additional x*difficulty% to base weapon chance
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Weapon Chance Add" = 0.3
 	#Base chance for each armor pieces to get enchanted
 	#Range: 0.0 ~ 1.0
-	"Enchanting Chance" = 0.2
+	"Enchanting Chance" = 0.02
 	#Adds additional x*difficulty% to base enchanting chance
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Enchanting Addition" = 0.2
 	#Specify min and max enchanting levels according to difficulty. difficulty-minLevel-maxLevel
-	"Enchanting Calc" = ["0.0-5-10", "25.0-5-15", "50.0-10-17", "100.0-15-25", "200.0-20-30", "250.0-30-35"]
+	"Enchanting Calc" = ["0.0-1-5", "25.0-5-10", "50.0-8-15", "100.0-12-20", "150.0-15-25"]
 	#Blacklist enchantments from being applied to equipments
 	"Enchanting Blacklist" = []
 	#Turn the enchant blacklist to a whitelist
 	"Enchanting Whitelist" = false
 	#Chance for mobs to have an item in offhand
 	#Range: 0.0 ~ 1.0
-	"Item Equip Chance" = 0.5
+	"Item Equip Chance" = 0.05
 	#Adds additional x*difficulty% to base item chance
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Item Chance add" = 0.2
@@ -258,7 +258,7 @@
 	"Health Increase Multiplier" = 1.0
 	#Health will be multiplied by at maximum this. Set to 0 means no limit
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Max Health Increase" = 20.0
+	"Max Health Increase" = 3.5
 	#Round health to the nearest x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Round HP" = 0.5
@@ -267,35 +267,35 @@
 	"Damage Increase Multiplier" = 1.0
 	#Damage will be multiplied by at maximum this. Set to 0 means no limit
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Max Damage Increase" = 4.0
+	"Max Damage Increase" = 2.25
 	#Speed will be increased by difficulty*0.0008*x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Speed Increase" = 2.0
+	"Speed Increase" = 1.0
 	#Maximum increase in speed
 	#Range: 0.0 ~ 1.0
-	"Max Speed" = 0.5
+	"Max Speed" = 0.1
 	#Knockback will be increased by difficulty*0.002*x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Knockback Increase" = 1.0
 	#Maximum increase in knockback
 	#Range: 0.0 ~ 1.0
-	"Max Knockback" = 0.5
+	"Max Knockback" = 0.3
 	#Magic resistance will be increased by difficulty*0.0016*x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Magic Resistance Increase" = 1.0
 	#Maximum increase in magic resistance. Magic reduction is percentage
 	#Range: 0.0 ~ 1.0
-	"Max Magic Resistance" = 0.4000000059604645
+	"Max Magic Resistance" = 0.25
 	#Projectile Damage will be multiplied by 1 + difficulty*0.008*x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Projectile Damage Increase" = 2.0
+	"Projectile Damage Increase" = 1.0
 	#Projectile damage will be multiplied by maximum of this
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Max Projectile Damage" = 4.0
+	"Max Projectile Damage" = 2.25
 	#Explosion Damage will be multiplied by 1 + difficulty*0.003*x. Set to 0 to disable
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Explosion Damage Increase" = 1.0
 	#Explosion damage will be multiplied by maximum of this
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Max Explosion Damage" = 1.75
+	"Max Explosion Damage" = 1.5
 

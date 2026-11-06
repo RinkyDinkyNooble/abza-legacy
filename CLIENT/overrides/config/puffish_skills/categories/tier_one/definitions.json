@@ -6,7 +6,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "netherite_chestplate"
+                "item": "iron_chestplate"
             }
         },
         "rewards": [
@@ -14,26 +14,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.armor_toughness",
-                    "value": 0.192,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "mf1j74g727u58kc4"
+        }
     },
     "armor_toughness2": {
         "title": "++ Armor Toughness",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "netherite_chestplate"
+                "item": "iron_chestplate"
             }
         },
         "rewards": [
@@ -41,26 +38,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.armor_toughness",
-                    "value": 0.385,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "vkao64k6d4mdhbd9"
+        }
     },
     "armor_toughness3": {
         "title": "+++ Armor Toughness",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "netherite_chestplate"
+                "item": "iron_chestplate"
             }
         },
         "rewards": [
@@ -68,11 +62,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.armor_toughness",
-                    "value": 0.578,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "iz1gy2nah28g956g"
+        }
     },
     "armor1": {
         "title": "+ Armor",
@@ -81,7 +78,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "iron_chestplate"
+                "item": "chainmail_chestplate"
             }
         },
         "rewards": [
@@ -89,26 +86,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.armor",
-                    "value": 0.385,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "3n7x1n2wa0aoc5tg"
+        }
     },
     "armor2": {
         "title": "++ Armor",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "iron_chestplate"
+                "item": "chainmail_chestplate"
             }
         },
         "rewards": [
@@ -116,26 +110,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.armor",
-                    "value": 0.77,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "y2xn3tg3fxd6ob3a"
+        }
     },
     "armor3": {
         "title": "+++ Armor",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "iron_chestplate"
+                "item": "chainmail_chestplate"
             }
         },
         "rewards": [
@@ -143,20 +134,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.armor",
-                    "value": 1.153,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "chiiyz4azx1lg0vk"
+        }
     },
     "knockback_resistance1": {
         "title": "+ Knockback Resistance",
         "size": 1,
         "cost": 1,
         "icon": {
-            "type": "item",
+            "type": "effect",
             "data": {
-                "item": "diamond_chestplate"
+                "effect": "resistance"
             }
         },
         "rewards": [
@@ -164,26 +158,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.knockback_resistance",
-                    "value": 0.0385,
+                    "value": 0.1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "em1yf4igfxez2jy5"
+        }
     },
     "knockback_resistance2": {
         "title": "++ Knockback Resistance",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
-            "type": "item",
+            "type": "effect",
             "data": {
-                "item": "diamond_chestplate"
+                "effect": "resistance"
             }
         },
         "rewards": [
@@ -191,26 +182,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.knockback_resistance",
-                    "value": 0.077,
+                    "value": 0.25,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "jy1z6cbv1txqpr7a"
+        }
     },
     "knockback_resistance3": {
         "title": "+++ Knockback Resistance",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
-            "type": "item",
+            "type": "effect",
             "data": {
-                "item": "diamond_chestplate"
+                "effect": "resistance"
             }
         },
         "rewards": [
@@ -218,11 +206,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.knockback_resistance",
-                    "value": 0.1153,
+                    "value": 0.5,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "k596ypuctfo77g0y"
+        }
     },
     "ranged_resistance1": {
         "title": "+ Ranged Resistance",
@@ -231,7 +222,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "superbwarfare:armor_plate"
+                "item": "bow"
             }
         },
         "rewards": [
@@ -239,26 +230,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:ranged_resistance",
-                    "value": 0.0385,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "u7ophduvom02dwae"
+        }
     },
     "ranged_resistance2": {
         "title": "++ Ranged Resistance",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "superbwarfare:armor_plate"
+                "item": "bow"
             }
         },
         "rewards": [
@@ -266,26 +254,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:ranged_resistance",
-                    "value": 0.077,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "z0r2fj1hj0km4a5r"
+        }
     },
     "ranged_resistance3": {
         "title": "+++ Ranged Resistance",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "superbwarfare:armor_plate"
+                "item": "bow"
             }
         },
         "rewards": [
@@ -293,11 +278,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:ranged_resistance",
-                    "value": 0.1153,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "ai4vaf0296pcldoy"
+        }
     },
     "resistance1": {
         "title": "+ Resistance",
@@ -314,22 +302,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:resistance",
-                    "value": 0.0385,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "puailxfbqe97o1r0"
+        }
     },
     "resistance2": {
         "title": "++ Resistance",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -341,22 +326,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:resistance",
-                    "value": 0.077,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "zxpafuqj3hjwzq0m"
+        }
     },
     "resistance3": {
         "title": "+++ Resistance",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -368,11 +350,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:resistance",
-                    "value": 0.1153,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "srn5ttyicrx9yh0c"
+        }
     },
     "melee_resistance1": {
         "title": "+ Melee Resistance",
@@ -389,22 +374,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:melee_resistance",
-                    "value": 0.0385,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "v71o65ir7k3hnw91"
+        }
     },
     "melee_resistance2": {
         "title": "++ Melee Resistance",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -416,22 +398,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:melee_resistance",
-                    "value": 0.077,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "hq47cb7kvykwqqtj"
+        }
     },
     "melee_resistance3": {
         "title": "+++ Melee Resistance",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -443,11 +422,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:melee_resistance",
-                    "value": 0.1153,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "27pwgob4kg38l0vv"
+        }
     },
     "fall_reduction1": {
         "title": "- Fall Damage",
@@ -468,45 +450,15 @@
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "rq0oqvrnpn1imjxr"
+        }
     },
     "fall_reduction2": {
         "title": "-- Fall Damage",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "slow_falling"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "puffish_attributes:fall_reduction",
-                    "value": 2,
-                    "operation": "addition"
-                }
-            }
-        ]
-    },
-    "fall_reduction3": {
-        "title": "--- Fall Damage",
-        "size": 3,
-        "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -522,7 +474,34 @@
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "m9z9t4t9h8heshud"
+        }
+    },
+    "fall_reduction3": {
+        "title": "--- Fall Damage",
+        "size": 3,
+        "cost": 3,
+        "icon": {
+            "type": "effect",
+            "data": {
+                "effect": "slow_falling"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "puffish_attributes:fall_reduction",
+                    "value": 6,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "ffi06x8ixjnult61"
+        }
     },
     "bullet_resistance1": {
         "title": "+ Bullet Resistance",
@@ -531,7 +510,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "infectious:swat_shield"
+                "item": "iron_chestplate"
             }
         },
         "rewards": [
@@ -539,26 +518,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "superbwarfare:bullet_resistance",
-                    "value": 0.035,
+                    "value": 0.05,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "ykyf3pxyufgnkhgh"
+        }
     },
     "bullet_resistance2": {
         "title": "++ Bullet Resistance",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "infectious:swat_shield"
+                "item": "iron_chestplate"
             }
         },
         "rewards": [
@@ -566,26 +542,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "superbwarfare:bullet_resistance",
-                    "value": 0.07,
+                    "value": 0.15,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "k1n0kn6ww5uaokbg"
+        }
     },
     "bullet_resistance3": {
         "title": "+++ Bullet Resistance",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "infectious:swat_shield"
+                "item": "iron_chestplate"
             }
         },
         "rewards": [
@@ -593,236 +566,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "superbwarfare:bullet_resistance",
-                    "value": 0.105,
+                    "value": 0.3,
                     "operation": "addition"
                 }
             }
-        ]
-    },
-    "infection_resistance1": {
-        "title": "+ Infection Resistance",
-        "size": 1,
-        "cost": 1,
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "hordes:immunity"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "hordes:infection_resistance",
-                    "value": 0.0385,
-                    "operation": "addition"
-                }
-            }
-        ]
-    },
-    "infection_resistance2": {
-        "title": "++ Infection Resistance",
-        "size": 2,
-        "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "hordes:immunity"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "hordes:infection_resistance",
-                    "value": 0.077,
-                    "operation": "addition"
-                }
-            }
-        ]
-    },
-    "infection_resistance3": {
-        "title": "+++ Infection Resistance",
-        "size": 3,
-        "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "hordes:immunity"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "hordes:infection_resistance",
-                    "value": 0.1153,
-                    "operation": "addition"
-                }
-            }
-        ]
-    },
-    "cold_resistance1": {
-        "title": "+ Cold Resistance",
-        "size": 1,
-        "cost": 1,
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "cold_sweat:ice_resistance"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "cold_sweat:cold_resistance",
-                    "value": 0.0385,
-                    "operation": "addition"
-                }
-            }
-        ]
-    },
-    "cold_resistance2": {
-        "title": "++ Cold Resistance",
-        "size": 2,
-        "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "cold_sweat:ice_resistance"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "cold_sweat:cold_resistance",
-                    "value": 0.077,
-                    "operation": "addition"
-                }
-            }
-        ]
-    },
-    "cold_resistance3": {
-        "title": "+++ Cold Resistance",
-        "size": 3,
-        "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "cold_sweat:ice_resistance"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "cold_sweat:cold_resistance",
-                    "value": 0.1153,
-                    "operation": "addition"
-                }
-            }
-        ]
-    },
-    "heat_resistance1": {
-        "title": "+ Heat Resistance",
-        "size": 1,
-        "cost": 1,
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "fire_resistance"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "cold_sweat:heat_resistance",
-                    "value": 0.0385,
-                    "operation": "addition"
-                }
-            }
-        ]
-    },
-    "heat_resistance2": {
-        "title": "++ Heat Resistance",
-        "size": 2,
-        "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "fire_resistance"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "cold_sweat:heat_resistance",
-                    "value": 0.077,
-                    "operation": "addition"
-                }
-            }
-        ]
-    },
-    "heat_resistance3": {
-        "title": "+++ Heat Resistance",
-        "size": 3,
-        "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "fire_resistance"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "cold_sweat:heat_resistance",
-                    "value": 0.1153,
-                    "operation": "addition"
-                }
-            }
-        ]
+        ],
+        "metadata": {
+            "icon": "plaxwibtd878ztsd"
+        }
     },
     "armor_shred1": {
         "title": "+ Armor Shred",
@@ -831,7 +582,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "diamond_sword"
+                "item": "flint"
             }
         },
         "rewards": [
@@ -839,26 +590,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:armor_shred",
-                    "value": 0.0384,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "3nql5p51mraketjl"
+        }
     },
     "armor_shred2": {
         "title": "++ Armor Shred",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "diamond_sword"
+                "item": "flint"
             }
         },
         "rewards": [
@@ -866,26 +614,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:armor_shred",
-                    "value": 0.0769,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "9sm352fbd8tt1suv"
+        }
     },
     "armor_shred3": {
         "title": "+++ Armor Shred",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "diamond_sword"
+                "item": "flint"
             }
         },
         "rewards": [
@@ -893,11 +638,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:armor_shred",
-                    "value": 0.1153,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "fzgsdzv42bnpz3a2"
+        }
     },
     "resistance_shred1": {
         "title": "+ Resistance Shred",
@@ -906,7 +654,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "netherite_sword"
+                "item": "bone"
             }
         },
         "rewards": [
@@ -914,26 +662,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:resistance_shred",
-                    "value": 0.0384,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "7y3d4w1cgk13lbrm"
+        }
     },
     "resistance_shred2": {
         "title": "++ Resistance Shred",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "netherite_sword"
+                "item": "bone"
             }
         },
         "rewards": [
@@ -941,26 +686,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:resistance_shred",
-                    "value": 0.0769,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "5m7oa28j2jh9s9gh"
+        }
     },
     "resistance_shred3": {
         "title": "+++ Resistance Shred",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "netherite_sword"
+                "item": "bone"
             }
         },
         "rewards": [
@@ -968,11 +710,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:resistance_shred",
-                    "value": 0.1153,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "4xtrfra0w4vbiusu"
+        }
     },
     "ranged_resistance_shred1": {
         "title": "+ Ranged Shred",
@@ -981,7 +726,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "crossbow"
+                "item": "arrow"
             }
         },
         "rewards": [
@@ -989,26 +734,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:ranged_resistance_shred",
-                    "value": 0.0384,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "813tugbbaisow5zx"
+        }
     },
     "ranged_resistance_shred2": {
         "title": "++ Ranged Shred",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "crossbow"
+                "item": "arrow"
             }
         },
         "rewards": [
@@ -1016,26 +758,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:ranged_resistance_shred",
-                    "value": 0.0769,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "9y0vco7nbscizq6x"
+        }
     },
     "ranged_resistance_shred3": {
         "title": "+++ Ranged Shred",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "crossbow"
+                "item": "arrow"
             }
         },
         "rewards": [
@@ -1043,11 +782,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:ranged_resistance_shred",
-                    "value": 0.1153,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "4pn2lgo1rp8kfier"
+        }
     },
     "toughness_shred1": {
         "title": "+ Toughness Shred",
@@ -1056,7 +798,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "superbwarfare:mortar_shell"
+                "item": "iron_sword"
             }
         },
         "rewards": [
@@ -1064,26 +806,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:toughness_shred",
-                    "value": 0.0384,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "sz16snhirtzbkjeh"
+        }
     },
     "toughness_shred2": {
         "title": "++ Toughness Shred",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "superbwarfare:mortar_shell"
+                "item": "iron_sword"
             }
         },
         "rewards": [
@@ -1091,26 +830,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:toughness_shred",
-                    "value": 0.0769,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "srtpb9vlgc8htrew"
+        }
     },
     "toughness_shred3": {
         "title": "+++ Toughness Shred",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "superbwarfare:mortar_shell"
+                "item": "iron_sword"
             }
         },
         "rewards": [
@@ -1118,11 +854,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:toughness_shred",
-                    "value": 0.1153,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "trwk5du8t7ma95fg"
+        }
     },
     "protection_shred1": {
         "title": "+ Protection Shred",
@@ -1131,7 +870,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "superbwarfare:knife"
+                "item": "diamond_sword"
             }
         },
         "rewards": [
@@ -1139,26 +878,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:protection_shred",
-                    "value": 0.0384,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "yljqi5p6tbp9pzn5"
+        }
     },
     "protection_shred2": {
         "title": "++ Protection Shred",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "superbwarfare:knife"
+                "item": "diamond_sword"
             }
         },
         "rewards": [
@@ -1166,26 +902,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:protection_shred",
-                    "value": 0.0769,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "di58h7eusah7ucsi"
+        }
     },
     "protection_shred3": {
         "title": "+++ Protection Shred",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "superbwarfare:knife"
+                "item": "diamond_sword"
             }
         },
         "rewards": [
@@ -1193,11 +926,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:protection_shred",
-                    "value": 0.1153,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "r50qf3pis9vdt6wf"
+        }
     },
     "max_health1": {
         "title": "+ Max Health",
@@ -1214,22 +950,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.max_health",
-                    "value": 0.76923,
+                    "value": 2,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "hwx0aeiqdfbi7vfw"
+        }
     },
     "max_health2": {
         "title": "++ Max Health",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -1241,22 +974,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.max_health",
-                    "value": 1.53846,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "gzvj2lo7rcja017l"
+        }
     },
     "max_health3": {
         "title": "+++ Max Health",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -1268,11 +998,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.max_health",
-                    "value": 2.3076,
+                    "value": 12,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "si2epn30ole8gwn9"
+        }
     },
     "life_steal1": {
         "title": "+ Life Steal",
@@ -1289,22 +1022,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:life_steal",
-                    "value": 0.038462,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "r2t7kze2isij7xvd"
+        }
     },
     "life_steal2": {
         "title": "++ Life Steal",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -1316,22 +1046,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:life_steal",
-                    "value": 0.076923,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "z9gldf02ijmn5sy4"
+        }
     },
     "life_steal3": {
         "title": "+++ Life Steal",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -1343,11 +1070,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:life_steal",
-                    "value": 0.115384,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "liljnumg9mp8ae2b"
+        }
     },
     "healing1": {
         "title": "+ Healing",
@@ -1364,22 +1094,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:healing",
-                    "value": 0.038462,
-                    "operation": "addition"
+                    "value": 0.1,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "se2lmpa4mgdhyahj"
+        }
     },
     "healing2": {
         "title": "++ Healing",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -1391,22 +1118,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:healing",
-                    "value": 0.076923,
-                    "operation": "addition"
+                    "value": 0.25,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "tqbfip47qmyxitwf"
+        }
     },
     "healing3": {
         "title": "+++ Healing",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -1418,11 +1142,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:healing",
-                    "value": 0.115384,
-                    "operation": "addition"
+                    "value": 0.5,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "kxstfq1bcjg1ml7x"
+        }
     },
     "movement_speed1": {
         "title": "+ Movement Speed",
@@ -1439,22 +1166,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.movement_speed",
-                    "value": 0.0025,
-                    "operation": "addition"
+                    "value": 0.05,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "ugc2qe1qy8vmlez1"
+        }
     },
     "movement_speed2": {
         "title": "++ Movement Speed",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -1466,22 +1190,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.movement_speed",
-                    "value": 0.005,
-                    "operation": "addition"
+                    "value": 0.1,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "m8qauf7extjg4znz"
+        }
     },
     "movement_speed3": {
         "title": "+++ Movement Speed",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -1493,11 +1214,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.movement_speed",
-                    "value": 0.01,
-                    "operation": "addition"
+                    "value": 0.2,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "51h9cgd3g5n63rym"
+        }
     },
     "stamina1": {
         "title": "+ Stamina",
@@ -1514,22 +1238,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:stamina",
-                    "value": 0.1,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "odrebm15tc6n5mjo"
+        }
     },
     "stamina2": {
         "title": "++ Stamina",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -1541,22 +1262,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:stamina",
-                    "value": 0.2,
+                    "value": 2,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "edq6jt8pmw2tszts"
+        }
     },
     "stamina3": {
         "title": "+++ Stamina",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -1568,11 +1286,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:stamina",
-                    "value": 0.3,
+                    "value": 4,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "cks03mt14t9tgww7"
+        }
     },
     "jump1": {
         "title": "+ Jump Height",
@@ -1589,22 +1310,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:jump",
-                    "value": 0.00961,
-                    "operation": "addition"
+                    "value": 0.1,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "f3rjape9oe5bunva"
+        }
     },
     "jump2": {
         "title": "++ Jump Height",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -1616,22 +1334,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:jump",
-                    "value": 0.0192,
-                    "operation": "addition"
+                    "value": 0.25,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "nzqgis4pe6lg0luw"
+        }
     },
     "jump3": {
         "title": "+++ Jump Height",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -1643,20 +1358,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:jump",
-                    "value": 0.0288,
-                    "operation": "addition"
+                    "value": 0.5,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "bp8oej4aebzjw7xl"
+        }
     },
     "sprinting_speed1": {
         "title": "+ Sprint Speed",
         "size": 1,
         "cost": 1,
         "icon": {
-            "type": "item",
+            "type": "effect",
             "data": {
-                "item": "netherite_boots"
+                "effect": "speed"
             }
         },
         "rewards": [
@@ -1664,26 +1382,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:sprinting_speed",
-                    "value": 0.002,
-                    "operation": "addition"
+                    "value": 0.05,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "ukykg7t3mbtwquu5"
+        }
     },
     "sprinting_speed2": {
         "title": "++ Sprint Speed",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
-            "type": "item",
+            "type": "effect",
             "data": {
-                "item": "netherite_boots"
+                "effect": "speed"
             }
         },
         "rewards": [
@@ -1691,26 +1406,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:sprinting_speed",
-                    "value": 0.004,
-                    "operation": "addition"
+                    "value": 0.15,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "kvvhx3233dwvroy5"
+        }
     },
     "sprinting_speed3": {
         "title": "+++ Sprint Speed",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
-            "type": "item",
+            "type": "effect",
             "data": {
-                "item": "netherite_boots"
+                "effect": "speed"
             }
         },
         "rewards": [
@@ -1718,11 +1430,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:sprinting_speed",
-                    "value": 0.006,
-                    "operation": "addition"
+                    "value": 0.3,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "zhjdkkno5amhmscy"
+        }
     },
     "swim_speed1": {
         "title": "+ Swim Speed",
@@ -1731,34 +1446,7 @@
         "icon": {
             "type": "effect",
             "data": {
-                "effect": "water_breathing"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "forge:swim_speed",
-                    "value": 0.05,
-                    "operation": "addition"
-                }
-            }
-        ]
-    },
-    "swim_speed2": {
-        "title": "++ Swim Speed",
-        "size": 2,
-        "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "water_breathing"
+                "effect": "conduit_power"
             }
         },
         "rewards": [
@@ -1767,25 +1455,22 @@
                 "data": {
                     "attribute": "forge:swim_speed",
                     "value": 0.1,
-                    "operation": "addition"
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "yw02c7bc77atfb16"
+        }
     },
-    "swim_speed3": {
-        "title": "+++ Swim Speed",
-        "size": 3,
-        "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
+    "swim_speed2": {
+        "title": "++ Swim Speed",
+        "size": 2,
+        "cost": 2,
         "icon": {
             "type": "effect",
             "data": {
-                "effect": "water_breathing"
+                "effect": "conduit_power"
             }
         },
         "rewards": [
@@ -1793,11 +1478,38 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "forge:swim_speed",
-                    "value": 0.2,
-                    "operation": "addition"
+                    "value": 0.25,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "p9oe82v1s0zobgj8"
+        }
+    },
+    "swim_speed3": {
+        "title": "+++ Swim Speed",
+        "size": 3,
+        "cost": 3,
+        "icon": {
+            "type": "effect",
+            "data": {
+                "effect": "conduit_power"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "forge:swim_speed",
+                    "value": 0.5,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "n2syhtfbmjw0d31r"
+        }
     },
     "parcool_max_stamina1": {
         "title": "+ Parkour Stamina",
@@ -1818,45 +1530,15 @@
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "s0fuhgesn41k5u1j"
+        }
     },
     "parcool_max_stamina2": {
         "title": "++ Parkour Stamina",
         "size": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "cost": 2,
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "parcool:inexhaustible"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "parcool:max_stamina",
-                    "value": 2000,
-                    "operation": "addition"
-                }
-            }
-        ]
-    },
-    "parcool_max_stamina3": {
-        "title": "+++ Parkour Stamina",
-        "size": 3,
-        "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -1872,7 +1554,34 @@
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "36sr3vblry4t5bi0"
+        }
+    },
+    "parcool_max_stamina3": {
+        "title": "+++ Parkour Stamina",
+        "size": 3,
+        "cost": 3,
+        "icon": {
+            "type": "effect",
+            "data": {
+                "effect": "parcool:inexhaustible"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "parcool:max_stamina",
+                    "value": 6000,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "r6yr5dv4ojymuifg"
+        }
     },
     "parcool_stamina_recovery1": {
         "title": "+ Stamina Recovery",
@@ -1881,61 +1590,7 @@
         "icon": {
             "type": "effect",
             "data": {
-                "effect": "superbwarfare:shock"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "parcool:stamina_recovery",
-                    "value": 0.025,
-                    "operation": "multiply_total"
-                }
-            }
-        ]
-    },
-    "parcool_stamina_recovery2": {
-        "title": "++ Stamina Recovery",
-        "size": 2,
-        "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "superbwarfare:shock"
-            }
-        },
-        "rewards": [
-            {
-                "type": "puffish_skills:attribute",
-                "data": {
-                    "attribute": "parcool:stamina_recovery",
-                    "value": 0.05,
-                    "operation": "multiply_total"
-                }
-            }
-        ]
-    },
-    "parcool_stamina_recovery3": {
-        "title": "+++ Stamina Recovery",
-        "size": 3,
-        "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
-        "icon": {
-            "type": "effect",
-            "data": {
-                "effect": "superbwarfare:shock"
+                "effect": "parcool:inexhaustible"
             }
         },
         "rewards": [
@@ -1947,7 +1602,58 @@
                     "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "ek6k0zt7bzibcmpt"
+        }
+    },
+    "parcool_stamina_recovery2": {
+        "title": "++ Stamina Recovery",
+        "size": 2,
+        "cost": 2,
+        "icon": {
+            "type": "effect",
+            "data": {
+                "effect": "parcool:inexhaustible"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "parcool:stamina_recovery",
+                    "value": 0.25,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "5w8eqamx17e6ytja"
+        }
+    },
+    "parcool_stamina_recovery3": {
+        "title": "+++ Stamina Recovery",
+        "size": 3,
+        "cost": 3,
+        "icon": {
+            "type": "effect",
+            "data": {
+                "effect": "parcool:inexhaustible"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "parcool:stamina_recovery",
+                    "value": 0.5,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "o4t1zpjwhjkrf6bn"
+        }
     },
     "attack_damage1": {
         "title": "+ Attack Damage",
@@ -1964,22 +1670,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.attack_damage",
-                    "value": 0.115,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "haietsbjrjecs4uj"
+        }
     },
     "attack_damage2": {
         "title": "++ Attack Damage",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -1991,22 +1694,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.attack_damage",
-                    "value": 0.231,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "3jc5gan3wj28p97i"
+        }
     },
     "attack_damage3": {
         "title": "+++ Attack Damage",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -2018,11 +1718,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.attack_damage",
-                    "value": 0.346,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "v3c2yef12hgh9be4"
+        }
     },
     "attack_speed1": {
         "title": "+ Attack Speed",
@@ -2039,22 +1742,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.attack_speed",
-                    "value": 0.0577,
-                    "operation": "addition"
+                    "value": 0.05,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "od4gpgt2sj4mfvm7"
+        }
     },
     "attack_speed2": {
         "title": "++ Attack Speed",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -2066,22 +1766,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.attack_speed",
-                    "value": 0.115,
-                    "operation": "addition"
+                    "value": 0.15,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "x9cuyqx2lr8g0mqi"
+        }
     },
     "attack_speed3": {
         "title": "+++ Attack Speed",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -2093,11 +1790,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.attack_speed",
-                    "value": 0.173,
-                    "operation": "addition"
+                    "value": 0.3,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "hzd9kn2hkuudphyy"
+        }
     },
     "sword_damage1": {
         "title": "+ Sword Damage",
@@ -2106,7 +1806,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "diamond_sword"
+                "item": "iron_sword"
             }
         },
         "rewards": [
@@ -2114,26 +1814,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:sword_damage",
-                    "value": 0.192,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "yjccefn2xi2tsrtp"
+        }
     },
     "sword_damage2": {
         "title": "++ Sword Damage",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "diamond_sword"
+                "item": "iron_sword"
             }
         },
         "rewards": [
@@ -2141,26 +1838,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:sword_damage",
-                    "value": 0.384,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "hizq1ik1wugmlkxt"
+        }
     },
     "sword_damage3": {
         "title": "+++ Sword Damage",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "diamond_sword"
+                "item": "iron_sword"
             }
         },
         "rewards": [
@@ -2168,11 +1862,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:sword_damage",
-                    "value": 0.576,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "fmuoextq1gyh1tq6"
+        }
     },
     "axe_damage1": {
         "title": "+ Axe Damage",
@@ -2181,7 +1878,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "diamond_axe"
+                "item": "iron_axe"
             }
         },
         "rewards": [
@@ -2189,26 +1886,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:axe_damage",
-                    "value": 0.192,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "hbn5iqy0zdju2haa"
+        }
     },
     "axe_damage2": {
         "title": "++ Axe Damage",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "diamond_axe"
+                "item": "iron_axe"
             }
         },
         "rewards": [
@@ -2216,26 +1910,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:axe_damage",
-                    "value": 0.384,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "oc0elz86nlvyrpnc"
+        }
     },
     "axe_damage3": {
         "title": "+++ Axe Damage",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "diamond_axe"
+                "item": "iron_axe"
             }
         },
         "rewards": [
@@ -2243,20 +1934,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:axe_damage",
-                    "value": 0.576,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "6tm432m3y5z61b3q"
+        }
     },
     "melee_damage1": {
         "title": "+ Melee Damage",
         "size": 1,
         "cost": 1,
         "icon": {
-            "type": "item",
+            "type": "effect",
             "data": {
-                "item": "farmersdelight:diamond_knife"
+                "effect": "strength"
             }
         },
         "rewards": [
@@ -2264,26 +1958,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:melee_damage",
-                    "value": 0.115,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "rxygap0f6t8praym"
+        }
     },
     "melee_damage2": {
         "title": "++ Melee Damage",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
-            "type": "item",
+            "type": "effect",
             "data": {
-                "item": "farmersdelight:diamond_knife"
+                "effect": "strength"
             }
         },
         "rewards": [
@@ -2291,26 +1982,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:melee_damage",
-                    "value": 0.231,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "9s9doyh9h25nyeia"
+        }
     },
     "melee_damage3": {
         "title": "+++ Melee Damage",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
-            "type": "item",
+            "type": "effect",
             "data": {
-                "item": "farmersdelight:diamond_knife"
+                "effect": "strength"
             }
         },
         "rewards": [
@@ -2318,11 +2006,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:melee_damage",
-                    "value": 0.346,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "87gyelhu9o3czk41"
+        }
     },
     "ranged_damage1": {
         "title": "+ Ranged Damage",
@@ -2331,7 +2022,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "superbwarfare:mp_443"
+                "item": "bow"
             }
         },
         "rewards": [
@@ -2339,26 +2030,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:ranged_damage",
-                    "value": 0.192,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "nox0xk72ct5a64xn"
+        }
     },
     "ranged_damage2": {
         "title": "++ Ranged Damage",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "superbwarfare:mp_443"
+                "item": "bow"
             }
         },
         "rewards": [
@@ -2366,26 +2054,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:ranged_damage",
-                    "value": 0.384,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "ci5jf35s10yv8x0l"
+        }
     },
     "ranged_damage3": {
         "title": "+++ Ranged Damage",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "superbwarfare:mp_443"
+                "item": "bow"
             }
         },
         "rewards": [
@@ -2393,11 +2078,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:ranged_damage",
-                    "value": 0.576,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "gr30vb3h3jtvtw6e"
+        }
     },
     "damage_reflection1": {
         "title": "+ Damage Reflection",
@@ -2406,7 +2094,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "undead_revamp2:heavytooth"
+                "item": "artifacts:thorn_pendant"
             }
         },
         "rewards": [
@@ -2414,26 +2102,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:damage_reflection",
-                    "value": 0.153,
+                    "value": 0.05,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "ojhgjhevyinxqhkf"
+        }
     },
     "damage_reflection2": {
         "title": "++ Damage Reflection",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "undead_revamp2:heavytooth"
+                "item": "artifacts:thorn_pendant"
             }
         },
         "rewards": [
@@ -2441,26 +2126,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:damage_reflection",
-                    "value": 0.307,
+                    "value": 0.15,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "79tfipjsfl6s94cz"
+        }
     },
     "damage_reflection3": {
         "title": "+++ Damage Reflection",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "undead_revamp2:heavytooth"
+                "item": "artifacts:thorn_pendant"
             }
         },
         "rewards": [
@@ -2468,11 +2150,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:damage_reflection",
-                    "value": 0.461,
+                    "value": 0.3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "kyqavihlx9azb6v5"
+        }
     },
     "mining_speed1": {
         "title": "+ Mining Speed",
@@ -2489,22 +2174,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:mining_speed",
-                    "value": 0.0769,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "2phs9tydwa2iy3i2"
+        }
     },
     "mining_speed2": {
         "title": "++ Mining Speed",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -2516,22 +2198,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:mining_speed",
-                    "value": 0.1538,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "pt4b57qxkj1oxz1q"
+        }
     },
     "mining_speed3": {
         "title": "+++ Mining Speed",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -2543,11 +2222,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:mining_speed",
-                    "value": 0.2307,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "29f8m24unhgpuxdg"
+        }
     },
     "pickaxe_speed1": {
         "title": "+ Pickaxe Speed",
@@ -2564,22 +2246,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:pickaxe_speed",
-                    "value": 0.0384,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "x69nlve04le0jv2z"
+        }
     },
     "pickaxe_speed2": {
         "title": "++ Pickaxe Speed",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -2591,22 +2270,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:pickaxe_speed",
-                    "value": 0.0769,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "n7pih41c8z8nllf3"
+        }
     },
     "pickaxe_speed3": {
         "title": "+++ Pickaxe Speed",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -2618,11 +2294,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:pickaxe_speed",
-                    "value": 0.1153,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "25sl6o5d1jyrhf29"
+        }
     },
     "breaking_speed1": {
         "title": "+ Breaking Speed",
@@ -2631,7 +2310,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "diamond_pickaxe"
+                "item": "stone_pickaxe"
             }
         },
         "rewards": [
@@ -2639,26 +2318,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:breaking_speed",
-                    "value": 0.0769,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "kntyhy3axjtk7h00"
+        }
     },
     "breaking_speed2": {
         "title": "++ Breaking Speed",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "diamond_pickaxe"
+                "item": "stone_pickaxe"
             }
         },
         "rewards": [
@@ -2666,26 +2342,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:breaking_speed",
-                    "value": 0.1538,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "emghwncb7s1q8gya"
+        }
     },
     "breaking_speed3": {
         "title": "+++ Breaking Speed",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "diamond_pickaxe"
+                "item": "stone_pickaxe"
             }
         },
         "rewards": [
@@ -2693,11 +2366,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:breaking_speed",
-                    "value": 0.2307,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "p0vwuz7kdsdv7phb"
+        }
     },
     "shovel_speed1": {
         "title": "+ Shovel Speed",
@@ -2714,22 +2390,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:shovel_speed",
-                    "value": 0.0384,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "arkdsbipcj2qqhvq"
+        }
     },
     "shovel_speed2": {
         "title": "++ Shovel Speed",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -2741,22 +2414,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:shovel_speed",
-                    "value": 0.0769,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "jh6hh8k0yb8kojgo"
+        }
     },
     "shovel_speed3": {
         "title": "+++ Shovel Speed",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -2768,11 +2438,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:shovel_speed",
-                    "value": 0.1153,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "7enanasqu7d3ed3p"
+        }
     },
     "axe_speed1": {
         "title": "+ Axe Speed",
@@ -2789,22 +2462,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:axe_speed",
-                    "value": 0.0384,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "x8h4w8cqs8omz0fo"
+        }
     },
     "axe_speed2": {
         "title": "++ Axe Speed",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -2816,22 +2486,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:axe_speed",
-                    "value": 0.0769,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "cajxoohnkvzfie61"
+        }
     },
     "axe_speed3": {
         "title": "+++ Axe Speed",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -2843,11 +2510,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:axe_speed",
-                    "value": 0.1153,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "j5c7aff264aps817"
+        }
     },
     "luck1": {
         "title": "+ Luck",
@@ -2856,7 +2526,7 @@
         "icon": {
             "type": "item",
             "data": {
-                "item": "superbwarfare:lucky_container"
+                "item": "rabbit_foot"
             }
         },
         "rewards": [
@@ -2864,26 +2534,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.luck",
-                    "value": 0.0385,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "33wf1jzc6yhnbag8"
+        }
     },
     "luck2": {
         "title": "++ Luck",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "superbwarfare:lucky_container"
+                "item": "rabbit_foot"
             }
         },
         "rewards": [
@@ -2891,26 +2558,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.luck",
-                    "value": 0.077,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "76quqrtjeeg3tqqg"
+        }
     },
     "luck3": {
         "title": "+++ Luck",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "superbwarfare:lucky_container"
+                "item": "rabbit_foot"
             }
         },
         "rewards": [
@@ -2918,11 +2582,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "generic.luck",
-                    "value": 0.1154,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "sgbfzdns2tnjsmj8"
+        }
     },
     "knockback1": {
         "title": "+ Knockback",
@@ -2939,22 +2606,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:knockback",
-                    "value": 0.038462,
-                    "operation": "addition"
+                    "value": 0.1,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "fp2si0bv26zrqwqj"
+        }
     },
     "knockback2": {
         "title": "++ Knockback",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -2966,22 +2630,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:knockback",
-                    "value": 0.076923,
-                    "operation": "addition"
+                    "value": 0.25,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "t4ezm92vkwvoi28z"
+        }
     },
     "knockback3": {
         "title": "+++ Knockback",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -2993,11 +2654,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:knockback",
-                    "value": 0.115384,
-                    "operation": "addition"
+                    "value": 0.5,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "j9aspzv6rsz491w9"
+        }
     },
     "consuming_speed1": {
         "title": "+ Eating Speed",
@@ -3014,22 +2678,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:consuming_speed",
-                    "value": 0.0025,
-                    "operation": "addition"
+                    "value": 0.1,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "mdk6j4o27qlxrw9w"
+        }
     },
     "consuming_speed2": {
         "title": "++ Eating Speed",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -3041,22 +2702,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:consuming_speed",
-                    "value": 0.005,
-                    "operation": "addition"
+                    "value": 0.25,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "p8hl7kll91vxxq7b"
+        }
     },
     "consuming_speed3": {
         "title": "+++ Eating Speed",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -3068,11 +2726,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:consuming_speed",
-                    "value": 0.01,
-                    "operation": "addition"
+                    "value": 0.5,
+                    "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "wv72arognn3rz6v6"
+        }
     },
     "stealth1": {
         "title": "+ Stealth",
@@ -3089,22 +2750,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:stealth",
-                    "value": 1,
+                    "value": 2,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "c5uf1ebc9qdfepa6"
+        }
     },
     "stealth2": {
         "title": "++ Stealth",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -3116,22 +2774,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:stealth",
-                    "value": 2,
+                    "value": 6,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "2lxamvt1581ndk5d"
+        }
     },
     "stealth3": {
         "title": "+++ Stealth",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -3143,11 +2798,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:stealth",
-                    "value": 3,
+                    "value": 12,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "13m3qt96gqhkk2hg"
+        }
     },
     "fortune1": {
         "title": "+ Fortune",
@@ -3164,22 +2822,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:fortune",
-                    "value": 0.15,
+                    "value": 1,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "h1q2mfqxtf7v3ilu"
+        }
     },
     "fortune2": {
         "title": "++ Fortune",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -3191,22 +2846,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:fortune",
-                    "value": 0.3,
+                    "value": 2,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "3u5mnmengqa2l9q1"
+        }
     },
     "fortune3": {
         "title": "+++ Fortune",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
@@ -3218,11 +2870,14 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:fortune",
-                    "value": 0.45,
+                    "value": 4,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "2n462ly2wpvvblmn"
+        }
     },
     "experience1": {
         "title": "+ XP Gain",
@@ -3239,22 +2894,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:experience",
-                    "value": 0.0384,
+                    "value": 0.1,
                     "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "kgm5zqkrdt3di6nu"
+        }
     },
     "experience2": {
         "title": "++ XP Gain",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -3266,22 +2918,19 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:experience",
-                    "value": 0.0769,
+                    "value": 0.25,
                     "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "076586fmby0dxe3g"
+        }
     },
     "experience3": {
         "title": "+++ XP Gain",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "effect",
             "data": {
@@ -3293,20 +2942,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "puffish_attributes:experience",
-                    "value": 0.115,
+                    "value": 0.5,
                     "operation": "multiply_total"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "vo7z3wzlpfioh2c5"
+        }
     },
     "entity_reach1": {
-        "title": "+ Reach",
+        "title": "+ Attack Reach",
         "size": 1,
         "cost": 1,
         "icon": {
             "type": "item",
             "data": {
-                "item": "farmersdelight:rope"
+                "item": "stick"
             }
         },
         "rewards": [
@@ -3314,26 +2966,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "forge:entity_reach",
-                    "value": 0.1,
+                    "value": 0.5,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "zq2axac173w8ez31"
+        }
     },
     "entity_reach2": {
-        "title": "++ Reach",
+        "title": "++ Attack Reach",
         "size": 2,
         "cost": 2,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "goal"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "farmersdelight:rope"
+                "item": "stick"
             }
         },
         "rewards": [
@@ -3341,26 +2990,23 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "forge:entity_reach",
-                    "value": 0.2,
+                    "value": 1.5,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "z0ej3j6k1bso8egg"
+        }
     },
     "entity_reach3": {
-        "title": "+++ Reach",
+        "title": "+++ Attack Reach",
         "size": 3,
         "cost": 3,
-        "frame": {
-            "type": "advancement",
-            "data": {
-                "frame": "challenge"
-            }
-        },
         "icon": {
             "type": "item",
             "data": {
-                "item": "farmersdelight:rope"
+                "item": "stick"
             }
         },
         "rewards": [
@@ -3368,10 +3014,13 @@
                 "type": "puffish_skills:attribute",
                 "data": {
                     "attribute": "forge:entity_reach",
-                    "value": 0.3,
+                    "value": 3,
                     "operation": "addition"
                 }
             }
-        ]
+        ],
+        "metadata": {
+            "icon": "mrs53anx26hxx2fa"
+        }
     }
 }

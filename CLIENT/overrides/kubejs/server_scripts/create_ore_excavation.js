@@ -1,6 +1,4 @@
-const randomInt = (min, max) => {
-	return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+const baseSalt = 6000000;
 
 const secondsToTicks = (seconds) => {
 	return Math.round(seconds * 20);
@@ -10,7 +8,7 @@ const createVein = (event, veinDetails) => {
 
 	event.recipes.createoreexcavation
 		.vein(veinDetails.text, veinDetails.itemId)
-		.placement(veinDetails.spacing, veinDetails.separation, randomInt(6000000, 7000000))
+		.placement(veinDetails.spacing, veinDetails.separation, baseSalt + (veinDetails.priority + 1) * 1009)
 		.id(veinDetails.veinId)
 		.priority(veinDetails.priority);
 
@@ -23,7 +21,7 @@ ServerEvents.recipes(event => {
 
 	event.recipes.createoreexcavation
 		.vein("Lava", "minecraft:lava_bucket")
-		.placement(4, 1, randomInt(6000000, 7000000))
+		.placement(4, 1, baseSalt)
 		.alwaysInfinite()
 		.id("minecraft:liquid_vein_type/lava");
 	event.recipes.createoreexcavation

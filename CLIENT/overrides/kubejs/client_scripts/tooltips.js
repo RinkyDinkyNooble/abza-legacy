@@ -10,7 +10,7 @@ ItemEvents.tooltip(event => {
     event.addAdvanced("cure:vaccine", (item, advanced, text) => {
         text.clear()
         text.add(Text.gold("Vaccine"))
-        text.add("Cures all infections permenantly.")
+        text.add("Cures all infections permanently.")
     });
     addToolTip(event, "minecraft:totem_of_undying", explorationTooltip);
     addToolTip(event, "minecraft:ghast_tear", explorationTooltip);
