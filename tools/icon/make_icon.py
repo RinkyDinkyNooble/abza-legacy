@@ -7,22 +7,31 @@ goes dark, red eyes open on the crowd and then in the reflection, the version nu
 while the border pulses, then the power comes back and the loop starts again.
 
 Writes to out/<version>/: icon.webp (animated, 400x400), icon.gif (fallback, half the frame rate),
-still.png and still_dark.png (one lit and one dark frame), sheet.png (eight moments of the loop)
-and preview_64.png (the lit and dark frames as small thumbnails, enlarged).
+still.png and still_dark.png (one lit and one dark frame), sheet.png (eight moments of the loop),
+preview_64.png (the lit and dark frames as small thumbnails, enlarged), static.png (the lit frame
+with the version showing, 800x800) and server-icon.png (the same, 64x64, the only size and format a
+server list accepts).
 
-Usage: python make_icon.py [version, default the one in CLIENT/manifest.json]
+With --place it also copies them into the pack: CLIENT/profileImage/icon.webp and icon.png, and
+SERVER/server-icon.png.
+
+Usage: python make_icon.py [version, default the one in CLIENT/manifest.json] [--place]
 """
 import json
 import math
 import os
 import random
+import shutil
 import sys
 
 from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SOURCE = os.path.join(HERE, "src", "base.webp")
-MANIFEST = os.path.join(HERE, "..", "..", "CLIENT", "manifest.json")
+ROOT = os.path.join(HERE, "..", "..")
+MANIFEST = os.path.join(ROOT, "CLIENT", "manifest.json")
+ARGS = [a for a in sys.argv[1:] if not a.startswith("--")]
+PLACE = "--place" in sys.argv[1:]
 
 SIZE = 400            # output edge
 WORK = 800            # render edge (downscaled at the end for clean edges)
@@ -79,8 +88,8 @@ GLYPHS = {
 
 def read_version():
     """The version from the command line, otherwise from the client manifest; digits and dots only."""
-    if len(sys.argv) > 1:
-        version = sys.argv[1]
+    if ARGS:
+        version = ARGS[0]
     else:
         with open(MANIFEST, encoding="utf-8-sig") as f:
             version = json.load(f)["version"]
@@ -217,8 +226,8 @@ def main():
     rng = random.Random(7)
     flicker = [[rng.random() for _ in range(FRAMES)] for _ in LAMPS]
 
-    frames = []
-    for i in range(FRAMES):
+    def render(i, shown=None):
+        """Frame i of the loop at render size; shown overrides how visible the version is."""
         t = i / FRAMES * SECONDS
 
         # The city dims as a whole (1.2 s to 2.0 s, back 4.4 s to 5.0 s)
@@ -249,7 +258,8 @@ def main():
         frame = Image.composite(frame, black, vignette).convert("RGBA")
         frame.alpha_composite(title)
 
-        shown = smooth((t - 2.7) / 0.4) * (1 - smooth((t - 4.2) / 0.3))
+        if shown is None:
+            shown = smooth((t - 2.7) / 0.4) * (1 - smooth((t - 4.2) / 0.3))
         if shown > 0.01:
             frame.alpha_composite(fade_layer(version_layer, shown))
 
@@ -257,8 +267,14 @@ def main():
         pulse = 0.5 + 0.5 * math.sin(2 * math.pi * t / 1.05)
         red = int(255 * (1 - darkness * 0.38 * (1 - pulse)))
         ImageDraw.Draw(frame).rectangle([0, 0, WORK - 1, WORK - 1], outline=(red, 0, 0, 255), width=BORDER)
+        return frame.convert("RGB")
 
-        frames.append(frame.convert("RGB").resize((SIZE, SIZE), Image.LANCZOS))
+    frames = [render(i).resize((SIZE, SIZE), Image.LANCZOS) for i in range(FRAMES)]
+
+    # Places that show a single image get the lit opening frame with the version showing
+    static = render(0, shown=1.0)
+    static.save(os.path.join(out, "static.png"))
+    static.resize((64, 64), Image.LANCZOS).save(os.path.join(out, "server-icon.png"))
 
     lit, blackout = frames[0], frames[int(3.6 * FPS)]
     lit.save(os.path.join(out, "still.png"))
@@ -278,6 +294,12 @@ def main():
                 duration=int(2000 / FPS), loop=0, optimize=True)
     for f in ("icon.webp", "icon.gif"):
         print(os.path.join(out, f), os.path.getsize(os.path.join(out, f)) // 1024, "KB")
+
+    if PLACE:
+        for name, target in (("icon.webp", "CLIENT/profileImage/icon.webp"), ("static.png", "CLIENT/profileImage/icon.png"),
+                             ("server-icon.png", "SERVER/server-icon.png")):
+            shutil.copyfile(os.path.join(out, name), os.path.join(ROOT, target))
+            print("placed", target)
 
 
 if __name__ == "__main__":
