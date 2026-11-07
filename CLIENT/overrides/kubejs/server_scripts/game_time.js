@@ -1,30 +1,20 @@
-let gameTime = 0;
-let timeChecked = false;
-
-function getCurrentDay() {
-    return Math.floor(gameTime / 24000);
+// The HUD day follows the world's day, so sleeping moves it on, the same as the Improved Mobs
+// grace period and difficulty
+function getCurrentDay(server) {
+    return Math.floor(server.overworld().getDayTime() / 24000);
 }
 
 function sentPlayerDay(player) {
     player.sendData('day_sync', {
-        day: getCurrentDay(),
+        day: getCurrentDay(player.server),
         survived: player.persistentData.getInt("days_survived") || 0
     });
 }
 
-ServerEvents.tick(event => {
-    if (timeChecked === false) {
-        gameTime = event.server.persistentData.getInt("custom_game_time") || 0;
-        timeChecked = true;
-    }
-    gameTime++;
-    event.server.persistentData.putInt("custom_game_time", gameTime)
-})
-
 let lastDayCount = null;
 ServerEvents.tick(event => {
-    const dayCount = getCurrentDay();
-    if (lastDayCount == null || dayCount > lastDayCount) {
+    const dayCount = getCurrentDay(event.server);
+    if (lastDayCount == null || dayCount != lastDayCount) {
         lastDayCount = dayCount;
         event.server.players.forEach(player => {
             sentPlayerDay(player)

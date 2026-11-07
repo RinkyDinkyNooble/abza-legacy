@@ -10,9 +10,15 @@
 - Ore vein layouts no longer reshuffle on every restart.
 - Milk can no longer be drunk, since it cured infection without a golden apple.
 - Added Scalpel and moved the hidden item list from CraftTweaker to Scalpel rules.
+- Removed JEITweaker, which nothing uses now that Scalpel hides items.
 - Removed a gamerule command for a mod that isn't in the pack.
 - Disabled the CustomNPCs update checker and Distant Horizons memory warnings, matching the client.
+- The HUD day now follows the world's day, including nights skipped by sleeping, so it matches the 3-day grace period.
+- Lowered the Undead Revamp 2 Bomber's explosion damage from 1000 to 12.
+- Skill XP now only comes from damaging hostile mobs, so farm animals and other players can't be farmed for it.
 - Fixed the Better Compatibility Checker modpack name and updated its version to 2.2.4.
+- The server list now shows the pack name and version.
+- Pinned the server starter jar to 0.1.35, so a new upstream release can't change the server without warning.
 - Updated the server icon with the new version.
 
 ## [2.2.4] CLIENT - 2026-11-06
@@ -21,7 +27,11 @@
 - Mob-thrown TNT no longer breaks blocks, and the Superb Warfare Beast can no longer spawn on mobs.
 - Replaced the Puffish Skills tree, which didn't load in 2.2.2 and 2.2.3.
 - Days survived now count each player's own time online, ore vein layouts no longer reshuffle on restart, and milk can no longer be drunk to cure infection.
+- The HUD day now follows the world's day, including nights skipped by sleeping, so it matches the 3-day grace period.
+- Lowered the Undead Revamp 2 Bomber's explosion damage from 1000 to 12.
+- Skill XP now only comes from damaging hostile mobs.
 - Added Scalpel and moved the hidden item list from CraftTweaker to Scalpel rules.
+- Removed JEITweaker, which nothing uses now that Scalpel hides items.
 - Fixed a typo in the vaccine tooltip and the Better Compatibility Checker modpack name.
 - Updated the modpack manifest, Better Compatibility Checker and title screen to version 2.2.4.
 - Replaced the profile image with an animated icon showing the version.

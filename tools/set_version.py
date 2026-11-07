@@ -2,8 +2,9 @@
 """Sets the modpack version everywhere it appears, then makes and places the icons for it.
 
 Changes CLIENT/manifest.json, Better Compatibility Checker on the client and the server (the two
-must match or players can't join), and the "Version" line on the FancyMenu title screen. Then runs
-icon/make_icon.py --place, which reads the new version from the manifest. CHANGELOG.md stays manual.
+must match or players can't join), the "Version" line on the FancyMenu title screen and the server
+list MOTD. Then runs icon/make_icon.py --place, which reads the new version from the manifest.
+CHANGELOG.md stays manual; check_release.py checks everything afterwards.
 
 Usage: python tools/set_version.py <version>
 """
@@ -20,6 +21,7 @@ PLACES = [
     ("CLIENT/overrides/config/bcc-common.toml", r'^(\tmodpackVersion = ")([^"]+)(")', 1),
     ("SERVER/config/bcc-common.toml", r'^(\tmodpackVersion = ")([^"]+)(")', 1),
     ("CLIENT/overrides/config/fancymenu/customization/title_screen_layout.txt", r"^(  source = Version )(\S+)()", 1),
+    ("SERVER/server.properties", r"^(motd=.*v)(\d+(?:\.\d+)*)()", 1),
 ]
 
 

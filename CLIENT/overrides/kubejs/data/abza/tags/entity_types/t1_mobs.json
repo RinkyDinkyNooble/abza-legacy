@@ -1,0 +1,648 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:blaze",
+        "minecraft:cave_spider",
+        "minecraft:creeper",
+        "minecraft:drowned",
+        "minecraft:elder_guardian",
+        "minecraft:ender_dragon",
+        "minecraft:enderman",
+        "minecraft:endermite",
+        "minecraft:evoker",
+        "minecraft:ghast",
+        "minecraft:giant",
+        "minecraft:guardian",
+        "minecraft:hoglin",
+        "minecraft:husk",
+        "minecraft:illusioner",
+        "minecraft:magma_cube",
+        "minecraft:phantom",
+        "minecraft:piglin",
+        "minecraft:piglin_brute",
+        "minecraft:pillager",
+        "minecraft:ravager",
+        "minecraft:shulker",
+        "minecraft:silverfish",
+        "minecraft:skeleton",
+        "minecraft:skeleton_horse",
+        "minecraft:slime",
+        "minecraft:spider",
+        "minecraft:stray",
+        "minecraft:vex",
+        "minecraft:vindicator",
+        "minecraft:warden",
+        "minecraft:witch",
+        "minecraft:wither",
+        "minecraft:wither_skeleton",
+        "minecraft:zoglin",
+        "minecraft:zombie",
+        "minecraft:zombie_horse",
+        "minecraft:zombie_villager",
+        "minecraft:zombified_piglin",
+        {
+            "id": "hordes:drowned_player",
+            "required": false
+        },
+        {
+            "id": "hordes:husk_player",
+            "required": false
+        },
+        {
+            "id": "hordes:zombie_player",
+            "required": false
+        },
+        {
+            "id": "infectious:acid_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:ancient_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:ancient_zombie_boss",
+            "required": false
+        },
+        {
+            "id": "infectious:angry_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:armless_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:balloon_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:balloon_zombie_no_balloon",
+            "required": false
+        },
+        {
+            "id": "infectious:barrel_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:baseball_bat_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:beehive_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:beekeeper_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:big_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:blind_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:bodyless_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:bouncer_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:brain_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:bucket_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:burned_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:burning_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:chained_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:claw_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:construction_worker_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:crawling_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:deep_sea_diver_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:disco_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:doom_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:door_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:enchanted_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:fat_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:fire_fighter_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:firework_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:football_player_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:franklin_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:frozen_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:fungal_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:giant_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:glitched_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:golden_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:hazmat_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:headless_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:infectious_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:iron_door_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:maggot_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:mc_donalds_worker_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:mecha_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:muddy_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:mummy",
+            "required": false
+        },
+        {
+            "id": "infectious:muscular_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:mutant_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:old_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:pool_tube_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:psycho_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:pumpkin_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:pylon_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:radioactive_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:robotic_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:screamer",
+            "required": false
+        },
+        {
+            "id": "infectious:security_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:sleepy_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:spore_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:swat_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:tower_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:tower_zombie_1",
+            "required": false
+        },
+        {
+            "id": "infectious:tower_zombie_2",
+            "required": false
+        },
+        {
+            "id": "infectious:tower_zombie_3",
+            "required": false
+        },
+        {
+            "id": "infectious:tower_zombie_4",
+            "required": false
+        },
+        {
+            "id": "infectious:withered_zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_agent",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_archer",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_astronaut",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_batman",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_bomber",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_boxer",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_breeder",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_climber",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_clown",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_cook",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_dancer",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_diver",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_doctor",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_farmer",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_fisherman",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_girl",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_head",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_hitler",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_horseman",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_horseman_no_horse",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_lumberjack",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_miner",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_on_stelts",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_painter",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_police",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_prisoner",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_runner",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_scientist",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_screamer",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_soldier",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_spiter",
+            "required": false
+        },
+        {
+            "id": "infectious:zombie_warrior",
+            "required": false
+        },
+        {
+            "id": "infectious:zombified_bear",
+            "required": false
+        },
+        {
+            "id": "infectious:zombified_bird",
+            "required": false
+        },
+        {
+            "id": "infectious:zombified_bird_flying",
+            "required": false
+        },
+        {
+            "id": "infectious:zombified_boar",
+            "required": false
+        },
+        {
+            "id": "infectious:zombified_chicken",
+            "required": false
+        },
+        {
+            "id": "infectious:zombified_rex",
+            "required": false
+        },
+        {
+            "id": "infectious:zombified_spider",
+            "required": false
+        },
+        {
+            "id": "infectious:zombified_wolf",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:axestrom",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:bigsucker",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:bomber",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:clogger",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:coppertar",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:deadclogger",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:invisiblebidy",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:invisiclogger",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:invisiimmortal",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:invisilehcery",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:lechery",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:neocrorines",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:slaveman",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:smokesmitter",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:sucker",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:the_moonflower",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:thebeartamer",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:thebidy",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:thebidyupside",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:thedungeon",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:thegliter",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:theheavy",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:thehorrors",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:thehorrorsdecoys",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:thehunter",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:theimmortal",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:thelurker",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:theordure",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:theposessive",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:thepregnant",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:therabidus",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:therod",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:theskeeper",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:thesmoker",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:thesomnolence",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:thespectre",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:thespitter",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:theswarmer",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:thewolf",
+            "required": false
+        },
+        {
+            "id": "undead_revamp2:weakspot",
+            "required": false
+        }
+    ]
+}

@@ -86,6 +86,6 @@ JABBA_INSTALL_URL_SH=https://github.com/Jabba-Team/jabba/raw/main/install.sh
 JABBA_INSTALL_URL_PS=https://github.com/Jabba-Team/jabba/raw/main/install.ps1
 JABBA_INSTALL_VERSION=0.14.0
 SERVERSTARTERJAR_FORCE_FETCH=true
-SERVERSTARTERJAR_VERSION=latest
+SERVERSTARTERJAR_VERSION=0.1.35
 USE_SSJ=true
 CLEANUP="libraries,run.sh,run.bat,*installer.jar,*installer.jar.log,server.jar,.mixin.out,ldlib,local,fabric-server-launcher.jar,fabric-server-launch.jar,.fabric-installer,fabric-installer.jar,legacyfabric-installer.jar,.fabric versions"

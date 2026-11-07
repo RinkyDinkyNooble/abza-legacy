@@ -21,7 +21,7 @@
 	#bomber explosion radius
 	"Bomber explosion in block area" = 9.0
 	#bomber explosion damage
-	"Explosion impact damage" = 1000.0
+	"Explosion impact damage" = 12.0
 	#bomber explosion goo effect duration (In ticks: 20 ticks = 1 second)
 	"Explosion goo duration" = 400.0
 
